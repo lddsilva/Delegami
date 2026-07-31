@@ -1,4 +1,4 @@
-import { MessageCircle } from 'lucide-react'
+import { WhatsappGlyph } from '@/components/glyphs'
 import { WHATSAPP_GENERIC } from '@/lib/site'
 
 /** Always-reachable contact on mobile, where the header CTA scrolls away. */
@@ -8,10 +8,10 @@ export function WhatsappFab() {
       href={WHATSAPP_GENERIC}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Scrivici su WhatsApp"
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand-500 text-ink-950 shadow-lg shadow-ink-900/25 transition-colors hover:bg-brand-400 md:hidden"
+      className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2.5 rounded-full bg-wine px-5 py-3.5 text-[0.9rem] font-medium text-paper shadow-[0_6px_24px_rgba(34,32,29,0.22)] md:hidden"
     >
-      <MessageCircle className="h-6 w-6" aria-hidden />
+      <WhatsappGlyph className="h-[1.1rem] w-[1.1rem]" />
+      Scrivici
     </a>
   )
 }

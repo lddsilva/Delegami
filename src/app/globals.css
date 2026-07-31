@@ -1,34 +1,97 @@
 @import 'tailwindcss';
 
+/* Self-hosted so the identity never falls back to a system face. */
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/Newsreader.woff2') format('woff2-variations');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/Newsreader-Italic.woff2') format('woff2-variations');
+  font-weight: 300 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archivo';
+  src: url('/fonts/Archivo.woff2') format('woff2-variations');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
-  --color-ink-50: #f4f6f9;
-  --color-ink-100: #e6eaf1;
-  --color-ink-300: #a8b4c8;
-  --color-ink-500: #5b6b87;
-  --color-ink-700: #26344d;
-  --color-ink-800: #16223a;
-  --color-ink-900: #0d1728;
-  --color-ink-950: #070e1a;
+  /* Paper, ink and a single bordeaux. The palette is the brand: this is a
+     business made of documents, so the page is built out of paper and rules. */
+  --color-paper: #faf8f4;
+  --color-paper-deep: #efeae1;
+  --color-paper-edge: #e5ded2;
+  --color-ink: #22201d;
+  --color-ink-soft: #6e675e;
+  --color-ink-faint: #9a9287;
+  --color-wine: #6b2637;
+  --color-wine-deep: #521c2a;
+  --color-wine-bright: #b85a6c;
+  --color-rule: #dcd5c9;
 
-  --color-brand-400: #fbbf3c;
-  --color-brand-500: #f0a318;
-  --color-brand-600: #d18708;
+  --font-display: 'Newsreader', 'Iowan Old Style', Palatino, Georgia, serif;
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, 'Helvetica Neue', sans-serif;
+}
 
-  --font-sans:
-    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
-    Arial, sans-serif;
+/* The brand commits to the paper world. One ground, deliberately — a warm
+   sheet is the whole identity, and inverting it would say something else. */
+:root {
+  color-scheme: light;
 }
 
 html {
   scroll-behavior: smooth;
-  /* Keep anchored sections clear of the sticky header. */
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 4.5rem;
 }
 
 body {
-  background: #ffffff;
-  color: var(--color-ink-900);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-wrap: balance;
+  letter-spacing: -0.015em;
+}
+
+/* Figures line up in the invoice, the ledger and the case table. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* The margin index: a hanging label that runs down the left of each section,
+   the way a section number sits in the margin of a printed document. */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-wine);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* iOS Safari zooms the page when a focused input is under 16px. */
@@ -43,5 +106,11 @@ body {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }

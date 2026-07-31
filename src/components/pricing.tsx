@@ -1,112 +1,144 @@
-import { Check, MessageCircle } from 'lucide-react'
+import { Section } from '@/components/section'
+import { WhatsappGlyph } from '@/components/glyphs'
 import { PRICING, WHATSAPP_GENERIC } from '@/lib/site'
 
-const INCLUDED = [
-  'Tutto quello che trovi nella lista qui sopra',
-  'App per te e fino a 5 operai',
-  'Attivazione una tantum: onboarding, configurazione e formazione',
+const chf = (n: number) => n.toLocaleString('de-CH')
+
+const LINES = [
+  { desc: 'Canone mensile — servizio completo', amount: `da CHF ${PRICING.from}` },
+  { desc: 'App titolare + fino a 5 operai', amount: 'incluso' },
+  { desc: 'Attivazione, configurazione e formazione', amount: 'una tantum' },
+  { desc: 'Esportazione di tutti i tuoi dati all’uscita', amount: 'CHF 0' },
+]
+
+const CONDITIONS = [
   `Impegno minimo ${PRICING.minimumCommitmentMonths} mesi, poi disdetta con ${PRICING.noticeDays} giorni`,
-  `I tuoi dati sono tuoi: esportabili in ${PRICING.exportDays} giorni, gratis, sempre`,
+  `Dati esportabili in ${PRICING.exportDays} giorni lavorativi, gratis, sempre`,
+  'Nessun costo nascosto: gli extra si concordano prima, mai in fattura a sorpresa',
 ]
 
 const ALTERNATIVES = [
   {
-    label: 'Un impiegato amministrativo al 20%',
-    price: `CHF ${PRICING.employeeCostLow.toLocaleString('de-CH')}–${PRICING.employeeCostHigh.toLocaleString('de-CH')}`,
+    label: 'Impiegato amministrativo al 20%',
+    price: `CHF ${chf(PRICING.employeeCostLow)}–${chf(PRICING.employeeCostHigh)}`,
     unit: 'al mese, con oneri sociali',
   },
   {
-    label: 'Un fiduciario a ore',
+    label: 'Fiduciario a ore',
     price: `CHF ${PRICING.fiduciaryRateLow}–${PRICING.fiduciaryRateHigh}`,
-    unit: "all'ora, e non parla la lingua del cantiere",
+    unit: 'all’ora, e non parla la lingua del cantiere',
+  },
+  {
+    label: 'Delegami',
+    price: `da CHF ${PRICING.from}`,
+    unit: 'al mese, tutto incluso, software compreso',
+    highlight: true,
   },
 ]
 
 export function Pricing() {
   return (
-    <section id="prezzo" className="bg-ink-50 py-20 sm:py-24">
-      <div className="mx-auto max-w-6xl px-5">
-        <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
-          Quanto costa
-        </h2>
+    <Section
+      id="prezzo"
+      index="VI"
+      label="Quanto costa"
+      title={
+        <>
+          Un canone, <em>e sai già cosa comprende.</em>
+        </>
+      }
+    >
+      <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr] lg:gap-12">
+        {/* The price list is set as a document, because documents are the product. */}
+        <div className="border border-rule bg-paper">
+          <div className="flex items-baseline justify-between gap-4 border-b border-rule bg-paper-deep px-6 py-4">
+            <span className="eyebrow text-ink-soft">Listino</span>
+            <span className="font-display text-lg leading-none">Delegami</span>
+          </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-[1.15fr_1fr]">
-          <div className="rounded-2xl border border-ink-100 bg-white p-8 sm:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.15em] text-ink-500">
-              A partire da
-            </p>
-            <p className="mt-3 flex items-baseline gap-2">
-              <span className="text-5xl font-bold tracking-tight text-ink-900 sm:text-6xl">
-                CHF {PRICING.from}
+          <table className="w-full text-left">
+            <caption className="sr-only">
+              Riepilogo di cosa comprende il canone mensile
+            </caption>
+            <tbody>
+              {LINES.map((line) => (
+                <tr key={line.desc} className="border-b border-rule">
+                  <th
+                    scope="row"
+                    className="px-6 py-4 pr-3 text-left font-normal text-ink-soft"
+                  >
+                    {line.desc}
+                  </th>
+                  <td className="tabular whitespace-nowrap px-6 py-4 text-right font-medium">
+                    {line.amount}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-rule px-6 py-7">
+            <span className="eyebrow text-ink-faint">A partire da</span>
+            <p className="tabular font-display text-[clamp(2.4rem,5vw,3.4rem)] leading-none">
+              CHF {PRICING.from}
+              <span className="ml-1 font-sans text-base font-normal text-ink-soft">
+                /mese
               </span>
-              <span className="text-xl font-medium text-ink-500">/mese</span>
             </p>
-
-            <ul className="mt-9 space-y-3.5">
-              {INCLUDED.map((line) => (
-                <li key={line} className="flex gap-3">
-                  <Check
-                    className="mt-0.5 h-5 w-5 shrink-0 text-brand-600"
-                    aria-hidden
-                  />
-                  <span className="leading-relaxed text-ink-700">{line}</span>
-                </li>
-              ))}
-            </ul>
-
-            <div className="mt-9 rounded-xl bg-ink-50 p-5">
-              <p className="text-sm leading-relaxed text-ink-700">
-                Il prezzo esatto dipende dal volume del tuo lavoro — quanti
-                preventivi, quanti cantieri aperti, quanti operai. Te lo diciamo
-                in cinque minuti su WhatsApp, senza giri di parole e senza
-                riunioni.
-              </p>
-              <a
-                href={WHATSAPP_GENERIC}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-ink-900 underline decoration-brand-500 decoration-2 underline-offset-4"
-              >
-                <MessageCircle className="h-4 w-4" aria-hidden />
-                Chiedi il tuo prezzo
-              </a>
-            </div>
           </div>
 
-          <div className="rounded-2xl border border-ink-100 bg-white p-8 sm:p-10">
-            <h3 className="text-lg font-bold text-ink-900">
-              Con cosa lo stai confrontando
-            </h3>
+          <ul className="space-y-2.5 px-6 py-6 text-[0.9rem] text-ink-soft">
+            {CONDITIONS.map((c) => (
+              <li key={c} className="flex gap-3">
+                <span aria-hidden className="text-wine">
+                  —
+                </span>
+                <span>{c}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-            <div className="mt-7 space-y-7">
-              {ALTERNATIVES.map((alt) => (
-                <div
-                  key={alt.label}
-                  className="border-l-2 border-ink-100 pl-5"
+        <div>
+          <h3 className="font-display text-[1.35rem]">
+            Con cosa lo stai confrontando
+          </h3>
+
+          <dl className="mt-6 border-t border-rule">
+            {ALTERNATIVES.map((alt) => (
+              <div key={alt.label} className="border-b border-rule py-5">
+                <dt className="text-[0.9rem] text-ink-soft">{alt.label}</dt>
+                <dd
+                  className={`tabular mt-1.5 font-display text-2xl ${
+                    alt.highlight ? 'text-wine' : ''
+                  }`}
                 >
-                  <p className="text-sm font-medium text-ink-500">
-                    {alt.label}
-                  </p>
-                  <p className="mt-1.5 text-2xl font-bold text-ink-900">
-                    {alt.price}
-                  </p>
-                  <p className="mt-1 text-sm text-ink-500">{alt.unit}</p>
-                </div>
-              ))}
-
-              <div className="border-l-2 border-brand-500 pl-5">
-                <p className="text-sm font-medium text-ink-500">Delegami</p>
-                <p className="mt-1.5 text-2xl font-bold text-ink-900">
-                  da CHF {PRICING.from}
-                </p>
-                <p className="mt-1 text-sm text-ink-500">
-                  al mese, tutto incluso, software compreso
-                </p>
+                  {alt.price}
+                </dd>
+                <dd className="mt-1 text-[0.85rem] text-ink-faint">
+                  {alt.unit}
+                </dd>
               </div>
-            </div>
-          </div>
+            ))}
+          </dl>
+
+          <p className="mt-7 max-w-[38ch] text-[0.95rem] text-ink-soft">
+            Il prezzo esatto dipende dal volume del tuo lavoro — quanti
+            preventivi, quanti cantieri aperti, quanti operai. Te lo diciamo in
+            cinque minuti, senza riunioni.
+          </p>
+
+          <a
+            href={WHATSAPP_GENERIC}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 font-medium text-wine underline decoration-1 underline-offset-[6px] transition-colors hover:text-ink"
+          >
+            <WhatsappGlyph />
+            Chiedi il tuo prezzo
+          </a>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }

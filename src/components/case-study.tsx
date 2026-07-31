@@ -1,3 +1,4 @@
+import { Section } from '@/components/section'
 import { CASE_STUDY } from '@/lib/site'
 
 const ROWS = [
@@ -30,55 +31,54 @@ const ROWS = [
 
 export function CaseStudy() {
   return (
-    <section className="py-20 sm:py-24">
-      <div className="mx-auto max-w-6xl px-5">
-        <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
-          Un caso reale
-        </h2>
-        <p className="mt-4 text-lg text-ink-500">{CASE_STUDY.label}</p>
-
-        <div className="mt-12 overflow-hidden rounded-2xl border border-ink-100">
-          <div className="hidden grid-cols-[160px_1fr_1fr] gap-px bg-ink-100 sm:grid">
-            <div className="bg-ink-50 px-6 py-4" />
-            <div className="bg-ink-50 px-6 py-4 text-sm font-bold uppercase tracking-wider text-ink-500">
-              Prima
-            </div>
-            <div className="bg-ink-50 px-6 py-4 text-sm font-bold uppercase tracking-wider text-brand-600">
-              Dopo
-            </div>
-          </div>
-
-          <div className="grid gap-px bg-ink-100">
+    <Section
+      index="VII"
+      label="Un caso reale"
+      title={
+        <>
+          Una ditta individuale. <em>Un titolare solo in cantiere.</em>
+        </>
+      }
+      lead={CASE_STUDY.label}
+    >
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[36rem] border-collapse text-left">
+          <thead>
+            <tr className="border-y border-rule">
+              <th scope="col" className="eyebrow py-3 pr-6 text-ink-faint">
+                Area
+              </th>
+              <th scope="col" className="eyebrow py-3 pr-6 text-ink-faint">
+                Prima
+              </th>
+              <th scope="col" className="eyebrow py-3 text-wine">
+                Dopo
+              </th>
+            </tr>
+          </thead>
+          <tbody>
             {ROWS.map((row) => (
-              <div
-                key={row.area}
-                className="grid gap-px bg-ink-100 sm:grid-cols-[160px_1fr_1fr]"
-              >
-                <div className="bg-white px-6 py-4 font-bold text-ink-900">
+              <tr key={row.area} className="border-b border-rule align-top">
+                <th
+                  scope="row"
+                  className="w-[9rem] py-5 pr-6 text-left font-display text-[1.05rem] font-normal"
+                >
                   {row.area}
-                </div>
-                <div className="bg-white px-6 py-4 text-ink-500">
-                  <span className="mb-1 block text-xs font-bold uppercase tracking-wider text-ink-300 sm:hidden">
-                    Prima
-                  </span>
+                </th>
+                <td className="w-[38%] py-5 pr-6 text-[0.95rem] text-ink-faint">
                   {row.before}
-                </div>
-                <div className="bg-white px-6 py-4 font-medium text-ink-900">
-                  <span className="mb-1 block text-xs font-bold uppercase tracking-wider text-brand-600 sm:hidden">
-                    Dopo
-                  </span>
-                  {row.after}
-                </div>
-              </div>
+                </td>
+                <td className="py-5 text-[0.95rem]">{row.after}</td>
+              </tr>
             ))}
-          </div>
-        </div>
-
-        <p className="mt-6 text-sm text-ink-500">
-          Cliente reale, numeri reali. Il nome resta riservato — trattiamo i
-          dati dei nostri clienti come vorremmo fossero trattati i nostri.
-        </p>
+          </tbody>
+        </table>
       </div>
-    </section>
+
+      <p className="mt-6 max-w-[62ch] text-[0.85rem] italic text-ink-faint">
+        Cliente reale, numeri reali, nome riservato — trattiamo i dati dei
+        nostri clienti come vorremmo fossero trattati i nostri.
+      </p>
+    </Section>
   )
 }

@@ -1,4 +1,4 @@
-import { Plus } from 'lucide-react'
+import { Section } from '@/components/section'
 import { PRICING, SLA } from '@/lib/site'
 
 const FAQS = [
@@ -48,38 +48,30 @@ export function Faq() {
   }
 
   return (
-    <section id="domande" className="py-20 sm:py-24">
-      <div className="mx-auto max-w-6xl px-5">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
-          <h2 className="text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">
-            Domande che ci fanno sempre
-          </h2>
-
-          <div className="divide-y divide-ink-100 border-y border-ink-100">
-            {FAQS.map((faq) => (
-              <details key={faq.q} className="group py-5">
-                <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-left">
-                  <span className="text-lg font-bold text-ink-900">
-                    {faq.q}
-                  </span>
-                  <Plus
-                    className="mt-1 h-5 w-5 shrink-0 text-ink-300 transition-transform group-open:rotate-45"
-                    aria-hidden
-                  />
-                </summary>
-                <p className="mt-4 pr-11 leading-relaxed text-ink-500">
-                  {faq.a}
-                </p>
-              </details>
-            ))}
-          </div>
-        </div>
+    <Section id="domande" index="IX" label="Domande">
+      <div className="border-t border-rule">
+        {FAQS.map((faq) => (
+          <details key={faq.q} className="group border-b border-rule">
+            <summary className="flex cursor-pointer list-none items-baseline justify-between gap-6 py-5">
+              <h3 className="font-display text-[1.2rem] leading-snug transition-colors group-open:text-wine">
+                {faq.q}
+              </h3>
+              <span
+                aria-hidden
+                className="mt-1 shrink-0 text-lg text-ink-faint transition-transform duration-200 group-open:rotate-45"
+              >
+                +
+              </span>
+            </summary>
+            <p className="max-w-[64ch] pb-6 pr-10 text-ink-soft">{faq.a}</p>
+          </details>
+        ))}
       </div>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-    </section>
+    </Section>
   )
 }

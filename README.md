@@ -13,10 +13,54 @@ npm install
 npm run dev
 ```
 
+## Sistema visivo
+
+L'idea: il prodotto sono documenti, quindi la pagina è costruita come un
+documento — carta, filetti da 1px, indice nel margine, cifre tabulari. Niente
+card con ombre.
+
+| Token | Valore | Uso |
+|---|---|---|
+| `paper` | `#FAF8F4` | fondo |
+| `paper-deep` | `#EFEAE1` | blocchi secondari, testata del listino |
+| `ink` | `#22201D` | testo, sezioni piene |
+| `ink-soft` / `ink-faint` | `#6E675E` / `#9A9287` | testo secondario, etichette |
+| `wine` | `#6B2637` | unico accento: sigillo, numerazione, CTA |
+| `rule` | `#DCD5C9` | filetti, al posto dei bordi delle card |
+
+Tipografia (self-hosted in `public/fonts`, licenza SIL OFL):
+
+- **Newsreader** — titoli, domande, cifre grandi. Il corsivo è portante, non
+  decorativo.
+- **Archivo** — testo corrente e interfaccia.
+
+La pagina è volutamente **solo chiara**: la carta è l'identità, invertirla
+direbbe un'altra cosa. `color-scheme: light` è dichiarato in `globals.css`.
+
+## Marchio
+
+Una riga di margine più un sigillo: insieme formano una D. È dimensionato
+sull'altezza delle maiuscole di Newsreader, così legge come la prima lettera
+della parola e non come un'icona affiancata.
+
+File in `brand/` (rigenerabili):
+
+```bash
+npm i --no-save playwright-core
+node scripts/generate-logo.mjs
+```
+
+| File | Uso |
+|---|---|
+| `delegami-logo-orizzontale.svg` | vettoriale, font incorporato — uso principale |
+| `delegami-logo-orizzontale.png` | 1640×480, fondo carta |
+| `delegami-logo-scuro.png` | 1640×480, fondo scuro |
+| `delegami-avatar.png` | 1024×1024 — profilo WhatsApp / Instagram |
+| `delegami-marca.png` | 1024×1024, sfondo trasparente |
+
 ## Variabili d'ambiente
 
-Da impostare su Vercel (Project Settings → Environment Variables). Il sito
-funziona anche senza, con dei valori segnaposto.
+Da impostare su Vercel. Il sito funziona anche senza, con valori segnaposto.
 
 | Variabile | Esempio | Note |
 |---|---|---|
