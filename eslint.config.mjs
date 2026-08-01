@@ -5,7 +5,8 @@ const eslintConfig = [
   ...coreWebVitals,
   ...typescript,
   {
-    ignores: ['.next/**', 'node_modules/**'],
+    // delegami-app is a separate project with its own config and lint history.
+    ignores: ['.next/**', 'node_modules/**', 'delegami-app/**'],
   },
 ]
 
