@@ -50,7 +50,11 @@ jobs:
           find out -name '*.html' -print0 | xargs -0 sed -i \
             's|<head>|<head><meta name="robots" content="noindex,nofollow">|'
 
+      # enablement: true lets the workflow turn Pages on itself, with the
+      # repository's own token. Added on the owner's explicit instruction.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
