@@ -1,0 +1,66 @@
+name: Anteprima su GitHub Pages
+
+# Preview deployment only. The production site is Vercel on delegami.ch —
+# this exists so the site can be opened from any device before that is set up.
+on:
+  push:
+    branches: ['claude/admin-service-builders-l91i2w', 'main']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build static export
+        env:
+          GITHUB_PAGES: 'true'
+        run: npm run build
+
+      # basePath does not rewrite url() inside CSS, so the self-hosted fonts
+      # would 404 under the /Delegami sub-path. Fix the built stylesheet rather
+      # than hardcoding the sub-path in the source, which Vercel must not have.
+      - name: Point font URLs at the sub-path
+        run: |
+          find out/_next -name '*.css' -print0 | xargs -0 sed -i \
+            's|url(/fonts/|url(/Delegami/fonts/|g'
+
+      # The preview must never compete with delegami.ch in Google once the real
+      # domain is live, so the whole Pages copy is excluded from indexing.
+      - name: Block indexing of the preview
+        run: |
+          printf 'User-agent: *\nDisallow: /\n' > out/robots.txt
+          find out -name '*.html' -print0 | xargs -0 sed -i \
+            's|<head>|<head><meta name="robots" content="noindex,nofollow">|'
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

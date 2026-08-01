@@ -2,6 +2,11 @@ import type { MetadataRoute } from 'next'
 import { SERVICES } from '@/lib/services'
 import { SITE_URL } from '@/lib/site'
 
+/** Both the sitemap and robots are genuinely static; saying so lets them be
+ *  emitted as files in a static export as well as on Vercel. */
+export const dynamic = 'force-static'
+
+
 /**
  * Priorities reflect what we actually want ranked: the service pages carry the
  * search intent, the legal pages exist to be found when looked for, not to
