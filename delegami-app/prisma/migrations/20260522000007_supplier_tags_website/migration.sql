@@ -1,0 +1,2 @@
+ALTER TABLE suppliers ADD COLUMN tags TEXT;
+ALTER TABLE suppliers ADD COLUMN website TEXT;

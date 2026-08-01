@@ -1,0 +1,351 @@
+@import "tailwindcss";
+
+/* Brand typeface, self-hosted so the app never falls back to a system face.
+   Plus Jakarta Sans (SIL OFL) — one family, weight carries the hierarchy. */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans.woff2') format('woff2-variations');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Italic.woff2') format('woff2-variations');
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*
+ * Design tokens — the only place a raw colour, size, radius or duration is allowed.
+ *
+ * Everything is exposed through Tailwind 4's `@theme`, so the tokens are usable as
+ * ordinary utilities (`text-ink-muted`, `p-4`, `rounded-control`) and as CSS vars
+ * (`var(--color-ink-muted)`) from the print stylesheets, which cannot use utilities.
+ *
+ * Rules this file encodes:
+ *   · One neutral ramp. `gray` and `zinc` are gone; `slate` is the neutral.
+ *   · Colour carries meaning — action, positive, attention, negative. Never decoration.
+ *   · Four type sizes, three weights. If a fifth size seems necessary, the layout is wrong.
+ *   · 4pt spacing. No half-steps: 2px and 6px gaps were manual patches, not a scale.
+ *   · Almost no borders and shadows. Separate with space and alignment instead.
+ */
+
+@theme {
+  /* ── Neutral ─────────────────────────────────────────────────────────────
+     Text tokens are named by role, not by shade, so a contrast fix happens in
+     one place. `ink-muted` is slate-500 (4.8:1 on white) — the old default for
+     secondary text was gray-400 at 2.5:1, which fails WCAG AA. There is no
+     token lighter than `ink-subtle`, and that one is for non-text only. */
+  --color-ink: #143A56;          /* brand navy — primary text */
+  --color-ink-muted: #566B7C;    /* slate-500  — secondary text, AA on white */
+  --color-ink-subtle: #647786;   /* brand grey — icons/dividers only, never text */
+  --color-ink-inverse: #F5F7F8;
+
+  --color-surface: #FFFFFF;              /* cards, sheets */
+  --color-surface-sunken: #F5F7F8; /* app background */
+  --color-surface-raised: #EDF2F5; /* group headers, subtle fills */
+  --color-line: #E2E9EE;        /* hairlines — use sparingly */
+  --color-line-strong: #CBD7DF; /* input borders */
+
+  /* Navigation chrome — the one intentionally dark surface. */
+  --color-shell: #143A56;
+  --color-shell-raised: #1D5175;
+  --color-shell-ink: #E6EDF2;
+  --color-shell-ink-muted: #A7BBC9;  /* 5.9:1 on shell — was slate-500 at 3.8:1 */
+
+  /* ── Semantic ────────────────────────────────────────────────────────────
+     Four meanings, three steps each: `-surface` (tinted background),
+     `-border`, and the base (text/fill). Anything outside this set is a bug. */
+  --color-action: #14618C;          /* navy family, 6.8:1 — the primary action */
+  --color-action-hover: #0F4A6B;
+  --color-action-surface: #E9F2F7;
+  --color-action-border: #BFD8E6;
+
+  --color-positive: #12836C;        /* mint family, 4.7:1 — paid, approved, profit */
+  --color-positive-surface: #E3F7F1;
+  --color-positive-border: #A4E6D7;
+
+  --color-attention: #A15C07;        /* amber-700 — pending, awaiting action */
+  --color-attention-surface: #FDF4E6;
+  --color-attention-border: #F3D9A8;
+
+  --color-negative: #B32D1F;         /* red-600 — overdue, loss, destructive */
+  --color-negative-surface: #FCECEA;
+  --color-negative-border: #F2BDB5;
+
+  /* ── Brand accent ────────────────────────────────────────────────────────
+     Delegami mint. A FILL only — 2.1:1 on white, so it can never carry text.
+     Text on top of it is `accent-ink` (navy, 5.7:1). As a text colour it is
+     legal on the shell navy and nowhere else. */
+  --color-accent: #2ACAAB;
+  --color-accent-ink: #143A56;
+  --color-accent-surface: #E3F7F1;
+
+  /* ── Type ────────────────────────────────────────────────────────────────
+     Four sizes. `body` and `label` carry ~90% of the UI; `title` and `display`
+     exist to create the hierarchy the app currently lacks. */
+  --text-label: 0.75rem;          /* 12px — metadata, table headers, badges */
+  --text-label--line-height: 1rem;
+  --text-body: 0.875rem;          /* 14px — default */
+  --text-body--line-height: 1.25rem;
+  --text-title: 1.125rem;         /* 18px — card and section titles */
+  --text-title--line-height: 1.5rem;
+  --text-display: 1.75rem;        /* 28px — page title, hero figure */
+  --text-display--line-height: 2rem;
+
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* ── Space — strict 4pt ──────────────────────────────────────────────── */
+  --spacing: 0.25rem;             /* Tailwind derives p-1…p-12 from this */
+
+  /* ── Radius ──────────────────────────────────────────────────────────── */
+  --radius-control: 0.375rem;     /* buttons, inputs, chips */
+  --radius-surface: 0.75rem;      /* cards, sheets, modals */
+
+  /* ── Elevation — only overlays float ─────────────────────────────────── */
+  --shadow-overlay: 0 16px 40px -12px oklch(0.21 0.03 256 / 0.28);
+
+  /* ── Motion — enough to show cause and effect, nothing more ──────────── */
+  --ease-out-quick: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-state: 160ms;        /* hover, focus, colour changes */
+  --duration-enter: 220ms;        /* overlays appearing */
+}
+
+/*
+ * Printed documents — quote, invoice, rapportino, cronograma, shopping list.
+ *
+ * These are the only part of the product a client ever sees, and until now they
+ * shared nothing with the app: 41 hard-coded hex values spread across five
+ * files, so "make the navy a shade darker" meant eleven edits and a diff nobody
+ * could check. They stay separate from the app palette on purpose — paged media
+ * needs opaque, print-safe values and cannot use oklch or inherit a dark theme
+ * — but they are now declared once.
+ *
+ * Kept outside @theme: these are consumed as `var(--doc-*)` inside the inline
+ * styles the print pages need for `print-color-adjust`, not as utilities.
+ */
+:root {
+  --doc-ink: #143A56;            /* body text */
+  --doc-ink-strong: #0E2A3F;     /* headings inside the sheet */
+  --doc-ink-muted: #566B7C;      /* labels, captions, secondary rows */
+  --doc-ink-subtle: #8FA1AF;     /* the quietest legible grey on paper */
+
+  --doc-brand: #143A56;          /* the navy header band */
+  --doc-accent: #14618C;         /* totals, links, emphasis */
+  --doc-accent-soft: #E9F2F7;
+
+  --doc-line: #E2E9EE;           /* hairlines and table rules */
+  --doc-line-strong: #CBD7DF;
+  --doc-fill: #F5F7F8;           /* zebra rows, summary blocks */
+  --doc-fill-cool: #F0F4F7;
+
+  --doc-warn: #A15C07;           /* internal-only marks, overdue */
+  --doc-warn-soft: #FDF4E6;
+  --doc-warn-line: #F3D9A8;
+  --doc-positive: #12836C;
+  --doc-positive-soft: #E3F7F1;
+  --doc-positive-line: #A4E6D7;
+  --doc-note: #6D4AAE;           /* internal annotation rows */
+  --doc-paper: #FFFFFF;
+
+  --doc-negative: #B32D1F;       /* overdue, loss, refusal */
+  --doc-negative-soft: #FCECEA;
+  --doc-negative-line: #F2BDB5;
+  --doc-note-soft: #F2EDFA;
+}
+
+/* The minimum comfortable hit area. Applied via `.tap-target`, and by the base
+   Button/IconButton components, so a 14px icon still gets a 44px target. */
+@utility tap-target {
+  min-height: 2.75rem;
+  min-width: 2.75rem;
+}
+
+/*
+ * Page width — three, and only three.
+ *
+ * The app had ten: max-w-lg, 2xl, 3xl, 4xl, 5xl, 6xl, 7xl and eight pages with
+ * no limit at all, so on a wide monitor some screens filled 2500px while
+ * `/settings/users/new` sat at 512px. It was inconsistent within the same
+ * entity too — /clients capped at 1024px while /quotes ran edge to edge.
+ *
+ * Width is a property of what the content *is*, not of who wrote the page:
+ *
+ *   page-form     a single column of fields. Wider does not help: a label and
+ *                 its input are read left to right, and a 1400px text field is
+ *                 harder to use, not easier.
+ *   page-content  lists, detail pages, reports. Wide enough for a three-column
+ *                 grid, narrow enough that a row is still one glance.
+ *   page-wide     the quote and invoice item editors, the prezzario, the media
+ *                 galleries — the few screens that genuinely use every column.
+ *                 Still capped: a row 2500px long is not a feature.
+ *
+ * Padding lives here too; it was repeated as `p-4 sm:p-8` on all 60 pages.
+ */
+@utility page-form {
+  width: 100%;
+  max-width: 48rem;   /* 768px */
+  margin-inline: auto;
+  padding: calc(var(--spacing) * 4);
+}
+
+@utility page-content {
+  width: 100%;
+  max-width: 72rem;   /* 1152px */
+  margin-inline: auto;
+  padding: calc(var(--spacing) * 4);
+}
+
+@utility page-wide {
+  width: 100%;
+  max-width: 96rem;   /* 1536px */
+  margin-inline: auto;
+  padding: calc(var(--spacing) * 4);
+}
+
+@media (min-width: 640px) {
+  .page-form,
+  .page-content,
+  .page-wide {
+    padding: calc(var(--spacing) * 8);
+  }
+}
+
+/* Numbers must line up in columns and never break mid-figure. `break-all` on a
+   currency value produced "CHF-" on one line and "12'180.00" on the next. */
+@utility numeric {
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* iOS Safari auto-zooms the whole page when a focused form field has a
+   computed font-size below 16px, and the zoom sticks around after the
+   input loses focus or the app navigates client-side. Force 16px on
+   mobile so tapping any field never triggers it. */
+@media (max-width: 640px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/*
+ * Date and time inputs must be allowed to shrink.
+ *
+ * Safari on iOS renders these as a native control with its own intrinsic width,
+ * wide enough for the whole formatted date, and that width is not a CSS box the
+ * normal rules apply to: `width: 100%` and `min-width: 0` alone do not
+ * constrain it. The field pushes out of its card and drags the page sideways.
+ * Chromium sizes the same control differently, so an emulated iPhone never
+ * reproduces it — the first attempt at this fix shipped without `appearance`
+ * and did nothing on the actual phone.
+ *
+ * `appearance: none` is what turns it back into an ordinary box; the other three
+ * then behave. The native picker still opens on tap — only the default chrome
+ * goes, and this app already draws its own border, padding and radius.
+ */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Safari also hides the value behind the picker indicator when the box is
+   narrow; giving the indicator its own space keeps the date readable. */
+input[type="date"]::-webkit-date-and-time-value,
+input[type="time"]::-webkit-date-and-time-value,
+input[type="datetime-local"]::-webkit-date-and-time-value {
+  text-align: left;
+  min-width: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* Static A4 reports (/relatorio/*) and the AI report renderer.
+   These are print documents rendered on screen: padding in millimetres and
+   type in points, laid out for 210mm. On a 375px phone the mm padding alone
+   ate 133px of a 375px viewport, leaving ~240px for six-column tables. There
+   are 7 such pages with 40 tables between them and no responsive rules at all,
+   so this is handled centrally rather than in each bespoke page. */
+@media (max-width: 640px) {
+  .doc-sheet,
+  .sheet {
+    padding: 16px !important;
+    font-size: 11px !important;
+  }
+
+  .doc-sheet table,
+  .sheet table {
+    font-size: 10px !important;
+  }
+
+  .doc-sheet th,
+  .doc-sheet td,
+  .sheet th,
+  .sheet td {
+    padding: 3px 4px !important;
+    word-break: break-word;
+  }
+
+  /* These pages lay their KPI strips out as inline-styled 3- and 4-column
+     grids. At 375px each cell is ~85px, which splits "CHF 79'137.85" between
+     the symbol and the number. Two columns keeps every figure on one line. */
+  .doc-sheet div[style*="1fr 1fr 1fr"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+/* Hide app chrome when printing — preview pages rely on this */
+@media print {
+  aside,
+  .no-print {
+    display: none !important;
+  }
+  main {
+    overflow: visible !important;
+  }
+}

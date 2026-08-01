@@ -19,19 +19,19 @@ const POINTS = [
 export function Channel() {
   return (
     <Section
-      index="VIII"
-      label="Il metodo"
+      eyebrow="Il metodo"
       title={
         <>
-          Come si <em>lavora insieme</em>
+          Come si <span className="text-mint-deep">lavora insieme</span>
         </>
       }
     >
-      <div className="grid gap-px bg-rule sm:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-3">
         {POINTS.map((point) => (
-          <div key={point.title} className="bg-paper py-6 sm:px-6 sm:first:pl-0">
-            <h3 className="font-display text-[1.2rem]">{point.title}</h3>
-            <p className="mt-2.5 text-[0.95rem] text-ink-soft">{point.body}</p>
+          <div key={point.title}>
+            <span aria-hidden className="block h-1 w-10 rounded-full bg-mint" />
+            <h3 className="mt-5 text-[1.15rem]">{point.title}</h3>
+            <p className="mt-2.5 text-[0.95rem] text-slate-ink">{point.body}</p>
           </div>
         ))}
       </div>

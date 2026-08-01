@@ -32,50 +32,56 @@ const ROWS = [
 export function CaseStudy() {
   return (
     <Section
-      index="VII"
-      label="Un caso reale"
+      tone="off"
+      eyebrow="Un caso reale"
       title={
         <>
-          Una ditta individuale. <em>Un titolare solo in cantiere.</em>
+          Una ditta individuale.{' '}
+          <span className="text-mint-deep">Un titolare solo in cantiere.</span>
         </>
       }
       lead={CASE_STUDY.label}
     >
-      <div className="overflow-x-auto">
-        <table className="w-full min-w-[36rem] border-collapse text-left">
+      <div className="overflow-x-auto rounded-2xl border border-line bg-white">
+        <table className="w-full min-w-[38rem] border-collapse text-left">
           <thead>
-            <tr className="border-y border-rule">
-              <th scope="col" className="eyebrow py-3 pr-6 text-ink-faint">
+            <tr className="border-b border-line">
+              <th scope="col" className="eyebrow px-6 py-4 text-slate">
                 Area
               </th>
-              <th scope="col" className="eyebrow py-3 pr-6 text-ink-faint">
+              <th scope="col" className="eyebrow px-6 py-4 text-slate">
                 Prima
               </th>
-              <th scope="col" className="eyebrow py-3 text-wine">
+              <th scope="col" className="eyebrow px-6 py-4 text-mint-deep">
                 Dopo
               </th>
             </tr>
           </thead>
           <tbody>
             {ROWS.map((row) => (
-              <tr key={row.area} className="border-b border-rule align-top">
+              <tr
+                key={row.area}
+                className="border-b border-line align-top last:border-0"
+              >
                 <th
                   scope="row"
-                  className="w-[9rem] py-5 pr-6 text-left font-display text-[1.05rem] font-normal"
+                  className="w-[10rem] px-6 py-5 text-left font-extrabold"
                 >
                   {row.area}
                 </th>
-                <td className="w-[38%] py-5 pr-6 text-[0.95rem] text-ink-faint">
+                <td className="w-[38%] px-6 py-5 text-[0.93rem] text-slate">
                   {row.before}
                 </td>
-                <td className="py-5 text-[0.95rem]">{row.after}</td>
+                <td className="px-6 py-5 text-[0.93rem] font-medium">
+                  {row.after}
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      <p className="mt-6 max-w-[62ch] text-[0.85rem] italic text-ink-faint">
+      <p className="mt-5 max-w-[62ch] text-[0.85rem] text-slate">
         Cliente reale, numeri reali, nome riservato — trattiamo i dati dei
         nostri clienti come vorremmo fossero trattati i nostri.
       </p>

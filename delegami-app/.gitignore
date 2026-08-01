@@ -1,0 +1,36 @@
+node_modules
+
+# Environment variables (contém senhas — nunca sobe para o GitHub)
+.env
+.env.local
+.env.production
+
+# Banco de dados local
+prisma/dev.db
+prisma/dev.db-journal
+prisma/*.db
+prisma/*.db-*
+dev.db
+dev.db-shm
+dev.db-wal
+db
+db-wal
+db-shm
+
+# Documentos e ficheiros de trabalho locais
+/Documents/
+*.pdf
+*.mp4
+*.mov
+*.avi
+
+# Next.js build
+.next/
+
+# Prisma generated client (gerado automaticamente no deploy)
+/src/generated/prisma
+
+.vercel
+tsconfig.tsbuildinfo
+.env*.local
+.claude/worktrees/

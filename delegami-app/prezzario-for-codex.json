@@ -1,0 +1,4722 @@
+[
+  {
+    "id": "cmpgv4x3ur9nuqz90",
+    "code": "CON-QTI",
+    "category": "Bagno – Accessori",
+    "description": "Contenitore Q-tips/cotton – vetro con coperchio",
+    "unit": "pz",
+    "unitCost": 15,
+    "notes": "Accessorio decorativo bagno.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wz5hdudjzgi",
+    "code": "GAC-APP-3",
+    "category": "Bagno – Accessori",
+    "description": "Ganci appendiabiti da parete – set 3 pezzi cromato",
+    "unit": "set",
+    "unitCost": 32,
+    "notes": "Set 3 ganci inox/cromati. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4xbsbywbv3ki",
+    "code": "POS-ACC-BAG",
+    "category": "Bagno – Accessori",
+    "description": "Montaggio set accessori bagno (5 pezzi)",
+    "unit": "corpo",
+    "unitCost": 180,
+    "notes": "Foratura, tassellatura, fissaggio. Incluso set 5 pezzi.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wpd1vei25ur",
+    "code": "POR-ASC-DOP",
+    "category": "Bagno – Accessori",
+    "description": "Porta asciugamani doppio – cromato",
+    "unit": "pz",
+    "unitCost": 42,
+    "notes": "Doppio braccio, portata doppia.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wnumc0uzp4e",
+    "code": "POR-ASC-SIN",
+    "category": "Bagno – Accessori",
+    "description": "Porta asciugamani singolo – cromato",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Fissaggio a parete. Bauhaus/Jumbo.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wqzx8xd2xzp",
+    "code": "POR-CAR-CRO",
+    "category": "Bagno – Accessori",
+    "description": "Porta carta igienica – cromato",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "A parete. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4x1glo0z2ph4",
+    "code": "POR-SAP-APP",
+    "category": "Bagno – Accessori",
+    "description": "Porta sapone da appoggio – inox",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Su piano lavabo.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wupdd3ll3lx",
+    "code": "SCA-SAL-45",
+    "category": "Bagno – Accessori",
+    "description": "Portasciugamani scaldasalviette elettrico 45×70cm",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Termosifone elettrico 60W. Cromato. Bauhaus/Jumbo.",
+    "links": "https://www.bauhaus.ch/it/c/scaldasalviette"
+  },
+  {
+    "id": "cmpgv4wwmkgt5ud59",
+    "code": "SCA-SAL-IDR",
+    "category": "Bagno – Accessori",
+    "description": "Portasciugamani scaldasalviette idraulico 50×100cm",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Allacciato al circuito riscaldamento. Più efficiente.",
+    "links": "https://www.bauhaus.ch/it/c/scaldasalviette"
+  },
+  {
+    "id": "cmpgv4xe0hfjlrpw8",
+    "code": "POR-SCO-WC",
+    "category": "Bagno – Accessori",
+    "description": "Portascopino WC – cromato o bianco",
+    "unit": "pz",
+    "unitCost": 25,
+    "notes": "Con supporto a parete o da pavimento.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4x6w5nao1ynt",
+    "code": "ACC-BAG-5PZ",
+    "category": "Bagno – Accessori",
+    "description": "Set accessori bagno 5 pezzi – cromato (porta carta, porta asciugamani, ganci, porta sapone, portascopino)",
+    "unit": "set",
+    "unitCost": 145,
+    "notes": "Set completo coordinato. Bauhaus/Sanitas.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4x96gqjn2ybh",
+    "code": "SPE-ING-X5",
+    "category": "Bagno – Accessori",
+    "description": "Specchio ingranditore ×5 con ventosa – cromato",
+    "unit": "pz",
+    "unitCost": 35,
+    "notes": "Per make-up/rasatura. Con luce LED.",
+    "links": "https://www.bauhaus.ch/it/c/accessori-per-il-bagno\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4xgjsdveoi16",
+    "code": "TEN-DOC-AST",
+    "category": "Bagno – Accessori",
+    "description": "Tenda doccia impermeabile + asta 120-200cm",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Alternativa economica al box doccia. Bauhaus/IKEA.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4usrx861ykia",
+    "code": "BOX-DOC-120",
+    "category": "Bagno – Docce e Box",
+    "description": "Box doccia 120×80 – porta battente vetro 8mm",
+    "unit": "pz",
+    "unitCost": 520,
+    "notes": "Dimensione confortevole per doccia principale. Sanitas Troesch area.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4uo9l89drmxw",
+    "code": "BOX-DOC-80",
+    "category": "Bagno – Docce e Box",
+    "description": "Box doccia 80×80 scorrevole – vetro 6mm",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Box ante scorrevoli, vetro temperato 6mm. Sanitas/Bagno Design.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4uqf2yfsg7st",
+    "code": "BOX-DOC-90",
+    "category": "Bagno – Docce e Box",
+    "description": "Box doccia 90×90 porta battente – vetro 8mm",
+    "unit": "pz",
+    "unitCost": 450,
+    "notes": "Profilo alluminio cromato. Vetro 8mm sicurezza.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4v0wvpklcqv7",
+    "code": "DOC-FIL-PAV",
+    "category": "Bagno – Docce e Box",
+    "description": "Doccia a pioggia a filo pavimento – scarico lineare",
+    "unit": "pz",
+    "unitCost": 650,
+    "notes": "Soluzione walk-in senza box. Richiede impermeabilizzazione estesa.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-scarico/"
+  },
+  {
+    "id": "cmpgv4vashb7uf9wk",
+    "code": "POS-BOX-DOC",
+    "category": "Bagno – Docce e Box",
+    "description": "Montaggio box doccia + piatto",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Idraulico: posizionamento piatto, montaggio box, silicone perimetrale, collaudo.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4vis8ifn73ci",
+    "code": "POS-VAS-BAG",
+    "category": "Bagno – Docce e Box",
+    "description": "Montaggio vasca da bagno",
+    "unit": "pz",
+    "unitCost": 250,
+    "notes": "Idraulico: posizionamento, scarico, rubinetteria, collaudo.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.kaldewei.com/it/"
+  },
+  {
+    "id": "cmpgv4vh7ye9koqua",
+    "code": "PAN-VAS-170",
+    "category": "Bagno – Docce e Box",
+    "description": "Pannello laterale vasca 170cm – acrilico",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Chiusura laterale vasca incassata.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/"
+  },
+  {
+    "id": "cmpgv4uy6zgwbycbj",
+    "code": "WAL-IN-120",
+    "category": "Bagno – Docce e Box",
+    "description": "Parete doccia Walk-in 120cm – vetro 10mm",
+    "unit": "pz",
+    "unitCost": 580,
+    "notes": "Premium. Vetro extra-spesso 10mm, più stabile.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4uvjftvhicf7",
+    "code": "WAL-IN-90",
+    "category": "Bagno – Docce e Box",
+    "description": "Parete doccia Walk-in 90cm – vetro 8mm anticalcare",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Design minimale, senza profili laterali. Trend moderno.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/box-doccia"
+  },
+  {
+    "id": "cmpgv4um1uam6qm6e",
+    "code": "PIA-DOC-120",
+    "category": "Bagno – Docce e Box",
+    "description": "Piatto doccia 120×80 – acrilico rinforzato",
+    "unit": "pz",
+    "unitCost": 290,
+    "notes": "Grande formato. Kaldewei/Ideal Standard.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv4ug2g4j6ukzo",
+    "code": "PIA-DOC-80",
+    "category": "Bagno – Docce e Box",
+    "description": "Piatto doccia ceramica rettangolare 80×80 – bianco",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Ceramica smaltata. Altezza 5.5cm.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/piatti-doccia"
+  },
+  {
+    "id": "cmpgv4uj4di13mwdv",
+    "code": "PIA-DOC-90",
+    "category": "Bagno – Docce e Box",
+    "description": "Piatto doccia ultrasottile 90×90 – acrilico rinforzato",
+    "unit": "pz",
+    "unitCost": 240,
+    "notes": "Spessore 3cm. Filo pavimento con scarico. Kaldewei, Laufen.",
+    "links": "https://www.laufen.com/it-it.html"
+  },
+  {
+    "id": "cmpgv4v377t0hecqq",
+    "code": "PIL-GEB-RET",
+    "category": "Bagno – Docce e Box",
+    "description": "Piletta scarico doccia Geberit – bordo rete inox",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Geberit. Griglia inox estraibile. Sifone sifonato.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-scarico/"
+  },
+  {
+    "id": "cmpgv4v5rdsf4rtx1",
+    "code": "SCA-LIN-80",
+    "category": "Bagno – Docce e Box",
+    "description": "Scarico lineare 80cm inox – per doccia filo pavimento",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Canale doccia a fessura. ACO/Geberit/Schlüter Kerdi-Line.",
+    "links": "https://www.schluter.com/it-it/products/schluter-kerdi"
+  },
+  {
+    "id": "cmpgv4v7v5kpi2j5r",
+    "code": "SIF-DOC-90",
+    "category": "Bagno – Docce e Box",
+    "description": "Sifone scarico doccia Ø90 – universale",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Compatibile con piatto standard. Geberit/Viega.",
+    "links": "https://www.viega.it/it/prodotti.html"
+  },
+  {
+    "id": "cmpgv4vcw0pyc7gy0",
+    "code": "VAS-ACR-170",
+    "category": "Bagno – Docce e Box",
+    "description": "Vasca da bagno acrilica 170×75 – bianco",
+    "unit": "pz",
+    "unitCost": 480,
+    "notes": "Vasca standard. Kaldewei, Laufen, Ideal Standard.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv4vf3kzqua189",
+    "code": "VAS-FRE-170",
+    "category": "Bagno – Docce e Box",
+    "description": "Vasca freestanding ovale 170×80 – qualità design",
+    "unit": "pz",
+    "unitCost": 1200,
+    "notes": "Vasca isolata centro bagno. Kaldewei Meisterstück.",
+    "links": "https://www.kaldewei.com/it/prodotti/vasche-da-bagno/"
+  },
+  {
+    "id": "cmpgv4xtzmlngucau",
+    "code": "COL-SCA-GEB",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Colonna scarico Geberit Silent-PP Ø110 – metro",
+    "unit": "ml",
+    "unitCost": 38,
+    "notes": "Geberit Silent-PP. Fonoassorbente. Standard CH. Link: https://www.geberit.it/prodotti/sistemi-di-evacuazione/geberit-silent-pp/",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-evacuazione/geberit-silent-pp/"
+  },
+  {
+    "id": "cmpgv4y7f0hwvsck3",
+    "code": "ISO-TUB-ACQ",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Isolamento termico tubo acqua calda – metro",
+    "unit": "ml",
+    "unitCost": 4.5,
+    "notes": "Guaina Armaflex/Kaimann. Riduce dispersione calorica.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/"
+  },
+  {
+    "id": "cmpgv4xzzaptrmndd",
+    "code": "SIF-LAV-40",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Sifone lavabo Ø40mm – bottiglia",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Sifone a bottiglia, accesso ispezione. Geberit.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/"
+  },
+  {
+    "id": "cmpgv4xwto1l9h1o7",
+    "code": "TUB-PP-50",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Tubo PP scarico Ø50 – metro",
+    "unit": "ml",
+    "unitCost": 12,
+    "notes": "Per scarichi lavabo/bidet. Polipropilene grigio.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/"
+  },
+  {
+    "id": "cmpgv4y2ewpeenf2v",
+    "code": "TUB-MUL-20",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Tubo multicrestrato Ø20 per adduzione acqua – metro",
+    "unit": "ml",
+    "unitCost": 8.5,
+    "notes": "Acqua calda e fredda. Rehau/Uponor.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/"
+  },
+  {
+    "id": "cmpgv4y4owpsxosfh",
+    "code": "VAL-SOT-LAV",
+    "category": "Bagno – Impianto Idraulico",
+    "description": "Valvola sottolavabo Ø1/2\" – cromata",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Valvola d'arresto individuale. Per ogni punto acqua.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/"
+  },
+  {
+    "id": "cmpgv4u67cmz5dl4z",
+    "code": "BID-PAV-CER",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Bidet a pavimento ceramica – bianco",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Serie abbinata al WC. Ideal Standard/Laufen.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv4uamgjsizykx",
+    "code": "BID-SOS-CER",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Bidet sospeso – bianco",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Sospeso, abbinabile a WC sospeso.",
+    "links": "https://www.geberit.it/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4u0th3n06cln",
+    "code": "COL-LAV",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Colonna lavabo – copri sifone ceramica",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Per lavabo a colonna classico.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4tw2t50stqg1",
+    "code": "LAV-APP-38",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Lavabo da appoggio tondo Ø38 – design",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Da appoggio su piano mobile. Duravit, Villeroy.",
+    "links": "https://www.duravit.it/products/all_series/d_neo.de.html"
+  },
+  {
+    "id": "cmpgv4tsuqr2dm9cw",
+    "code": "LAV-INC-60",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Lavabo da incasso rettangolare 60×46 – bianco",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Ceramica standard. Ideal Standard/Laufen.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv4tug9dcv3tqq",
+    "code": "LAV-SOS-55",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Lavabo sospeso 55×46 – bianco",
+    "unit": "pz",
+    "unitCost": 160,
+    "notes": "Senza piano, look minimalista.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4tzaavcjerbg",
+    "code": "IK-GOD-60",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Mobile lavabo IKEA GODMORGON + lavabo 60cm",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "IKEA GODMORGON, 2 cassetti, bianco. Link: https://www.ikea.com/ch/it/cat/godmorgon-serie-07583/",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/"
+  },
+  {
+    "id": "cmpgv4txpbfg4sq5n",
+    "code": "195.211.23",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Mobile lavabo IKEA ÄNGSJÖN + lavabo BACKSJÖN 80cm",
+    "unit": "pz",
+    "unitCost": 517,
+    "notes": "IKEA ÄNGSJÖN + BACKSJÖN 80cm. Link: https://www.ikea.com/ch/it/p/aengsjoen-backsjoen-mobile-lavabo-cassetti-lavabo-misc-s19521123/",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4udvwdzsfi80",
+    "code": "POS-BID-PAV",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Montaggio bidet a pavimento",
+    "unit": "pz",
+    "unitCost": 150,
+    "notes": "Idraulico. Include allacciamento rubinetteria.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4u4ln1r8s2lt",
+    "code": "POS-LAV-INC",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Montaggio lavabo da incasso su piano",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Su mobile esistente.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4u31cqcagg3r",
+    "code": "POS-LAV-SOS",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Montaggio lavabo sospeso",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Idraulico: fissaggio, allacciamento acqua calda/fredda, sifone.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.ikea.com/ch/it/cat/combinazioni-di-mobili-per-lavabo-16673/"
+  },
+  {
+    "id": "cmpgv4uc8rato0afy",
+    "code": "TEL-GEB-BID",
+    "category": "Bagno – Lavabi e Bidet",
+    "description": "Telaio Geberit Duofix per bidet sospeso",
+    "unit": "pz",
+    "unitCost": 240,
+    "notes": "Telaio specifico per bidet sospeso.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/geberit-duofix/"
+  },
+  {
+    "id": "cmpgv4who07vk4m2x",
+    "code": "COL-PEN-160",
+    "category": "Bagno – Mobili",
+    "description": "Colonna pensile bagno 160cm – bianco lucido",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Spazio contenitore verticale. Abbinabile ai mobili GODMORGON.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/"
+  },
+  {
+    "id": "cmpgv4wdhvuv2yp91",
+    "code": "IK-GOD-80-BAS",
+    "category": "Bagno – Mobili",
+    "description": "Mobile sottolavabo IKEA GODMORGON 80cm – bianco",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "IKEA GODMORGON 2 cassetti 80cm. Solo base, senza lavabo.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/"
+  },
+  {
+    "id": "cmpgv4wfaxzprprk3",
+    "code": "MOB-SOS-60",
+    "category": "Bagno – Mobili",
+    "description": "Mobile sottolavabo sospeso 60cm – bianco laccato",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Qualità media. Burgbad/Duravit area.",
+    "links": "https://www.duravit.it/products/all_series/d_neo.de.html"
+  },
+  {
+    "id": "cmpgv4wle8uc0ge7e",
+    "code": "POS-MOB-BAG",
+    "category": "Bagno – Mobili",
+    "description": "Montaggio mobile bagno (2-4 cassetti)",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Montaggio, livellamento, fissaggio a parete.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4wje0dey7sq3",
+    "code": "PIA-QUA-100",
+    "category": "Bagno – Mobili",
+    "description": "Piano di lavoro per bagno in quarzo bianco 100×50",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Top in quarzo lavorato, con ritaglio per lavabo da incasso.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w671rkxxa47",
+    "code": "SPE-80-60",
+    "category": "Bagno – Mobili",
+    "description": "Specchio bagno 80×60cm – bordo lucido",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Specchio semplice. Bauhaus/Jumbo.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w7ufi37g1dn",
+    "code": "805.349.23",
+    "category": "Bagno – Mobili",
+    "description": "Specchio con armadietto 80cm – 2 ante (IKEA LETTAN)",
+    "unit": "pz",
+    "unitCost": 259,
+    "notes": "IKEA LETTAN 80cm. Link: https://www.ikea.com/ch/it/p/lettan-mobile-a-specchio-con-ante-effetto-specchio-vetro-a-specchio-80534923/",
+    "links": "https://www.ikea.com/ch/it/p/lettan-mobile-a-specchio-con-ante-effetto-specchio-vetro-a-specchio-80534923/"
+  },
+  {
+    "id": "cmpgv4wb8y9abs6g4",
+    "code": "SPE-LED-100",
+    "category": "Bagno – Mobili",
+    "description": "Specchio con retroilluminazione LED 100×70cm",
+    "unit": "pz",
+    "unitCost": 240,
+    "notes": "Formato maggiore, ottimo per bagno principale.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w9mvenculd1",
+    "code": "SPE-LED-80",
+    "category": "Bagno – Mobili",
+    "description": "Specchio con retroilluminazione LED 80×60cm",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Specchio illuminato a LED. Luce bianca 4000K. Bauhaus.",
+    "links": "https://www.ikea.com/ch/it/cat/godmorgon-serie-15287/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4yffj7goh2q2",
+    "code": "POS-RIS-ELE",
+    "category": "Bagno – Riscaldamento",
+    "description": "Posa riscaldamento a pavimento elettrico",
+    "unit": "m²",
+    "unitCost": 25,
+    "notes": "Manodopera posa cavo+termostat.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento-a-pavimento"
+  },
+  {
+    "id": "cmpgv4y9sl7q3uuy5",
+    "code": "RIS-ELE-M2",
+    "category": "Bagno – Riscaldamento",
+    "description": "Riscaldamento a pavimento elettrico sotto piastrella – m²",
+    "unit": "m²",
+    "unitCost": 45,
+    "notes": "Cavo riscaldante o mat elettrico. Devi Warmup/nVent. Solo materiale.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento-a-pavimento"
+  },
+  {
+    "id": "cmpgv4ychnrhcj3br",
+    "code": "TER-RIS-PAV",
+    "category": "Bagno – Riscaldamento",
+    "description": "Termostato programmabile per riscaldamento pavimento",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Con sensore pavimento, programmazione settimanale.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento"
+  },
+  {
+    "id": "cmpgv4vyfnh1jc6ma",
+    "code": "BRA-DOC-SOF",
+    "category": "Bagno – Rubinetteria",
+    "description": "Braccio doccia a soffitto 30cm – cromato",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Per soffione da soffitto.",
+    "links": "https://www.grohe.it/it_it/prodotti/doccia/soffioni/"
+  },
+  {
+    "id": "cmpgv4vuuq0k48eyp",
+    "code": "COL-DOC-TER",
+    "category": "Bagno – Rubinetteria",
+    "description": "Colonna doccia termostatica Grohe Rainshower",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Termostatica, soffione + doccetta. Grohe Rainshower System 400. Link: https://www.grohe.it",
+    "links": "https://www.grohe.it/it_it/prodotti/doccia/colonne-doccia/grohe-rainshower-system-400/"
+  },
+  {
+    "id": "cmpgv4vtab6wqznf0",
+    "code": "COR-INC-PAR",
+    "category": "Bagno – Rubinetteria",
+    "description": "Corpo incasso per miscelatore a parete",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Corpo meccanico da murare. Geberit/Grohe.",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w31ulfugmxe",
+    "code": "FLE-DOC-150",
+    "category": "Bagno – Rubinetteria",
+    "description": "Flessibile doccia 150cm – inox antitorcitura",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Ricambio standard. Bauhaus.",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4vpyoswwf155",
+    "code": "MIS-BID-MON",
+    "category": "Bagno – Rubinetteria",
+    "description": "Miscelatore bidet monocomando – cromato",
+    "unit": "pz",
+    "unitCost": 110,
+    "notes": "Abbinabile al miscelatore lavabo della stessa serie.",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4vocvu0nfbm3",
+    "code": "MIS-LAV-ALT",
+    "category": "Bagno – Rubinetteria",
+    "description": "Miscelatore lavabo alto – per lavabo freestanding",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Bocca alta per lavabi da appoggio. Hansgrohe/Grohe.",
+    "links": "https://www.hansgrohe.com/it"
+  },
+  {
+    "id": "cmpgv4vklvy4z81p7",
+    "code": "MIS-LAV-EUS",
+    "category": "Bagno – Rubinetteria",
+    "description": "Miscelatore lavabo monocomando – cromato (Grohe Eurosmart)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Grohe Eurosmart. Standard qualità. Link: https://www.grohe.it",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html"
+  },
+  {
+    "id": "cmpgv4vmrand0vww3",
+    "code": "MIS-LAV-ENT",
+    "category": "Bagno – Rubinetteria",
+    "description": "Miscelatore lavabo monocomando – cromato (entry)",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Qualità base. Hansgrohe Logis/Ideal Standard.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv4vrkrrla8yu5",
+    "code": "MIS-VAS-PAR",
+    "category": "Bagno – Rubinetteria",
+    "description": "Miscelatore vasca/doccia a parete – Grohe Eurostyle",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Corpo incasso non incluso (separato). Solo parte vista.",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w4l7vib6kro",
+    "code": "POR-SAP-PAR",
+    "category": "Bagno – Rubinetteria",
+    "description": "Portasapone liquido da parete – inox",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Dispenser da fissare a parete. Sanitas/Bauhaus.",
+    "links": "https://www.grohe.it/it_it/eurosmart-miscelatore-monocomando-per-lavabo-taglia-m-23322001.html\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4w0v7w6dekej",
+    "code": "SET-DOC-GRO",
+    "category": "Bagno – Rubinetteria",
+    "description": "Set doccia (soffione, doccetta, asta, flessibile) – Grohe",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Grohe Vitalio Comfort System. Tutto incluso.",
+    "links": "https://www.grohe.it/it_it/prodotti/doccia/set-doccia/"
+  },
+  {
+    "id": "cmpgv4vwejyls3n30",
+    "code": "SOF-DOC-25",
+    "category": "Bagno – Rubinetteria",
+    "description": "Soffione doccia tondo Ø25cm – cromato",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Soffione a soffitto o braccio. Grohe/Hansgrohe.",
+    "links": "https://www.hansgrohe.com/it"
+  },
+  {
+    "id": "cmpgv4xri3ixoxj12",
+    "code": "GRI-AER-100",
+    "category": "Bagno – Ventilazione",
+    "description": "Griglia aerazione Ø100mm – plastica bianca",
+    "unit": "pz",
+    "unitCost": 6.5,
+    "notes": "Griglia di chiusura esterna o interna.",
+    "links": "https://www.bauhaus.ch/it/c/ventilatori"
+  },
+  {
+    "id": "cmpgv4xp38ygtkiaw",
+    "code": "TUB-AER-100",
+    "category": "Bagno – Ventilazione",
+    "description": "Tubo rigido aerazione PVC Ø100mm – metro",
+    "unit": "ml",
+    "unitCost": 8.5,
+    "notes": "Per canalizzazione aerazione bagno.",
+    "links": "https://www.bauhaus.ch/it/c/ventilatori"
+  },
+  {
+    "id": "cmpgv4xj1yyitodf4",
+    "code": "VEN-BAG-100",
+    "category": "Bagno – Ventilazione",
+    "description": "Ventilatore bagno Ø100mm – silenzioso 25dB",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Aerazione bagno senza finestra. Timer 15min. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/ventilatori-da-bagno"
+  },
+  {
+    "id": "cmpgv4xmoso1ydn0v",
+    "code": "VEN-BAG-150",
+    "category": "Bagno – Ventilazione",
+    "description": "Ventilatore bagno Ø150mm – con valvola antiritorno",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Portata maggiore per bagni grandi. Vortice.",
+    "links": "https://www.bauhaus.ch/it/c/ventilatori-da-bagno"
+  },
+  {
+    "id": "cmpgv4tilqeqcsdhd",
+    "code": "CAS-GEB-SIG",
+    "category": "Bagno – WC",
+    "description": "Cassetta di risciacquo ad incasso Geberit Sigma",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Solo cassetta (senza telaio). Doppio tasto risparmio acqua.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/cassette-da-incasso/"
+  },
+  {
+    "id": "cmpgv4tczgtffq7a6",
+    "code": "CPW-GEB-ACA",
+    "category": "Bagno – WC",
+    "description": "Copriwater Geberit Acanto soft-close",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Originale Geberit, abbinato alla serie Acanto.",
+    "links": "https://www.bauhaus.ch/it/c/wc-copriwater"
+  },
+  {
+    "id": "cmpgv4tb4ufyoej02",
+    "code": "CPW-SC-UNI",
+    "category": "Bagno – WC",
+    "description": "Copriwater soft-close universale – bianco",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Compatibile con la maggior parte dei WC. Bauhaus/Amazon.",
+    "links": "https://www.bauhaus.ch/it/c/wc-copriwater"
+  },
+  {
+    "id": "cmpgv4tqu2xevmje3",
+    "code": "POS-WC-PAV",
+    "category": "Bagno – WC",
+    "description": "Montaggio WC a pavimento",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Manodopera idraulico. Più rapido del sospeso.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.idealstandard.it/prodotti/wc/"
+  },
+  {
+    "id": "cmpgv4tnms4xwri8w",
+    "code": "POS-WC-SOS",
+    "category": "Bagno – WC",
+    "description": "Montaggio WC sospeso (incluso telaio, collaudo)",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Manodopera idraulico: montaggio telaio + WC + collaudo scarico.",
+    "links": "https://www.geberit.it/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4tk46s8sighl",
+    "code": "PLA-GEB-S20",
+    "category": "Bagno – WC",
+    "description": "Placca di comando WC Geberit Sigma20 – bianco",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Placca a 2 pulsanti, montaggio su telaio Duofix. Link: https://www.geberit.it",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/geberit-duofix/"
+  },
+  {
+    "id": "cmpgv4tlrfm4fumav",
+    "code": "PLA-GEB-S30",
+    "category": "Bagno – WC",
+    "description": "Placca di comando WC Geberit Sigma30 – cromo",
+    "unit": "pz",
+    "unitCost": 145,
+    "notes": "Versione premium cromata.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/cassette-da-incasso/"
+  },
+  {
+    "id": "cmpgv4tem5rvajxox",
+    "code": "TEL-GEB-DUO",
+    "category": "Bagno – WC",
+    "description": "Telaio Geberit Duofix per WC sospeso – h112cm",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Standard de facto CH. Altezza 112cm. Include cassetta ad incasso. Link: https://www.geberit.it/prodotti/sistemi-di-installazione/geberit-duofix/",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/geberit-duofix/"
+  },
+  {
+    "id": "cmpgv4tgyy9ha5c0r",
+    "code": "TEL-GEB-82",
+    "category": "Bagno – WC",
+    "description": "Telaio Geberit Duofix per WC sospeso – h82cm",
+    "unit": "pz",
+    "unitCost": 265,
+    "notes": "Versione ridotta h82, per spazi bassi.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/geberit-duofix/"
+  },
+  {
+    "id": "cmpgv4t51c6s8l5k7",
+    "code": "WC-PAV-ZAI",
+    "category": "Bagno – WC",
+    "description": "WC a pavimento con cassetta alta a zaino",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Cassetta a zaino, senza cisterna a vista.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.idealstandard.it/prodotti/wc/"
+  },
+  {
+    "id": "cmpgv4t3f9txfefry",
+    "code": "WC-PAV-MON",
+    "category": "Bagno – WC",
+    "description": "WC a pavimento monoblocco con cassetta – standard",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Soluzione economica, installazione più semplice. No telaio.",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.idealstandard.it/prodotti/wc/"
+  },
+  {
+    "id": "cmpgv4t8leslcm7hq",
+    "code": "WC-DUR-DNE",
+    "category": "Bagno – WC",
+    "description": "WC sospeso Duravit D-Neo – Rimless",
+    "unit": "pz",
+    "unitCost": 490,
+    "notes": "Duravit D-Neo. Rimless. Fissaggio nascosto. Link: https://www.duravit.it",
+    "links": "https://www.geberit.it/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4t1t355uszwn",
+    "code": "WC-GEB-ACA",
+    "category": "Bagno – WC",
+    "description": "WC sospeso Geberit Acanto – bianco",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Geberit Acanto. Link: https://www.geberit.it/prodotti/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/",
+    "links": "https://www.geberit.it/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4t6qp5x54wkv",
+    "code": "WC-VB-SUB2",
+    "category": "Bagno – WC",
+    "description": "WC sospeso Villeroy & Boch Subway 2.0",
+    "unit": "pz",
+    "unitCost": 580,
+    "notes": "Premium. Villeroy & Boch. Rimless (senza bordo interno). Link: https://www.villeroy-boch.com",
+    "links": "https://www.geberit.it/prodotti-per-l-arredobagno/wc/wc-sospeso-acanto/\nhttps://www.sanitas-troesch.ch"
+  },
+  {
+    "id": "cmpgv4st839217e2r",
+    "code": "WC-SOS-BASE",
+    "category": "Bagno – WC",
+    "description": "WC sospeso monoblocco qualità base – bianco",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Geberit/Laufen/Ideal Standard entry level. Escluso telaio Duofix.",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/sistemi-di-installazione-e-di-risciacquo/geberit-duofix/"
+  },
+  {
+    "id": "cmpgv9c5ekavgqq46",
+    "code": "ALI-LED-60",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Alimentatore strip LED 24V 60W – da incasso",
+    "unit": "pz",
+    "unitCost": 38,
+    "notes": "Alimentatore per strip cucina.",
+    "links": "https://www.bauhaus.ch/it/c/strisce-led\nhttps://www.ikea.com/ch/it/cat/illuminazione-led-20623/"
+  },
+  {
+    "id": "cmpgv9ckpqh5n68xe",
+    "code": "ALZ-PAR-ML",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Alzatina parete – ml",
+    "unit": "ml",
+    "unitCost": 25,
+    "notes": "Profilo di chiusura tra piano e parete. Inox o PVC.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9coankfzld4a",
+    "code": "CAN-VIN-30",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Cantinetta vini da incasso 30cm – Liebherr",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Liebherr WKb1812. 18 bottiglie. 7-18°C. Silenzioso.",
+    "links": "https://www.bauhaus.ch/it/c/cantinette-vini"
+  },
+  {
+    "id": "cmpgv9cahomp80zh3",
+    "code": "CER-BLU-AMM",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Cerniera cucina ammortizzata Blum – pz",
+    "unit": "pz",
+    "unitCost": 12,
+    "notes": "Blum Clip Top. Autochiudente silenziosa. Standard qualità.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9cgwv23l5tb8",
+    "code": "CES-PAT-60",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Cestino pattumiera differenziata 2 scomparti – 60cm",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Integrato sotto lavello o in base 60cm. IKEA HÅLLBAR.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9cmhwc2ypj04",
+    "code": "COC-FRI-PAN",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Copricolonna frigo da incasso – pannello",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Pannello decorativo su lato frigorifero a incasso.",
+    "links": "https://www.bosch-home.com/it/prodotti/refrigerazione\nhttps://www.bauhaus.ch/it/c/frigoriferi"
+  },
+  {
+    "id": "cmpgv9cpwn7ic9o7c",
+    "code": "DIS-ACQ-QUO",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Dispenser acqua frizzante integrato – Quooker",
+    "unit": "pz",
+    "unitCost": 1200,
+    "notes": "Quooker Combi. Acqua bollente+frizzante da rubinetto. Link: https://www.quooker.it",
+    "links": "https://www.quooker.it"
+  },
+  {
+    "id": "cmpgv9c8pwlzjr0kp",
+    "code": "FAR-KIT-3",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Faretti cucina 3× LED da incasso – kit completo",
+    "unit": "kit",
+    "unitCost": 85,
+    "notes": "3 faretti LED 5W con cablaggio. Bauhaus.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9c15rjjwj5kv",
+    "code": "FAR-LED-5W",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Faretto LED da incasso 5W – bianco/cromato",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Diametro foro 70mm. 3000K. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/faretti"
+  },
+  {
+    "id": "cmpgv9cc4h023p87d",
+    "code": "GUI-LEG-TOT",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Guida cassetto a estrazione totale Blum Legrabox",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Blum Legrabox. Estrazione totale, autochiusura.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9c72yexnfdjd",
+    "code": "LAM-SOS-IND",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Lampada sospensione isola cucina – design industriale",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Pendant in metallo nero/rame. IKEA RANARP area.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9cdplcl647oe",
+    "code": "ORG-CAS-60",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Organizer cassetto cucina – 60cm",
+    "unit": "pz",
+    "unitCost": 35,
+    "notes": "Separatori interni cassetto. IKEA UPPDATERA area.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9cri43uhc41t",
+    "code": "PAN-DEC-CUC",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Pannello decorativo per parete cucina (rovere/laminato) – m²",
+    "unit": "m²",
+    "unitCost": 85,
+    "notes": "Rivestimento parete cucina in rovere impiallacciato o laminato.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9cfab6ftkyv6",
+    "code": "POR-LAT-ANG",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Portalattine girevole interno angolo cucina",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Girevole per armadio angolo 90°. Ottimizza spazio.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9ct3128c17ur",
+    "code": "RET-ANT-100",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Rete antinsetto finestra cucina con telaio – 100×120",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Zanzariera a rullo o plissé. Bauhaus/Jumbo.",
+    "links": "https://www.bauhaus.ch/it/c/zanzariere"
+  },
+  {
+    "id": "cmpgv9cj4yo68khvs",
+    "code": "SOT-LAV-60",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Sottolavello base doppio 60cm – IKEA",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Struttura doppia per ottimizzare spazio sotto lavello.",
+    "links": "https://www.ikea.com/ch/it/cat/illuminazione-cucina-10730/"
+  },
+  {
+    "id": "cmpgv9c36bb0hcrs3",
+    "code": "STR-LED-ML",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Strip LED per sottopensile cucina – ml",
+    "unit": "ml",
+    "unitCost": 22,
+    "notes": "LED bianco 4000K, adesivo, dimmerabile. Bauhaus/IKEA OMLOPP.",
+    "links": "https://www.bauhaus.ch/it/c/strisce-led\nhttps://www.ikea.com/ch/it/cat/illuminazione-led-20623/"
+  },
+  {
+    "id": "cmpgv9cv7ucrah4va",
+    "code": "TAP-PVC-MOT",
+    "category": "Cucina – Accessori e Illuminazione",
+    "description": "Tapparella PVC 100×120cm – motorizzata",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Avvolgibile motorizzato. Telecomando radio.",
+    "links": "https://www.bauhaus.ch/it/c/tapparelle"
+  },
+  {
+    "id": "cmpgv9afnxx4zhkdb",
+    "code": "ALL-ELE-IND",
+    "category": "Cucina – Cottura",
+    "description": "Allacciamento elettrico piano cottura induzione (manodopera)",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Elettricista. Linea dedicata 32A necessaria.",
+    "links": null
+  },
+  {
+    "id": "cmpgv9arel2eoop64",
+    "code": "ALL-ELE-FOR",
+    "category": "Cucina – Cottura",
+    "description": "Allacciamento forno da incasso (manodopera)",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Elettricista. Connessione presa dedicata 16A.",
+    "links": null
+  },
+  {
+    "id": "cmpgv9ae6i2i8su5u",
+    "code": "ALL-GAS-PCO",
+    "category": "Cucina – Cottura",
+    "description": "Allacciamento gas piano cottura (manodopera + collaudo)",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Idraulico abilitato gas. Include collaudo tenuta.",
+    "links": null
+  },
+  {
+    "id": "cmpgv9aujv24s1hgz",
+    "code": "CAP-PAR-60",
+    "category": "Cucina – Cottura",
+    "description": "Cappa a parete 60cm piramide – inox",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Pirex/Elica. Standard cucine murali.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9at1easne8is",
+    "code": "CAP-INC-60",
+    "category": "Cucina – Cottura",
+    "description": "Cappa aspirante da incasso 60cm – inox (Bosch)",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Bosch DWB96DM50. 660m³/h. Silenziosa.",
+    "links": "https://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9awp6iu0kx9g",
+    "code": "CAP-ISO-90",
+    "category": "Cucina – Cottura",
+    "description": "Cappa isola 90cm – design inox (Elica)",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Elica/Faber. Per cucine a isola con soffitto alto.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9az8zyz6wz3p",
+    "code": "CAP-FLA-80",
+    "category": "Cucina – Cottura",
+    "description": "Cappa piano cottura integrata 80cm – flat",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Integrata sotto pensile, design piatto. AEG/Siemens.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9aptgekrp0kx",
+    "code": "CAS-SCA-14",
+    "category": "Cucina – Cottura",
+    "description": "Cassetto scaldavivande da incasso 14cm – Bosch",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Bosch BIC630NS1. Scaldapiatti integrato.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9ao9mcon6spz",
+    "code": "FOR-MCR-60",
+    "category": "Cucina – Cottura",
+    "description": "Forno + microonde combinato da incasso 60cm",
+    "unit": "pz",
+    "unitCost": 950,
+    "notes": "Bosch CMG633BS1. Forno + microonde nello stesso vano.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/microonde\nhttps://www.bauhaus.ch/it/c/microonde"
+  },
+  {
+    "id": "cmpgv9al0l7ui0nur",
+    "code": "FOR-VAP-MIE",
+    "category": "Cucina – Cottura",
+    "description": "Forno a vapore da incasso 60cm – Miele",
+    "unit": "pz",
+    "unitCost": 1200,
+    "notes": "Miele DGC6700. Vapore + convezione. Premium. Link: https://www.miele.it",
+    "links": "https://www.miele.it/freestanding/aspirapolvere-senza-sacco/c/MaschinenartDampfgarer"
+  },
+  {
+    "id": "cmpgv9ah9bkvg6lnd",
+    "code": "FOR-PIR-60",
+    "category": "Cucina – Cottura",
+    "description": "Forno elettrico da incasso 60cm – pirolisi (Bosch HBG5780)",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Bosch HBG5780S0. Pirolisi, autopulizia. Link: https://www.bosch-home.it",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/forni"
+  },
+  {
+    "id": "cmpgv9aj8mymrb860",
+    "code": "FOR-MUL-60",
+    "category": "Cucina – Cottura",
+    "description": "Forno elettrico da incasso 60cm – ventilato multifunzione",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "AEG/Electrolux/Bosch entry. 70L, 8 funzioni.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/forni\nhttps://www.bauhaus.ch/it/c/forni-da-incasso"
+  },
+  {
+    "id": "cmpgv9b2qyqav7h6l",
+    "code": "POS-CAP-AER",
+    "category": "Cucina – Cottura",
+    "description": "Installazione cappa + aerazione esterna",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Elettricista + muratore. Foratura muro esterno, condotto, elettrico.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9amkrenz13wy",
+    "code": "MCR-INC-45",
+    "category": "Cucina – Cottura",
+    "description": "Microonde da incasso 45cm – Siemens",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Siemens BF523LMS0. Da incasso sotto piano o in colonna.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/microonde\nhttps://www.bauhaus.ch/it/c/microonde"
+  },
+  {
+    "id": "cmpgv9a911mb89py3",
+    "code": "PCO-IND-60",
+    "category": "Cucina – Cottura",
+    "description": "Piano cottura a induzione 60cm 4 zone – Bosch",
+    "unit": "pz",
+    "unitCost": 490,
+    "notes": "Bosch PVS651FB1E. Silenzioso, preciso. Link: https://www.bosch-home.it",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/piani-cottura/piani-a-induzione"
+  },
+  {
+    "id": "cmpgv9aaosw0zuir2",
+    "code": "PCO-IND-80",
+    "category": "Cucina – Cottura",
+    "description": "Piano cottura a induzione 80cm 4 zone – Siemens",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Siemens EX879LYC1E. Formato cucina professionale.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/piani-cottura/piani-a-induzione\nhttps://www.bauhaus.ch/it/c/piani-cottura"
+  },
+  {
+    "id": "cmpgv9a57x02hbdut",
+    "code": "PCO-GAS-60",
+    "category": "Cucina – Cottura",
+    "description": "Piano cottura gas 60cm 4 fuochi – inox (Bosch)",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Bosch PGP6B5B60. 4 fuochi. Link: https://www.bosch-home.it",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/piani-cottura/piani-gas\nhttps://www.bauhaus.ch/it/c/piani-cottura"
+  },
+  {
+    "id": "cmpgv9a7fsgrrae49",
+    "code": "PCO-GAS-VET",
+    "category": "Cucina – Cottura",
+    "description": "Piano cottura gas 60cm 4 fuochi – vetro nero",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Piano vetro temperato nero, più facile da pulire. Bauhaus/Leroy Merlin.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/piani-cottura/piani-gas\nhttps://www.bauhaus.ch/it/c/piani-cottura"
+  },
+  {
+    "id": "cmpgv9acavsjgfp6u",
+    "code": "PCO-VIT-60",
+    "category": "Cucina – Cottura",
+    "description": "Piano cottura vitroceramica 60cm 4 zone",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Meno efficiente dell'induzione, ma più economico.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura/piani-cottura/piani-in-vetroceramica\nhttps://www.bauhaus.ch/it/c/piani-cottura"
+  },
+  {
+    "id": "cmpgv9b1521s885vf",
+    "code": "TUB-CAP-150",
+    "category": "Cucina – Cottura",
+    "description": "Tubo aerazione cappa Ø150mm – metro",
+    "unit": "ml",
+    "unitCost": 12,
+    "notes": "Tubo rigido alluminio. Per evacuazione esterna.",
+    "links": "https://www.bosch-home.com/it/prodotti/cottura\nhttps://www.bosch-home.com/it/prodotti/cappe"
+  },
+  {
+    "id": "cmpgv9bax8ssp4p39",
+    "code": "ALL-LAV-PLU",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Allacciamento lavastoviglie (manodopera idraulica + elettrica)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Carico, scarico, presa elettrica. Include tubi in dotazione.",
+    "links": null
+  },
+  {
+    "id": "cmpgv9bzim1j0zflv",
+    "code": "ALL-LAT-ASC",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Allacciamento lavatrice/asciugatrice (manodopera)",
+    "unit": "pz",
+    "unitCost": 150,
+    "notes": "Idraulico + elettricista. Carico, scarico, presa 16A.",
+    "links": null
+  },
+  {
+    "id": "cmpgv9bv6arov7dd1",
+    "code": "ASC-INC-8",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Asciugatrice a calore da incasso 8kg – Bosch",
+    "unit": "pz",
+    "unitCost": 780,
+    "notes": "Bosch WTH85VL0CH. Pompa di calore. Classe A++.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/asciugatrici\nhttps://www.bauhaus.ch/it/c/asciugatrici"
+  },
+  {
+    "id": "cmpgv9bmlg70dn7nc",
+    "code": "CON-INC-BAS",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Cassettiera congelatore sotto piano da incasso 82cm",
+    "unit": "pz",
+    "unitCost": 480,
+    "notes": "Sotto piano cucina. Classe E/F.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie\nhttps://www.bosch-home.com/it/prodotti/refrigerazione"
+  },
+  {
+    "id": "cmpgv9biqua7uxr9u",
+    "code": "CON-INC-82",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Congelatore a cassetti da incasso 82cm (Bosch)",
+    "unit": "pz",
+    "unitCost": 580,
+    "notes": "Bosch GID18ADD0. 97L. 4 cassetti. NoFrost.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie\nhttps://www.bosch-home.com/it/prodotti/refrigerazione"
+  },
+  {
+    "id": "cmpgv9bcochqer1qr",
+    "code": "FRI-INC-177",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Frigorifero combinato da incasso 177cm – Bosch KIN86ADD0",
+    "unit": "pz",
+    "unitCost": 980,
+    "notes": "Bosch KIN86ADD0. Incasso con cerniere SoftClose. NoFrost. Link: https://www.bosch-home.it",
+    "links": "https://www.bosch-home.com/it/prodotti/refrigerazione/frigoriferi-combinati"
+  },
+  {
+    "id": "cmpgv9bh251ixlgeb",
+    "code": "FRI-INC-122",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Frigorifero da incasso 122cm – solo frigo (Bosch)",
+    "unit": "pz",
+    "unitCost": 720,
+    "notes": "Bosch KIR41ADD0. 177L. Classe D.",
+    "links": "https://www.bosch-home.com/it/prodotti/refrigerazione\nhttps://www.bauhaus.ch/it/c/frigoriferi"
+  },
+  {
+    "id": "cmpgv9bkxkemchu1d",
+    "code": "FRI-SID-90",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Frigorifero side-by-side esterno 90cm – Samsung",
+    "unit": "pz",
+    "unitCost": 1350,
+    "notes": "Samsung RS68A8531S9. Doppio frontale. No incasso.",
+    "links": "https://www.bosch-home.com/it/prodotti/refrigerazione\nhttps://www.bauhaus.ch/it/c/frigoriferi"
+  },
+  {
+    "id": "cmpgv9bx2m7vzzhlp",
+    "code": "LAS-COM-8",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Lavasciuga combinata 60cm 8/5kg – AEG",
+    "unit": "pz",
+    "unitCost": 1050,
+    "notes": "AEG L9WBAFLN. Per monolocale/lavanderia compatta.",
+    "links": "https://www.bauhaus.ch/it/c/lavasciugatrici"
+  },
+  {
+    "id": "cmpgv9b7hppqwb3zd",
+    "code": "LAV-INC-45",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Lavastoviglie da incasso 45cm (spazio ridotto)",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "9 coperti. Per cucine piccole. Bosch SPU2HKS57E.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie\nhttps://www.bauhaus.ch/it/c/lavastoviglie"
+  },
+  {
+    "id": "cmpgv9b4bw0rqnqe1",
+    "code": "LAV-BOI-60",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Lavastoviglie da incasso 60cm 14 coperti – Bosch SMS4HCB48E",
+    "unit": "pz",
+    "unitCost": 520,
+    "notes": "Bosch SMS4HCB48E. Classe A. 42dB. Link: https://www.bosch-home.it",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie"
+  },
+  {
+    "id": "cmpgv9b5xrjhvv785",
+    "code": "LAV-INC-ENT",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Lavastoviglie da incasso 60cm 14 coperti – entry",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Electrolux/Bauknecht. Classe D/E. Funzionale.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie\nhttps://www.bauhaus.ch/it/c/lavastoviglie"
+  },
+  {
+    "id": "cmpgv9btk06ij5p13",
+    "code": "LAT-INC-8",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Lavatrice da incasso 60cm 8kg – Bosch",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Bosch WAX32EH0CH. 8kg, 1600rpm, Classe A. Lavanderia.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavatrici\nhttps://www.bauhaus.ch/it/c/lavatrici"
+  },
+  {
+    "id": "cmpgv9br5sfpy9xza",
+    "code": "CAF-CAP-NES",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Macchina da caffè a capsule da piano – Nespresso Vertuo",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Nespresso Vertuo Pop. Qualità tazza superiore.",
+    "links": "https://www.nespresso.com/ch/it/"
+  },
+  {
+    "id": "cmpgv9bo9wdkor8pw",
+    "code": "CAF-INC-45",
+    "category": "Cucina – Elettrodomestici",
+    "description": "Macchina da caffè da incasso 45cm – De'Longhi/Siemens",
+    "unit": "pz",
+    "unitCost": 820,
+    "notes": "Siemens TQ503R01. Macinatore integrato, da incasso.",
+    "links": "https://www.bosch-home.com/it/prodotti/lavaggio/lavastoviglie\nhttps://www.bosch-home.com/it/prodotti/refrigerazione"
+  },
+  {
+    "id": "cmpgv99wzfmt63huu",
+    "code": "LAV-FIL-86",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Lavello a filo top in acciaio 86×50cm",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Integrato nel piano, look moderno. Franke.",
+    "links": "https://www.franke.com/it/it/hp/cucina.html"
+  },
+  {
+    "id": "cmpgv99rtenkuzddq",
+    "code": "LAV-INO-60",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Lavello inox 1 vasca 60×50cm – da incasso",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Franke/Blanco/Bauhaus entry. Standard cucina.",
+    "links": "https://www.bauhaus.ch/it/c/lavelli\nhttps://www.franke.com/it/it/hp/cucina.html"
+  },
+  {
+    "id": "cmpgv99tna0sj730f",
+    "code": "LAV-INO-80",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Lavello inox 1.5 vasche 80×50cm – da incasso",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Con vasca piccola per scolapiatti.",
+    "links": "https://www.bauhaus.ch/it/c/lavelli\nhttps://www.franke.com/it/it/hp/cucina.html"
+  },
+  {
+    "id": "cmpgv99vf7777i34o",
+    "code": "LAV-SIL-80",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Lavello sottopiano in silgranit nero 80×50cm – Blanco",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Silgranit antigraffio/antibatterico. Blanco Legra. Link: https://www.blanco.com",
+    "links": "https://www.blanco.com/it-it/prodotti/lavello"
+  },
+  {
+    "id": "cmpgv9a1ydpa7xxkz",
+    "code": "MIS-CUC-DOC",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Miscelatore cucina con doccetta estraibile – cromato",
+    "unit": "pz",
+    "unitCost": 145,
+    "notes": "Doccetta estraibile, 2 getti. Grohe/Hansgrohe.",
+    "links": "https://www.hansgrohe.com/it"
+  },
+  {
+    "id": "cmpgv9a08ybzgyrmk",
+    "code": "MIS-CUC-ENT",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Miscelatore cucina entry – cromato",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Hansgrohe Logis/Ideal Standard basic.",
+    "links": "https://www.idealstandard.it/prodotti/"
+  },
+  {
+    "id": "cmpgv99ymxo2wo8ap",
+    "code": "MIS-CUC-GRO",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Miscelatore cucina monocomando – cromato alto (Grohe Minta)",
+    "unit": "pz",
+    "unitCost": 195,
+    "notes": "Grohe Minta. Bocca alta, estraibile. Link: https://www.grohe.it",
+    "links": "https://www.grohe.it/it_it/prodotti/cucina/rubinetteria-cucina/grohe-minta/"
+  },
+  {
+    "id": "cmpgv9a3nvwwd9sg5",
+    "code": "POS-LAV-CUC",
+    "category": "Cucina – Lavello e Rubinetteria",
+    "description": "Montaggio lavello + miscelatore cucina",
+    "unit": "pz",
+    "unitCost": 150,
+    "notes": "Idraulico: posa lavello, allacciamento acqua, silicone.",
+    "links": "https://www.bauhaus.ch/it/c/silicone"
+  },
+  {
+    "id": "cmpgv98rsapnj9ize",
+    "code": "IK-MET-B60",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Base cucina 60cm 2 ante – IKEA METOD bianco",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "IKEA METOD base 60×37×80. Solo struttura. Link: https://www.ikea.com/ch/it/cat/basi-cucina-19218/",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv991ldnhgi7u0",
+    "code": "IK-MET-B80",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Base cucina 80cm 2 ante – IKEA METOD bianco",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "IKEA METOD base 80cm.",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv9939t1chsh6p",
+    "code": "IK-MET-BANG",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Base cucina angolo 88×88cm – IKEA METOD",
+    "unit": "pz",
+    "unitCost": 145,
+    "notes": "Modulo angolo per cucine a L.",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv998bcshod4qc",
+    "code": "IK-MET-CAS60",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Cassettiera cucina 60cm 2 cassetti – IKEA METOD",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Con cassetti MAXIMERA.",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv99bukxaltf36",
+    "code": "IK-VOX-P60",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Frontale cucina 60×40 pensile – IKEA VOXTORP",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Frontale per pensile 60cm.",
+    "links": "https://www.ikea.com/ch/it/cat/voxtorp-20169/"
+  },
+  {
+    "id": "cmpgv99a4a5v2sxh3",
+    "code": "IK-VOX-60",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Frontale cucina 60×70 – IKEA VOXTORP bianco mat",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Frontale per base 60cm. IKEA VOXTORP.",
+    "links": "https://www.ikea.com/ch/it/cat/voxtorp-20169/"
+  },
+  {
+    "id": "cmpgv99dq92ls4o6i",
+    "code": "MAN-INO-128",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Maniglia cucina inox 128mm – serie standard",
+    "unit": "pz",
+    "unitCost": 6.5,
+    "notes": "Bauhaus/IKEA. Per basi e pensili.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv99o6c79n626z",
+    "code": "POS-CUC-3M",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Montaggio cucina completa (manodopera – fino 3m lineare)",
+    "unit": "corpo",
+    "unitCost": 850,
+    "notes": "Montaggio basi + pensili + piano + frontali + maniglie. Esclude elettrodomestici.",
+    "links": null
+  },
+  {
+    "id": "cmpgv99pp8awmfi62",
+    "code": "POS-CUC-5M",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Montaggio cucina completa (manodopera – fino 5m lineare)",
+    "unit": "corpo",
+    "unitCost": 1200,
+    "notes": "Cucina grande L o U.",
+    "links": null
+  },
+  {
+    "id": "cmpgv99mmw1gv4sq0",
+    "code": "PAR-PIA-ML",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Paraschizzi cucina piastrella metro 1ml",
+    "unit": "ml",
+    "unitCost": 35,
+    "notes": "Piastrelle metro bianche 10×20, posa su 30cm altezza.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv99kuu8e197g3",
+    "code": "PAR-VET-80",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Paraschizzi cucina vetro temperato 80×40cm",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Vetro laccato bianco o colorato. Bauhaus area.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv995110bomm0l",
+    "code": "IK-MET-P60",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Pensile cucina 60×40cm – IKEA METOD bianco",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Pensile standard 60cm.",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv996m4eoxxl8v",
+    "code": "IK-MET-P80",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Pensile cucina 80×40cm – IKEA METOD bianco",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Pensile 80cm.",
+    "links": "https://www.ikea.com/ch/it/cat/cucine-20164/"
+  },
+  {
+    "id": "cmpgv99j8c3b155cj",
+    "code": "PIA-GRA-ML",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Piano cucina granito nero 3cm – ml",
+    "unit": "ml",
+    "unitCost": 320,
+    "notes": "Granito Nero Assoluto. Resistente al calore.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv99fz999h99i2",
+    "code": "PIA-LAM-240",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Piano cucina laminato 240×60×3.8cm – bianco/grigio",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Top cucina melaminato. Bauhaus.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv99hn4zpmpsy2",
+    "code": "PIA-QUA-ML",
+    "category": "Cucina – Mobili e Piani",
+    "description": "Piano cucina quarzo bianco Calacatta 3cm – ml",
+    "unit": "ml",
+    "unitCost": 280,
+    "notes": "Top in quarzo Silestone/Caesarstone. Include lavorazione bordi.",
+    "links": "https://www.ikea.com/ch/it/cat/basi-cucina-19218/\nhttps://www.ikea.com/ch/it/cat/pensili-cucina-19220/"
+  },
+  {
+    "id": "cmpgv1annjasd0z2x",
+    "code": "AGR-1L",
+    "category": "Finiture – Fondi e Primer",
+    "description": "Aggrappante per superfici difficili – 1L",
+    "unit": "l",
+    "unitCost": 18,
+    "notes": "Prima di intonacare su cartongesso o piastrelle. Mapei Primer G, Caparol Haftgrund.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgv1ar9n9dedldg",
+    "code": "IMP-LEG-1L",
+    "category": "Finiture – Fondi e Primer",
+    "description": "Impregnante per legno esterno – 1L",
+    "unit": "l",
+    "unitCost": 15,
+    "notes": "Protezione legno da intemperie. Sikkens Cetol BL. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgv1am5oil2q3fq",
+    "code": "PRI-ACR-5",
+    "category": "Finiture – Fondi e Primer",
+    "description": "Primer acrilico universale per pareti – 5L",
+    "unit": "l",
+    "unitCost": 3.5,
+    "notes": "Prima di pittura su gesso/intonaco. Bauhaus/Caparol. Resa 8-10m²/L.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgv1ap5z4m3humv",
+    "code": "PRI-ISO-1L",
+    "category": "Finiture – Fondi e Primer",
+    "description": "Primer isolante per macchie/umidità – 1L",
+    "unit": "l",
+    "unitCost": 22,
+    "notes": "Blocca macchie, muffa, nicotina. Caparol Indeko Plus.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "pi-I.04",
+    "code": "I.04",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Impermeabilizzazione zona doccia con membrana liquida",
+    "unit": "m²",
+    "unitCost": 58,
+    "notes": "2 mani + armatura angoli. Rif. NPK 661.11",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://www.knauf.it"
+  },
+  {
+    "id": "cmpgvdnbfuyvdp0xz",
+    "code": "INT-GES-30",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Intonaco al gesso interiore (proiettato) – sacco 30kg",
+    "unit": "sacco",
+    "unitCost": 16,
+    "notes": "Knauf MP75. Per intonacatura interna rapida.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://tools.knauf.it/"
+  },
+  {
+    "id": "pi-I.02",
+    "code": "I.02",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Intonaco civile su parete (12-15mm)",
+    "unit": "m²",
+    "unitCost": 44,
+    "notes": "Intonaco premiscelato. Rif. NPK 651.11",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://www.knauf.it"
+  },
+  {
+    "id": "cmpgvdn02uwklx258",
+    "code": "INT-FIN-25",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Intonaco di finitura a grana fine – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 18,
+    "notes": "Stabilitura. Resa ~8m²/sacco a 5mm.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgvdmum9ddvyx8m",
+    "code": "INT-FON-25",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Intonaco di fondo calce-cemento – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 15,
+    "notes": "Weber/Holcim. Primo strato. Resa ~12m²/sacco a 12mm.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgvdnfchdg6lvoz",
+    "code": "INT-SIL-25",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Intonaco esterno siloxanico colorato – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 38,
+    "notes": "Idrorepellente. Colore personalizzabile. Weber thouse 150.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgvdnjau9kjcdv6",
+    "code": "POS-INT-M2",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Posa intonaco interno – m² (manodopera)",
+    "unit": "m²",
+    "unitCost": 28,
+    "notes": "Comprende preparazione superficie, 2 mani, allisciatura.",
+    "links": null
+  },
+  {
+    "id": "cmpgvdn3kwf36nziu",
+    "code": "RAS-CEM-25",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Rasante cementizio fine 0-4mm – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 22,
+    "notes": "Per finitura levigata prima di pittura. Weber therm.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgvdn7ahnqxcakm",
+    "code": "RAS-PAS-20",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Rasante in pasta pronto all'uso – secchio 20kg",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Pronto uso, per piccole stuccature e finiture.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "pi-I.01",
+    "code": "I.01",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Rasatura parete con gesso (strato di finitura 3-5mm)",
+    "unit": "m²",
+    "unitCost": 26,
+    "notes": "Rif. NPK 651.31",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://www.knauf.it"
+  },
+  {
+    "id": "pi-I.03",
+    "code": "I.03",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Rasatura soffitto con gesso",
+    "unit": "m²",
+    "unitCost": 32,
+    "notes": "Maggiorazione +20% per quota. Rif. NPK 651.32",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://www.knauf.it"
+  },
+  {
+    "id": "pi-I.05",
+    "code": "I.05",
+    "category": "Finiture – Intonaci e Rasanti",
+    "description": "Trattamento fessure con rete e rasatura",
+    "unit": "ml",
+    "unitCost": 22,
+    "notes": "Rif. NPK 651.41",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56\nhttps://www.knauf.it"
+  },
+  {
+    "id": "pi-T.03",
+    "code": "T.03",
+    "category": "Finiture – Pittura",
+    "description": "Applicazione sigillante acrilico pareti nuove",
+    "unit": "m²",
+    "unitCost": 6,
+    "notes": "Prima dell'applicazione pittura. Rif. NPK 671.01",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdnvhymiy4943",
+    "code": "PIT-COL-5",
+    "category": "Finiture – Pittura",
+    "description": "Pittura colorata (tinte personalizzate) – 5L",
+    "unit": "l",
+    "unitCost": 9.8,
+    "notes": "Colore su richiesta. Bauhaus Colorificio. Resa 8m²/L.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdnrpvh0tdpl7",
+    "code": "PIT-EXT-10",
+    "category": "Finiture – Pittura",
+    "description": "Pittura lavabile extra-coprente bianca – 10L",
+    "unit": "l",
+    "unitCost": 6.2,
+    "notes": "Caparol Indeko plus. Altissima coprenza, 1 mano.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgvdnnf0op48dro",
+    "code": "PIT-LAV-5",
+    "category": "Finiture – Pittura",
+    "description": "Pittura lavabile pareti interne bianca – 5L (Caparol Tex)",
+    "unit": "l",
+    "unitCost": 5.5,
+    "notes": "Caparol Tex Color Weiss. Resa 8-10m²/L. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgvdo3ac4eymscw",
+    "code": "PIT-EST-10",
+    "category": "Finiture – Pittura",
+    "description": "Pittura per esterni silossanica – 10L",
+    "unit": "l",
+    "unitCost": 12.5,
+    "notes": "Caparol Amphisilan NQG. Resistente UV e pioggia.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgvdnyj6mzrqys4",
+    "code": "PIT-SOF-5",
+    "category": "Finiture – Pittura",
+    "description": "Pittura soffitto bianca opaca – 5L",
+    "unit": "l",
+    "unitCost": 5,
+    "notes": "Caparol Disbopaint Weiss. Finissima, coprente.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgvdo648trljlrb",
+    "code": "SMA-BIA-1",
+    "category": "Finiture – Pittura",
+    "description": "Smalto bianco satinato per legno/ferro – 1L",
+    "unit": "l",
+    "unitCost": 18,
+    "notes": "Caparol Capacryl PU-Satin. Per porte, finestre, radiatori.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "cmpgvdor6l8yjfuo5",
+    "code": "STU-PAR-M2",
+    "category": "Finiture – Pittura",
+    "description": "Stuccatura completa pareti (ciclo completo prima di pittura)",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Stucco vinilico 2 mani, carteggio, primer. Per finitura fine.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-in-vinile"
+  },
+  {
+    "id": "pi-T.01",
+    "code": "T.01",
+    "category": "Finiture – Pittura",
+    "description": "Tinteggiatura parete (primer + 2 mani colore)",
+    "unit": "m²",
+    "unitCost": 14,
+    "notes": "Pittura lavabile Sigma/Sikkens. Rif. NPK 671.11",
+    "links": "https://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdoa3ls9pz8pc",
+    "code": "TIN-PAR-M2",
+    "category": "Finiture – Pittura",
+    "description": "Tinteggiatura pareti – m² (manodopera 2 mani)",
+    "unit": "m²",
+    "unitCost": 12,
+    "notes": "Include stuccatura leggera, primer, 2 mani pittura.",
+    "links": null
+  },
+  {
+    "id": "pi-T.04",
+    "code": "T.04",
+    "category": "Finiture – Pittura",
+    "description": "Tinteggiatura porta + telaio (2 mani smalto)",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Smalto satinato. Rif. NPK 671.21",
+    "links": "https://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "pi-T.02",
+    "code": "T.02",
+    "category": "Finiture – Pittura",
+    "description": "Tinteggiatura soffitto (primer + 2 mani bianco)",
+    "unit": "m²",
+    "unitCost": 17,
+    "notes": "Maggiorazione quota. Rif. NPK 671.12",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdodjykod8rnx",
+    "code": "TIN-SOF-M2",
+    "category": "Finiture – Pittura",
+    "description": "Tinteggiatura soffitto – m² (manodopera)",
+    "unit": "m²",
+    "unitCost": 14,
+    "notes": "Include preparazione, 2 mani. Più impegnativo.",
+    "links": null
+  },
+  {
+    "id": "cmpgvdokj7o9yvxl8",
+    "code": "VER-PER-PZ",
+    "category": "Finiture – Pittura",
+    "description": "Verniciatura persiana legno – pz (2 mani)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Include primer antiruggine + 2 mani smalto.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdoh7z8hqib91",
+    "code": "VER-POR-PZ",
+    "category": "Finiture – Pittura",
+    "description": "Verniciatura porta interna – pz (2 mani)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Smalto bianco satinato. Comprende telaio e 2 lati anta.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgvdoncrcsr4ayp",
+    "code": "VER-RAD-PZ",
+    "category": "Finiture – Pittura",
+    "description": "Verniciatura radiatore – pz",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Smalto termoresistente. Include carteggiatura.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.bauhaus.ch/it/c/vernici"
+  },
+  {
+    "id": "cmpgviow5609wij31",
+    "code": "CAM-WIR-GRO",
+    "category": "Impianti – Elettrica",
+    "description": "Campanello wireless con suoneria – Grothe",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Campanello senza fili, portata 150m.",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgviomouwlzg5fa",
+    "code": "CAS-3M-INC",
+    "category": "Impianti – Elettrica",
+    "description": "Cassetta da incasso 3 moduli – pz",
+    "unit": "pz",
+    "unitCost": 3.8,
+    "notes": "Scatola da incasso 60mm. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/cassette-elettriche"
+  },
+  {
+    "id": "cmpgvio71wsmpzfld",
+    "code": "CAV-NYM-15",
+    "category": "Impianti – Elettrica",
+    "description": "Cavo elettrico NY-M 3×1.5mm² – metro",
+    "unit": "ml",
+    "unitCost": 1.8,
+    "notes": "Per illuminazione (16A). Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgvio970phlnzjv",
+    "code": "CAV-NYM-25",
+    "category": "Impianti – Elettrica",
+    "description": "Cavo elettrico NY-M 3×2.5mm² – metro",
+    "unit": "ml",
+    "unitCost": 2.2,
+    "notes": "Per prese 16A. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgviob1ooztism8",
+    "code": "CAV-NYM-40",
+    "category": "Impianti – Elettrica",
+    "description": "Cavo elettrico NY-M 3×4mm² – metro",
+    "unit": "ml",
+    "unitCost": 3.2,
+    "notes": "Per prese/forni 20A.",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgviorq6u6iuuqz",
+    "code": "DIM-LED-200",
+    "category": "Impianti – Elettrica",
+    "description": "Dimmer LED compatibile 200W – incasso",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Feller/ABB. Per regolazione intensità luci LED.",
+    "links": "https://www.feller.ch/it/prodotti"
+  },
+  {
+    "id": "cmpgvioeiceoo1me7",
+    "code": "INT-DOP-FEL",
+    "category": "Impianti – Elettrica",
+    "description": "Doppio interruttore/deviatore con placca",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Feller. Per punti luce da 2 posizioni.",
+    "links": "https://www.feller.ch/it/prodotti"
+  },
+  {
+    "id": "cmpgviopdw05ubcsb",
+    "code": "FAR-LED-6W",
+    "category": "Impianti – Elettrica",
+    "description": "Faretto LED da incasso 6W 3000K – GU10",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Faretto LED 600lm. Bianco/cromato. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/faretti"
+  },
+  {
+    "id": "cmpgviocvel6wnc0a",
+    "code": "INT-SEM-FEL",
+    "category": "Impianti – Elettrica",
+    "description": "Interruttore semplice con placca – Feller/Berker",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Interruttore unipolare + placca bianca. Feller EDIZIOdue.",
+    "links": "https://www.feller.ch/it/prodotti"
+  },
+  {
+    "id": "pi-E.01",
+    "code": "E.01",
+    "category": "Impianti – Elettrica",
+    "description": "Ora elettricista qualificato",
+    "unit": "h",
+    "unitCost": 108,
+    "notes": "Tariffa AITI TI 2024 + oneri sociali",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "pi-E.05",
+    "code": "E.05",
+    "category": "Impianti – Elettrica",
+    "description": "Predisposizione TV/dati/citofono",
+    "unit": "pz",
+    "unitCost": 155,
+    "notes": "Cavidotto + presa. Rif. NPK 341",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgvioixnkl3977n",
+    "code": "PRE-USB-FEL",
+    "category": "Impianti – Elettrica",
+    "description": "Presa USB-C + presa CH – Feller",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "USB-C 45W + presa standard. Moderno.",
+    "links": "https://www.feller.ch/it/prodotti"
+  },
+  {
+    "id": "cmpgviogaqbe0j26s",
+    "code": "PRE-BIP-FEL",
+    "category": "Impianti – Elettrica",
+    "description": "Presa bipasso + terra con placca – Feller",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Presa tipo 13 CH + bipasso. Standard svizzero.",
+    "links": "https://www.feller.ch/it/prodotti"
+  },
+  {
+    "id": "pi-E.04",
+    "code": "E.04",
+    "category": "Impianti – Elettrica",
+    "description": "Punto interruttore/dimmer",
+    "unit": "pz",
+    "unitCost": 145,
+    "notes": "Incl. placca. Rif. NPK 333",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "pi-E.03",
+    "code": "E.03",
+    "category": "Impianti – Elettrica",
+    "description": "Punto luce a soffitto (traccia + tubo + rosone)",
+    "unit": "pz",
+    "unitCost": 165,
+    "notes": "Rif. NIBT 2020 / NPK 332",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "pi-E.02",
+    "code": "E.02",
+    "category": "Impianti – Elettrica",
+    "description": "Punto presa (traccia + tubo + presa)",
+    "unit": "pz",
+    "unitCost": 185,
+    "notes": "Presa 10/16A. Rif. NIBT 2020 / NPK 331",
+    "links": "https://www.bauhaus.ch/it/c/materiale-elettrico"
+  },
+  {
+    "id": "cmpgvioubzwxicjff",
+    "code": "SEN-MOV-LUC",
+    "category": "Impianti – Elettrica",
+    "description": "Sensore presenza movimento – per luce automatica",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "PIR. Per corridoi/bagni. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/sensori-di-movimento"
+  },
+  {
+    "id": "cmpgviokoxfd4kwgj",
+    "code": "TUB-COR-20",
+    "category": "Impianti – Elettrica",
+    "description": "Tubo corrugato Ø20mm per cavi – metro",
+    "unit": "ml",
+    "unitCost": 0.95,
+    "notes": "Tubo flessibile per protezione cavi in traccia.",
+    "links": "https://www.bauhaus.ch/it/c/tubi-e-raccordi"
+  },
+  {
+    "id": "cmpgviqi014to4thp",
+    "code": "PRO-TEN-GAS",
+    "category": "Impianti – Gas",
+    "description": "Prova tenuta impianto gas (certificato)",
+    "unit": "corpo",
+    "unitCost": 220,
+    "notes": "Da ditta abilitata. Rilascio certificato controllo gas.",
+    "links": "https://www.bauhaus.ch/it/c/gas"
+  },
+  {
+    "id": "cmpgviqfpbaozotdc",
+    "code": "RIV-GAS-PAR",
+    "category": "Impianti – Gas",
+    "description": "Rivelatore gas da parete – Ei Electronics",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Obbligatorio in CH in locali con apparecchi gas. Certificato.",
+    "links": "https://www.bauhaus.ch/it/c/gas"
+  },
+  {
+    "id": "cmpgviqdn2vzmuwbt",
+    "code": "RUB-GAS-DN15",
+    "category": "Impianti – Gas",
+    "description": "Rubinetto a sfera DN15 per gas",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Valvola di intercettazione gas. Certificata.",
+    "links": "https://www.bauhaus.ch/it/c/gas"
+  },
+  {
+    "id": "cmpgviqblbwlrfr5m",
+    "code": "TUB-GAS-1M",
+    "category": "Impianti – Gas",
+    "description": "Tubo gas flessibile 1m – DN15",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Allacciamento piano cottura/forno. Con raccordi.",
+    "links": "https://www.bauhaus.ch/it/c/gas"
+  },
+  {
+    "id": "pi-H.05",
+    "code": "H.05",
+    "category": "Impianti – Idraulica",
+    "description": "Impianto riscaldamento a pavimento (solo circuiti)",
+    "unit": "m²",
+    "unitCost": 48,
+    "notes": "Tubi PEX, incl. massetto. Rif. NPK 224",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento-a-pavimento"
+  },
+  {
+    "id": "pi-H.01",
+    "code": "H.01",
+    "category": "Impianti – Idraulica",
+    "description": "Ora idraulico qualificato",
+    "unit": "h",
+    "unitCost": 112,
+    "notes": "Tariffa oraria SSIC TI 2024 + oneri sociali",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/\nhttps://www.bauhaus.ch/it/c/idraulica"
+  },
+  {
+    "id": "pi-H.04",
+    "code": "H.04",
+    "category": "Impianti – Idraulica",
+    "description": "Predisposizione piatto doccia incassato",
+    "unit": "pz",
+    "unitCost": 480,
+    "notes": "Sifone ultra-piatto + scarico. Rif. NPK 223",
+    "links": "https://www.sanitas-troesch.ch\nhttps://www.bauhaus.ch/it/c/piatti-doccia"
+  },
+  {
+    "id": "pi-H.02",
+    "code": "H.02",
+    "category": "Impianti – Idraulica",
+    "description": "Punto acqua calda/fredda a parete (traccia + allacciamento)",
+    "unit": "pz",
+    "unitCost": 310,
+    "notes": "Tubi multicouche. Rif. NPK 221",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/\nhttps://www.bauhaus.ch/it/c/idraulica"
+  },
+  {
+    "id": "pi-H.03",
+    "code": "H.03",
+    "category": "Impianti – Idraulica",
+    "description": "Punto di scarico a pavimento (sifone + tubo)",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Incl. traccia. Rif. NPK 222",
+    "links": "https://www.geberit.it/sistemi-sanitari-e-tubazioni/\nhttps://www.bauhaus.ch/it/c/idraulica"
+  },
+  {
+    "id": "cmpgviphibf2jvwte",
+    "code": "INS-RAD-PZ",
+    "category": "Impianti – Riscaldamento",
+    "description": "Installazione radiatore (manodopera)",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Staffaggio, allacciamento, collaudo. Per ogni radiatore.",
+    "links": null
+  },
+  {
+    "id": "cmpgvioynls5dobba",
+    "code": "RAD-ACC-60",
+    "category": "Impianti – Riscaldamento",
+    "description": "Radiatore in acciaio doppio pannello 600×1000mm",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Purmo/Kermi. 1500W a 70/55°C. Include staffaggio.",
+    "links": "https://www.bauhaus.ch/it/c/radiatori\nhttps://www.purmo.com/it"
+  },
+  {
+    "id": "cmpgvip1ex1hc645u",
+    "code": "RAD-ACC-140",
+    "category": "Impianti – Riscaldamento",
+    "description": "Radiatore in acciaio doppio pannello 600×1400mm",
+    "unit": "pz",
+    "unitCost": 240,
+    "notes": "Purmo/Kermi. 2100W. Grande superficie.",
+    "links": "https://www.bauhaus.ch/it/c/radiatori\nhttps://www.purmo.com/it"
+  },
+  {
+    "id": "cmpgvipfnco7tmvmp",
+    "code": "SCA-IMP-RIS",
+    "category": "Impianti – Riscaldamento",
+    "description": "Scarico impianto riscaldamento + ricarica",
+    "unit": "corpo",
+    "unitCost": 280,
+    "notes": "Per manutenzione o sostituzione radiatori.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento"
+  },
+  {
+    "id": "cmpgvipdw0o80adfj",
+    "code": "SOS-POM-RIS",
+    "category": "Impianti – Riscaldamento",
+    "description": "Sostituzione pompa circolazione riscaldamento",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Grundfos ALPHA2. Include manodopera sostituzione.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento"
+  },
+  {
+    "id": "cmpgvip9ix3zibasj",
+    "code": "TER-AMB-PRO",
+    "category": "Impianti – Riscaldamento",
+    "description": "Termostato ambiente programmabile – settimanale",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Honeywell/Salus. Programmazione 7 giorni.",
+    "links": "https://www.bauhaus.ch/it/c/termostati"
+  },
+  {
+    "id": "cmpgvipcaj41gi8mi",
+    "code": "TER-SMT-WIF",
+    "category": "Impianti – Riscaldamento",
+    "description": "Termostato smart WiFi (integra Alexa/Google)",
+    "unit": "pz",
+    "unitCost": 145,
+    "notes": "Nest/Tado/Bosch EasyControl. App smartphone.",
+    "links": "https://www.bauhaus.ch/it/c/termostati\nhttps://www.tado.com/it"
+  },
+  {
+    "id": "cmpgvip5fnitubzxw",
+    "code": "TES-TER-ELE",
+    "category": "Impianti – Riscaldamento",
+    "description": "Testa termostatica elettronica per radiatore – Salus",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Salus TRV10. Programmabile, LCD.",
+    "links": "https://www.bauhaus.ch/it/c/valvole-termostatiche"
+  },
+  {
+    "id": "cmpgvip7bj7qryq3o",
+    "code": "TUB-MUL-16",
+    "category": "Impianti – Riscaldamento",
+    "description": "Tubo multicrestrato Ø16 per riscaldamento – metro",
+    "unit": "ml",
+    "unitCost": 4.8,
+    "notes": "Rehau/Uponor. Per distribuzione riscaldamento.",
+    "links": "https://www.bauhaus.ch/it/c/riscaldamento"
+  },
+  {
+    "id": "cmpgvip3e74582e9t",
+    "code": "VAL-TER-RAD",
+    "category": "Impianti – Riscaldamento",
+    "description": "Valvola termostatica per radiatore (TRV) – Danfoss",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Danfoss RA. Regolazione temperatura per ambiente.",
+    "links": "https://www.bauhaus.ch/it/c/valvole-termostatiche\nhttps://www.danfoss.com/it-it/products/hvr/household/heat/thermostatic-radiator-valves/"
+  },
+  {
+    "id": "cmpgviq699rl887xq",
+    "code": "NLC-BET-140",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Noleggio betoniera 140L – giorno",
+    "unit": "pz",
+    "unitCost": 55,
+    "notes": "Per massetti, murature. Include consumabili.",
+    "links": null
+  },
+  {
+    "id": "cmpgviq4llajnbgjy",
+    "code": "NLC-CMP-50",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Noleggio compressore 50L – giorno",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Per spargi-intonaco, pneumatici. Bauhaus/Noleggio.",
+    "links": null
+  },
+  {
+    "id": "cmpgviq9t0mdpuz2q",
+    "code": "NLC-LUC-PAV",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Noleggio lucidatrice pavimento – giorno",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Per levigatura/lucidatura parquet/cemento.",
+    "links": null
+  },
+  {
+    "id": "cmpgvipzwrzdzlndd",
+    "code": "PON-FAC-M2M",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Noleggio ponteggio facciata – m² al mese",
+    "unit": "m²",
+    "unitCost": 6.5,
+    "notes": "Per facciate, montaggio + smontaggio incluso. Min 1 mese.",
+    "links": null
+  },
+  {
+    "id": "cmpgviq7vzb5q9y1q",
+    "code": "NLC-TAG-DIS",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Noleggio taglierina a disco per tracce – giorno",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Per tracce muri. Aspirazione integrata.",
+    "links": null
+  },
+  {
+    "id": "cmpgviq2bhwfoont5",
+    "code": "PON-INT-SIM",
+    "category": "Logistica – Ponteggi e Noleggio",
+    "description": "Ponteggio interno a torre 3m – noleggio settimana",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Torre mobile interna. Sicurezza conforme.",
+    "links": null
+  },
+  {
+    "id": "cmpgviqozlqxeswks",
+    "code": "DET-PIA-ACI",
+    "category": "Logistica – Pulizia",
+    "description": "Detersione piastrelle dopo posa (acido)",
+    "unit": "m²",
+    "unitCost": 4.5,
+    "notes": "Rimozione residui cemento/stucco. Acido diluito. Entro 24h posa.",
+    "links": null
+  },
+  {
+    "id": "cmpgviql6nlvbhryr",
+    "code": "PUL-APP-COM",
+    "category": "Logistica – Pulizia",
+    "description": "Pulizia appartamento completa (dopo ristrutturazione)",
+    "unit": "corpo",
+    "unitCost": 480,
+    "notes": "Per appartamento fino 80m². Ditta specializzata.",
+    "links": null
+  },
+  {
+    "id": "cmpgviqjlqll1i9x9",
+    "code": "PUL-FIN-M2",
+    "category": "Logistica – Pulizia",
+    "description": "Pulizia fine cantiere – m²",
+    "unit": "m²",
+    "unitCost": 8.5,
+    "notes": "Pulizia approfondita a fine lavori. Include rimozione residui, lucidatura superfici.",
+    "links": null
+  },
+  {
+    "id": "cmpgviqmwvwgqc59k",
+    "code": "RIM-FIL-PAV",
+    "category": "Logistica – Pulizia",
+    "description": "Rimozione film di cantiere/protezioni pavimenti",
+    "unit": "m²",
+    "unitCost": 3.5,
+    "notes": "Stacco pellicole protettive con solvente se necessario.",
+    "links": null
+  },
+  {
+    "id": "pi-X.01",
+    "code": "X.01",
+    "category": "Logistica – Trasporto e Smaltimento",
+    "description": "Noleggio cassone scarrabile 5m³ (trasporto + smaltimento)",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Prezzi 2024 Inerti Sigirino / Maggia",
+    "links": null
+  },
+  {
+    "id": "pi-X.03",
+    "code": "X.03",
+    "category": "Logistica – Trasporto e Smaltimento",
+    "description": "Pulizia finale cantiere",
+    "unit": "m²",
+    "unitCost": 8,
+    "notes": "Pulizia professionale post-lavori. Rif. NPK 931",
+    "links": null
+  },
+  {
+    "id": "pi-X.02",
+    "code": "X.02",
+    "category": "Logistica – Trasporto e Smaltimento",
+    "description": "Trasporto materiali in cantiere (furgone)",
+    "unit": "giorno",
+    "unitCost": 180,
+    "notes": "Tariffa giornaliera incl. conducente",
+    "links": null
+  },
+  {
+    "id": "cmpgviptirdef1fdy",
+    "code": "DEM-RIV-BAG",
+    "category": "Manodopera – Demolizioni",
+    "description": "Demolizione rivestimento bagno (piastrelle) – m²",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Include rimozione piastrelle + carico. Escluso cassone.",
+    "links": null
+  },
+  {
+    "id": "pi-D.02",
+    "code": "D.02",
+    "category": "Manodopera – Demolizioni",
+    "description": "Demolizione tramezzi in cartongesso",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Incl. smontaggio telaio. Rif. NPK 172.01",
+    "links": null
+  },
+  {
+    "id": "pi-D.01",
+    "code": "D.01",
+    "category": "Manodopera – Demolizioni",
+    "description": "Demolizione tramezzi in muratura piena",
+    "unit": "m²",
+    "unitCost": 38,
+    "notes": "Incl. carico macerie. Rif. NPK 171.11",
+    "links": null
+  },
+  {
+    "id": "cmpgviprp1by9jrj8",
+    "code": "CAR-MAC-H",
+    "category": "Manodopera – Demolizioni",
+    "description": "Manodopera carico macerie su cassone – ora",
+    "unit": "h",
+    "unitCost": 65,
+    "notes": "Operaio carico/scarico.",
+    "links": null
+  },
+  {
+    "id": "cmpgvipmas84ijilz",
+    "code": "NLC-CAS-10M",
+    "category": "Manodopera – Demolizioni",
+    "description": "Noleggio cassone da 10m³ per macerie",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Per cantieri medi-grandi.",
+    "links": null
+  },
+  {
+    "id": "cmpgvipjton5xismm",
+    "code": "NLC-CAS-7M3",
+    "category": "Manodopera – Demolizioni",
+    "description": "Noleggio cassone da 7m³ per macerie",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Nolo + trasporto + smaltimento macerie miste. Ticino.",
+    "links": null
+  },
+  {
+    "id": "pi-D.03",
+    "code": "D.03",
+    "category": "Manodopera – Demolizioni",
+    "description": "Rimozione pavimento ceramico / gres",
+    "unit": "m²",
+    "unitCost": 24,
+    "notes": "Incl. raschiatura colla. Rif. NPK 171.21",
+    "links": null
+  },
+  {
+    "id": "pi-D.04",
+    "code": "D.04",
+    "category": "Manodopera – Demolizioni",
+    "description": "Rimozione pavimento in parquet (doppio strato)",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Rif. NPK 171.22",
+    "links": null
+  },
+  {
+    "id": "cmpgvipp7jcp7km3d",
+    "code": "SME-AMI-M2",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smaltimento speciale amianto – m²",
+    "unit": "m²",
+    "unitCost": 180,
+    "notes": "Solo da ditte autorizzate. Richiede perizia e certificati.",
+    "links": null
+  },
+  {
+    "id": "cmpgvipwqcvvlmbcq",
+    "code": "SMO-CUC-COM",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio cucina completa – corpo",
+    "unit": "corpo",
+    "unitCost": 280,
+    "notes": "Falegname + idraulico. Incluse porte e pensili.",
+    "links": null
+  },
+  {
+    "id": "pi-D.06",
+    "code": "D.06",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio cucina componibile",
+    "unit": "corpo",
+    "unitCost": 280,
+    "notes": "Incl. disconnessione allacciamenti. Rif. NPK 232",
+    "links": null
+  },
+  {
+    "id": "cmpgvipydr0ispzes",
+    "code": "SMO-PAV-LAM",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio pavimento laminato/parquet – m²",
+    "unit": "m²",
+    "unitCost": 8,
+    "notes": "Rimozione rapida click. Escluso smaltimento.",
+    "links": null
+  },
+  {
+    "id": "pi-D.07",
+    "code": "D.07",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio porta interna con telaio",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Rif. NPK 173",
+    "links": null
+  },
+  {
+    "id": "cmpgvipv2bfxw9mje",
+    "code": "SMO-SAN-BAG",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio sanitari (WC+lavabo+doccia) – corpo",
+    "unit": "corpo",
+    "unitCost": 320,
+    "notes": "Idraulico: disconnessione + smontaggio + carico.",
+    "links": null
+  },
+  {
+    "id": "pi-D.05",
+    "code": "D.05",
+    "category": "Manodopera – Demolizioni",
+    "description": "Smontaggio sanitari bagno completo (WC, lavabo, doccia)",
+    "unit": "set",
+    "unitCost": 320,
+    "notes": "Per bagno standard. Rif. NPK 231",
+    "links": null
+  },
+  {
+    "id": "pi-D.08",
+    "code": "D.08",
+    "category": "Manodopera – Demolizioni",
+    "description": "Trasporto e smaltimento macerie in discarica autorizzata",
+    "unit": "t",
+    "unitCost": 290,
+    "notes": "Incl. tassa discarica Ticino 2024. Rif. CADMEF",
+    "links": null
+  },
+  {
+    "id": "cmpgvinkg685gmxve",
+    "code": "MOD-ELE-H",
+    "category": "Manodopera – Elettrica",
+    "description": "Elettricista – ora lavorativa",
+    "unit": "h",
+    "unitCost": 90,
+    "notes": "Tariffa oraria elettricista abilitato Ticino 2025-2026.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinz3o7ca5pu9",
+    "code": "INS-DIF-SAL",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione interruttore differenziale (salvavita)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Montaggio in quadro esistente.",
+    "links": null
+  },
+  {
+    "id": "cmpgvio222r2q3g0f",
+    "code": "INS-PLA-SOF",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione plafoniera/lampadario (da soffitto)",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Sostituzione su punto esistente.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinq3gr9eo1uv",
+    "code": "INS-PRE-TV",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione presa TV/rete dati CAT6",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Presa TV o RJ45 cablata.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinnzrvoubwfy",
+    "code": "INS-PRE-220",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione presa elettrica 220V",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Da quadro esistente. Include cavo, scatola, presa.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinm7vl66yoed",
+    "code": "INS-PUN-LUC",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione punto luce + interruttore",
+    "unit": "pz",
+    "unitCost": 95,
+    "notes": "Completo: cavo, scatola, interruttore, punto luce. Presa esistente.",
+    "links": null
+  },
+  {
+    "id": "cmpgvio3qwhbni4ks",
+    "code": "INS-VEN-SOF",
+    "category": "Manodopera – Elettrica",
+    "description": "Installazione ventilatore soffitto con luce",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Su punto luce esistente. Include comando variatore.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinx1vnxuhvv0",
+    "code": "RIF-IMP-80M",
+    "category": "Manodopera – Elettrica",
+    "description": "Rifacimento impianto elettrico appartamento (fino 80m²)",
+    "unit": "corpo",
+    "unitCost": 4500,
+    "notes": "Completo: tracce, cavi, scatole, interruttori, prese, quadro. Escluso tinteggiatura.",
+    "links": null
+  },
+  {
+    "id": "cmpgvins2rn5ncaa1",
+    "code": "SOS-QUA-12",
+    "category": "Manodopera – Elettrica",
+    "description": "Sostituzione quadro elettrico (fino 12 moduli)",
+    "unit": "corpo",
+    "unitCost": 580,
+    "notes": "Nuovo quadro con interruttori magnetotermici e differenziali.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinug7bc58eym",
+    "code": "SOS-QUA-24",
+    "category": "Manodopera – Elettrica",
+    "description": "Sostituzione quadro elettrico (fino 24 moduli)",
+    "unit": "corpo",
+    "unitCost": 980,
+    "notes": "Quadro appartamento completo, CEI conforme.",
+    "links": null
+  },
+  {
+    "id": "pi-O.02",
+    "code": "O.02",
+    "category": "Manodopera – Generale",
+    "description": "Ora capo cantiere / tecnico",
+    "unit": "h",
+    "unitCost": 96,
+    "notes": "Tariffa SSIC TI 2024 + responsabilità cantiere",
+    "links": null
+  },
+  {
+    "id": "pi-O.01",
+    "code": "O.01",
+    "category": "Manodopera – Generale",
+    "description": "Ora operaio edile qualificato (muratore)",
+    "unit": "h",
+    "unitCost": 82,
+    "notes": "Tariffa SSIC TI 2024 contratto collettivo",
+    "links": null
+  },
+  {
+    "id": "pi-O.03",
+    "code": "O.03",
+    "category": "Manodopera – Generale",
+    "description": "Ora operaio generico (aiuto)",
+    "unit": "h",
+    "unitCost": 65,
+    "notes": "Tariffa SSIC TI 2024 livello base",
+    "links": null
+  },
+  {
+    "id": "cmpgvinitflhlj3m5",
+    "code": "COL-IMP-IDR",
+    "category": "Manodopera – Idraulica",
+    "description": "Collaudo impianto idrico (pressione + tenuta)",
+    "unit": "corpo",
+    "unitCost": 180,
+    "notes": "Prova idrostatica 10 bar. Certificato incluso.",
+    "links": null
+  },
+  {
+    "id": "cmpgvin5g6fglandj",
+    "code": "MOD-IDR-H",
+    "category": "Manodopera – Idraulica",
+    "description": "Idraulico – ora lavorativa",
+    "unit": "h",
+    "unitCost": 95,
+    "notes": "Tariffa oraria idraulico abilitato Ticino 2025-2026.",
+    "links": null
+  },
+  {
+    "id": "cmpgvin8wezg0rp9t",
+    "code": "INS-BAG-COM",
+    "category": "Manodopera – Idraulica",
+    "description": "Installazione completa bagno (WC+lavabo+bidet+doccia)",
+    "unit": "corpo",
+    "unitCost": 1800,
+    "notes": "Solo manodopera idraulica. Esclude materiali e piastrellatura.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinh5p9ivv6ay",
+    "code": "INS-RUB-GIA",
+    "category": "Manodopera – Idraulica",
+    "description": "Installazione rubinetto giardino – esterno",
+    "unit": "pz",
+    "unitCost": 220,
+    "notes": "Include foratura muro esterno, valvola, rubinetto antigelivo.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinf97aeb4d6a",
+    "code": "INS-SCA-ELE",
+    "category": "Manodopera – Idraulica",
+    "description": "Installazione scaldasalviette elettrico",
+    "unit": "pz",
+    "unitCost": 150,
+    "notes": "Idraulico: fissaggio + allacciamento idrico o elettrico.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinc4fv0l6kl6",
+    "code": "RIP-PER-TUB",
+    "category": "Manodopera – Idraulica",
+    "description": "Riparazione perdita tubo (senza apertura muro)",
+    "unit": "corpo",
+    "unitCost": 320,
+    "notes": "Localizzazione e riparazione con raccordo. Urgenza +30%.",
+    "links": null
+  },
+  {
+    "id": "cmpgvinahkztpiixk",
+    "code": "SOS-RUB-PZ",
+    "category": "Manodopera – Idraulica",
+    "description": "Sostituzione rubinetteria (miscelatore+sifone)",
+    "unit": "pz",
+    "unitCost": 120,
+    "notes": "Smontaggio vecchio + montaggio nuovo. Per singolo punto.",
+    "links": null
+  },
+  {
+    "id": "cmpgvin78hdmbbcjm",
+    "code": "SPO-ACQ-2M",
+    "category": "Manodopera – Idraulica",
+    "description": "Spostamento punto acqua (distanza fino 2m)",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Modifica impianto per spostamento lavabo/wc/doccia.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimhu79yevyl4",
+    "code": "APE-POR-POR",
+    "category": "Manodopera – Muratura",
+    "description": "Apertura porta in muratura portante – corpo",
+    "unit": "corpo",
+    "unitCost": 1800,
+    "notes": "Include puntellamento, demolizione, architrave, rappezzi. Solaio non portante.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimk43r1p1kbi",
+    "code": "APE-POR-NPO",
+    "category": "Manodopera – Muratura",
+    "description": "Apertura porta in parete non portante – corpo",
+    "unit": "corpo",
+    "unitCost": 800,
+    "notes": "Parete in laterizio/cartongesso. Più rapido, senza puntellamento.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimmsaf0m90rg",
+    "code": "CHI-VAN-POR",
+    "category": "Manodopera – Muratura",
+    "description": "Chiusura vano porta – muratura e intonaco",
+    "unit": "corpo",
+    "unitCost": 1300,
+    "notes": "Include demolizione telaio, muratura, intonaco, raccordo pavimento.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimxuk3f6qglc",
+    "code": "COS-PAR-LAT",
+    "category": "Manodopera – Muratura",
+    "description": "Costruzione parete in laterizio 12cm – m²",
+    "unit": "m²",
+    "unitCost": 95,
+    "notes": "Mattone forato 12cm + intonaco doppio lato. Chiave in mano.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimvu0qndc7tt",
+    "code": "DEM-PAR-M2",
+    "category": "Manodopera – Muratura",
+    "description": "Demolizione parete non portante (laterizio/cartongesso) – m²",
+    "unit": "m²",
+    "unitCost": 28,
+    "notes": "Include rimozione macerie. Escluso smaltimento.",
+    "links": null
+  },
+  {
+    "id": "cmpgvin0zg6ulrgij",
+    "code": "FIS-TAS-CHI",
+    "category": "Manodopera – Muratura",
+    "description": "Fissaggio tasselli chimici M10 (anti-sismici)",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Per fissaggi strutturali a parete. Include tassello+resina.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimsc2jf2dodj",
+    "code": "INS-CAS-ELE",
+    "category": "Manodopera – Muratura",
+    "description": "Installazione cassetta elettrica da incasso – pz",
+    "unit": "pz",
+    "unitCost": 25,
+    "notes": "Muratore: foratura, sigillatura cassetta.",
+    "links": null
+  },
+  {
+    "id": "cmpgvim1846r14jw4",
+    "code": "MOD-MUR-H",
+    "category": "Manodopera – Muratura",
+    "description": "Muratore – ora lavorativa",
+    "unit": "h",
+    "unitCost": 75,
+    "notes": "Tariffa oraria muratore qualificato Ticino 2025-2026. Per calcoli generici.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimu5z6uwhxh8",
+    "code": "RAP-INT-2M2",
+    "category": "Manodopera – Muratura",
+    "description": "Rappezzi intonaco dopo tracce (fino 2m²)",
+    "unit": "corpo",
+    "unitCost": 180,
+    "notes": "Stuccatura e intonacatura per ripristino dopo lavori.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimoy9e9h2a0b",
+    "code": "TRA-IMP-ML",
+    "category": "Manodopera – Muratura",
+    "description": "Tracce impianti a parete – ml",
+    "unit": "ml",
+    "unitCost": 22,
+    "notes": "Tracce per tubi/cavi con fresa. Include rappezzi stucco.",
+    "links": null
+  },
+  {
+    "id": "cmpgvimqmkj004xqw",
+    "code": "TRA-IMP-PAV",
+    "category": "Manodopera – Muratura",
+    "description": "Tracce impianti a pavimento – ml",
+    "unit": "ml",
+    "unitCost": 28,
+    "notes": "Taglio massetto/pavimento. Include rappezzi.",
+    "links": null
+  },
+  {
+    "id": "cmpgv19fr1ib7bwzh",
+    "code": "BAT-MDF-70",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Battiscopa MDF laccato bianco 70×14mm",
+    "unit": "ml",
+    "unitCost": 6.5,
+    "notes": "Classico bianco per abbinare qualsiasi pavimento.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19j0461foa7d",
+    "code": "BAT-PVC-50",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Battiscopa PVC flessibile adesivo 50mm – bianco",
+    "unit": "ml",
+    "unitCost": 3.2,
+    "notes": "Soluzione economica per ambienti secondari. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19hcvhlyf3s2",
+    "code": "BAT-GRE-7",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Battiscopa gres 7×60cm – in abbinamento al pavimento",
+    "unit": "ml",
+    "unitCost": 8.5,
+    "notes": "Finitura continua pavimento-parete, look professionale.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19cjlvzzdcfy",
+    "code": "31158811",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Battiscopa laminato 58×18mm – Rovere Firenze (Bauhaus 31158811)",
+    "unit": "ml",
+    "unitCost": 4.96,
+    "notes": "Logoclic Rovere Firenze. Link: https://www.bauhaus.ch/it/p/logoclic-battiscopa-rovere-firenze-31158811",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali\nhttps://www.bauhaus.ch/it/p/logoclic-battiscopa-rovere-firenze-31158811"
+  },
+  {
+    "id": "cmpgv19e95kmadog1",
+    "code": "BAT-LAM-58",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Battiscopa laminato 58×18mm – Rovere chiaro",
+    "unit": "ml",
+    "unitCost": 4.5,
+    "notes": "Bauhaus/Jumbo. Vari colori disponibili.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19qcd4ccog0a",
+    "code": "COR-STU-5",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Cornice in stucco 5cm – decorazione soffitto/parete",
+    "unit": "ml",
+    "unitCost": 7.5,
+    "notes": "Cornice decorativa. Posa con colla a stucco.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19onppf2gma1",
+    "code": "PRO-ANG-9",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Profilo angolo esterno gres 9mm",
+    "unit": "ml",
+    "unitCost": 4.2,
+    "notes": "Protezione spigoli piastrellatura, acciaio inox.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19kpnt45r4uc",
+    "code": "PRO-ALL-38",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Profilo di transizione pavimento alluminio 38mm",
+    "unit": "ml",
+    "unitCost": 5.5,
+    "notes": "Raccordo tra due pavimenti diversi di uguale altezza.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv19muvc42vm99",
+    "code": "PRO-RID-ALL",
+    "category": "Pavimenti – Battiscopa e Profili",
+    "description": "Profilo riduzione rampa alluminio – cambio quota",
+    "unit": "ml",
+    "unitCost": 6.8,
+    "notes": "Per dislivelli fino a 8mm. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv1bwqpo6p2k3p",
+    "code": "BOR-CEM-ML",
+    "category": "Pavimenti – Esterni",
+    "description": "Bordo in cemento per separazione prato/pavimento – ml",
+    "unit": "ml",
+    "unitCost": 12,
+    "notes": "Cordolo in calcestruzzo prefabbricato. Per giardini.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-per-pavimenti/c/10000500"
+  },
+  {
+    "id": "cmpgv1btkxiahwj5a",
+    "code": "EXT-WPC",
+    "category": "Pavimenti – Esterni",
+    "description": "Decking WPC composito – terrazzo",
+    "unit": "m²",
+    "unitCost": 42,
+    "notes": "Legno plastica composito, manutenzione zero. Varie finiture.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-per-pavimenti/c/10000500"
+  },
+  {
+    "id": "cmpgv1bqhkn2hlhvy",
+    "code": "EXT-GRE-40",
+    "category": "Pavimenti – Esterni",
+    "description": "Piastrella gres per esterno 40×40 antiscivolo R11",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Per terrazzi, giardini, garage. Spessore 10-12mm.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-per-pavimenti/c/10000500"
+  },
+  {
+    "id": "cmpgv1bs1c72f37vw",
+    "code": "EXT-GRE-2CM",
+    "category": "Pavimenti – Esterni",
+    "description": "Piastrella gres spessa 2cm per posa su ghiaia",
+    "unit": "m²",
+    "unitCost": 38,
+    "notes": "Per posa su letto di ghiaia senza colla. Moderna.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-per-pavimenti/c/10000500"
+  },
+  {
+    "id": "cmpgv1bv4l9zxx2ut",
+    "code": "POS-EXT-INC",
+    "category": "Pavimenti – Esterni",
+    "description": "Posa piastrelle terrazzo/esterno (incollato)",
+    "unit": "m²",
+    "unitCost": 65,
+    "notes": "Include colla C2 frost-proof + fughe + primer. Esclusa impermeabilizzazione.",
+    "links": "https://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/\nhttps://www.it.weber/search-content/content_type/product/activities/colle-cementizie-42"
+  },
+  {
+    "id": "cmpgv18i5nflw6azl",
+    "code": "GP-120120-MAR",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 120×120 – effetto marmo grande formato",
+    "unit": "m²",
+    "unitCost": 85,
+    "notes": "Formato maxi, showroom di lusso. Resis, Atlas Concorde.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv17g3wrg0g7pe",
+    "code": "GP-3030-CEM",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 30×30 – effetto cemento grigio (Bauhaus)",
+    "unit": "m²",
+    "unitCost": 14.9,
+    "notes": "Bauhaus art. 30028XXX – qualità base, buon rapporto q/p. Sito: https://www.bauhaus.ch",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv17p4k7nnavzz",
+    "code": "GP-4545-PIE",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 45×45 – effetto pietra beige",
+    "unit": "m²",
+    "unitCost": 18.5,
+    "notes": "Uso: bagni, corridoi, cucine. Disponibile Bauhaus/Leroy Merlin.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18aptqhmtypj",
+    "code": "GP-60120-PIE",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×120 – effetto pietra grigia levigata",
+    "unit": "m²",
+    "unitCost": 58,
+    "notes": "Premium. Supergres, Marazzi, Atlas Concorde.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv186hvnd3ddbp",
+    "code": "GP-60120-CEM",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×120 – grande formato effetto cemento",
+    "unit": "m²",
+    "unitCost": 52,
+    "notes": "Formato grande, meno fughe. Marazzi/Supergres. Posa richiede piano perfetto.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv17uolwe4qnfs",
+    "code": "31365295",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×60 – Active Beige (Bauhaus 31365295)",
+    "unit": "m²",
+    "unitCost": 29.95,
+    "notes": "Gres porcellanato Active Beige 60×60. Link: https://www.bauhaus.ch/it/p/gres-porcellanato-active-beige-31365295",
+    "links": "https://www.bauhaus.ch/it/p/gres-porcellanato-active-beige-31365295"
+  },
+  {
+    "id": "cmpgv17yj4nh5fzd7",
+    "code": "28795195",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×60 – Tribeca (Bauhaus 28795195)",
+    "unit": "m²",
+    "unitCost": 35,
+    "notes": "Gres 60×60 effetto marmo leggero. Link: https://www.bauhaus.ch/it/p/piastrella-in-gres-porcellanato-tribeca-28795195",
+    "links": "https://www.bauhaus.ch/it/p/piastrella-in-gres-porcellanato-tribeca-28795195"
+  },
+  {
+    "id": "cmpgv17rljlliz6b4",
+    "code": "GP-6060-ANT",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×60 – effetto cemento antracite",
+    "unit": "m²",
+    "unitCost": 28.9,
+    "notes": "Formato standard. Bauhaus art. 31365295 area.",
+    "links": "https://www.bauhaus.ch/it/p/gres-porcellanato-active-beige-31365295"
+  },
+  {
+    "id": "cmpgv182celn1ps9q",
+    "code": "GP-6060-MAR",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 60×60 – effetto marmo bianco lucido",
+    "unit": "m²",
+    "unitCost": 42,
+    "notes": "Qualità media-alta, uso soggiorno/bagno. Supergres/Marazzi.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18ewaknj3ung",
+    "code": "GP-8080-STA",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres 80×80 – effetto marmo statuario",
+    "unit": "m²",
+    "unitCost": 65,
+    "notes": "Segmento alto. Marazzi Evolutionmarble. Link: https://www.marazzigroup.com",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18kyutseupnp",
+    "code": "GP-ANTI-R11",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres antisdrucciolo R11 – per doccia/terrazzo",
+    "unit": "m²",
+    "unitCost": 32,
+    "notes": "Certificato antiscivolo R11. Obbligatorio in docce e terrazzi.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18o8oq27cdxz",
+    "code": "GP-LEG-NOC",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres effetto legno noce scuro 15×90",
+    "unit": "m²",
+    "unitCost": 36,
+    "notes": "Effetto legno noce, formato listello classico.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18mmvi02q54w",
+    "code": "GP-LEG-ROV",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Gres effetto legno rovere chiaro 20×120",
+    "unit": "m²",
+    "unitCost": 38,
+    "notes": "Aspetto parquet, resistenza gres. Marazzi Treverkhome. Link: https://www.marazzigroup.com",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18psz3gwzpx9",
+    "code": "GP-MOS-30",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Mosaico gres 30×30 (chip 5×5) – bagno/doccia",
+    "unit": "m²",
+    "unitCost": 55,
+    "notes": "Antiscivolo naturale per pavimento doccia. Disponibile Bauhaus/Sanitas.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18vdsweb7ey4",
+    "code": "RIV-60120-PAR",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Rivestimento 60×120 – effetto marmo per pareti",
+    "unit": "m²",
+    "unitCost": 48,
+    "notes": "Uso parete bagno doccia o cucina. Spessore 9mm.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18re9a9wfnxi",
+    "code": "RIV-3060-BET",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Rivestimento bagno 30×60 – effetto beton grigio",
+    "unit": "m²",
+    "unitCost": 24,
+    "notes": "Piastrelle per pareti bagno, formato classico.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv18t4o9b9kbea",
+    "code": "RIV-1030-MET",
+    "category": "Pavimenti – Gres Porcellanato",
+    "description": "Rivestimento cucina 10×30 – metro bianco",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Classico metro brick per cucine. Facilissimo posa, trend stabile.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "pi-Q.02",
+    "code": "Q.02",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Fornitura parquet massiccio rovere 20mm",
+    "unit": "m²",
+    "unitCost": 95,
+    "notes": "Larghezza 120mm. Listino Barlinek/Kährs 2024",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati\nhttps://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "pi-Q.01",
+    "code": "Q.01",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Fornitura parquet prefinito rovere 14mm (3 strati)",
+    "unit": "m²",
+    "unitCost": 68,
+    "notes": "Classe AC4, larghezza 140mm. Listino Bauwerk 2024",
+    "links": "https://www.bauhaus.ch/it/c/parquet"
+  },
+  {
+    "id": "cmpgv1950mk95aksu",
+    "code": "LVT-5-LEG",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "LVT (Luxury Vinyl Tile) click 5mm – effetto legno",
+    "unit": "m²",
+    "unitCost": 28,
+    "notes": "Impermeabile, ideale cucina/bagno. Gerflor, Forbo, Pergo.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-in-vinile"
+  },
+  {
+    "id": "cmpgv196yyjggtlgy",
+    "code": "LVT-6-CEM",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "LVT click 6mm SPC – effetto cemento",
+    "unit": "m²",
+    "unitCost": 32,
+    "notes": "SPC = rigid core, massima stabilità. Ideale sopra pavimento esistente.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-in-vinile"
+  },
+  {
+    "id": "cmpgv1939gl3104xt",
+    "code": "LAM-AC4-10",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Laminato AC4 10mm – effetto noce",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Qualità media, ottimo per uso residenziale.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati"
+  },
+  {
+    "id": "cmpgv191m62l2z1ow",
+    "code": "LAM-AC5-8",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Laminato AC5 8mm – effetto rovere chiaro",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Quick-Step, Pergo, Bauhaus. Buona resistenza uso intensivo.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati"
+  },
+  {
+    "id": "pi-Q.05",
+    "code": "Q.05",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Levigatura e trattamento parquet esistente",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Levigatura + 2 mani olio/vernice. Rif. NPK 625",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati\nhttps://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv1902hflbpbf3",
+    "code": "PAR-MAS-22",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Parquet massello rovere 22mm – olio bianco",
+    "unit": "m²",
+    "unitCost": 95,
+    "notes": "Parquet massello, rilevigabile più volte. Prezzo materiale solo.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati\nhttps://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv18ya44qripjl",
+    "code": "PAR-ROV-14",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Parquet prefinito rovere spazzolato 14mm – finitura olio",
+    "unit": "m²",
+    "unitCost": 65,
+    "notes": "Parquet prefinito qualità media-alta. Listone Giordano, Quick-Step.",
+    "links": "https://www.bauhaus.ch/it/c/parquet"
+  },
+  {
+    "id": "cmpgv19ax3l68z4j7",
+    "code": "PAR-TEAK-EXT",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Parquet teak da esterno 21mm – deck",
+    "unit": "m²",
+    "unitCost": 85,
+    "notes": "Per terrazzi/logge. Teak naturale trattato.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati\nhttps://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "cmpgv198y5kbvimfj",
+    "code": "VIN-ROT-2M",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Pavimento vinilico in rotolo 2m – uso commerciale",
+    "unit": "m²",
+    "unitCost": 15,
+    "notes": "Gerflor/Tarkett. Rapido da posare, ideale garage/lavanderia.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-in-vinile"
+  },
+  {
+    "id": "pi-Q.04",
+    "code": "Q.04",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Posa parquet flottante con sottofondi",
+    "unit": "m²",
+    "unitCost": 38,
+    "notes": "Incl. telo PE e sottopavimento. Rif. NPK 621.21",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-laminati\nhttps://www.bauhaus.ch/it/pavimentazione/battiscopa-profili-terminali"
+  },
+  {
+    "id": "pi-Q.03",
+    "code": "Q.03",
+    "category": "Pavimenti – Parquet e Laminato",
+    "description": "Posa parquet prefinito incollato su sottofondo",
+    "unit": "m²",
+    "unitCost": 48,
+    "notes": "Incl. colla MS-polymer. Rif. NPK 621.11",
+    "links": "https://www.bauhaus.ch/it/c/parquet"
+  },
+  {
+    "id": "cmpgv1b157v6q48cy",
+    "code": "CEM-ENC-20",
+    "category": "Pavimenti – Piastrelle Speciali",
+    "description": "Cemento decorativo encaustica 20×20 – motivo geometrico",
+    "unit": "m²",
+    "unitCost": 75,
+    "notes": "Pavimentazioni di design. Produzione artigianale. Fragile al gelo.",
+    "links": "https://www.bauhaus.ch/it/c/piastrelle\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv1b6h977y27ge",
+    "code": "MAT-FV-M2",
+    "category": "Pavimenti – Piastrelle Speciali",
+    "description": "Mattone faccia a vista – rivestimento parete",
+    "unit": "m²",
+    "unitCost": 32,
+    "notes": "Effetto mattone industriale. Bauhaus area, Leroy Merlin.",
+    "links": "https://www.bauhaus.ch/it/c/piastrelle\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv1b2si6rptj1s",
+    "code": "MOS-VET-25",
+    "category": "Pavimenti – Piastrelle Speciali",
+    "description": "Mosaico vetro 2.5×2.5cm – per piscina/bagno blu",
+    "unit": "m²",
+    "unitCost": 95,
+    "notes": "Resistente cloro, ideale piscine e docce. Bisazza area.",
+    "links": "https://www.bauhaus.ch/it/c/piastrelle\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv1b4ea654ee34",
+    "code": "PIX-3D-OND",
+    "category": "Pavimenti – Piastrelle Speciali",
+    "description": "Piastrella 3D effetto rilievo ondulato – parete",
+    "unit": "m²",
+    "unitCost": 68,
+    "notes": "Decorativa, per parete principale soggiorno/bagno.",
+    "links": "https://www.bauhaus.ch/it/c/piastrelle\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv1azk5wgeokj9",
+    "code": "COT-MAN-25",
+    "category": "Pavimenti – Piastrelle Speciali",
+    "description": "Piastrella cotto fatto a mano 25×25 – terracotta",
+    "unit": "m²",
+    "unitCost": 45,
+    "notes": "Cotto artigianale toscano/portoghese. Reso a mano, irregolare.",
+    "links": "https://www.bauhaus.ch/it/c/piastrelle\nhttps://www.marazzigroup.com/collections/"
+  },
+  {
+    "id": "cmpgv19wplxc19b2m",
+    "code": "COL-PAR-5",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Colla flessibile per parquet su riscaldamento – 5kg",
+    "unit": "sacco",
+    "unitCost": 38,
+    "notes": "Mapei Adesilex P9 o Bostik. Per parquet prefinito su impianto radiante.",
+    "links": "https://www.bauhaus.ch/it/c/parquet"
+  },
+  {
+    "id": "cmpgv19tfhf2u0ju4",
+    "code": "COL-C1-25",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Colla per piastrelle C1 – sacco 25kg (Bauhaus)",
+    "unit": "sacco",
+    "unitCost": 14.5,
+    "notes": "Qualità standard, per piastrelle piccolo formato. Resa ~4-5m²/sacco.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv19rvv2ulwbgi",
+    "code": "COL-C2-25",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Colla per piastrelle C2 – sacco 25kg (Weber col 155)",
+    "unit": "sacco",
+    "unitCost": 22,
+    "notes": "Weber webercol 155. C2 = migliorata. Per gres grande formato. Sito: https://www.it.weber",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/colle-cementizie-42"
+  },
+  {
+    "id": "cmpgv19v4pdt85q62",
+    "code": "COL-C2-B-25",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Colla per piastrelle bianca C2 – 25kg (bagno/cucina)",
+    "unit": "sacco",
+    "unitCost": 24,
+    "notes": "Bianca, per piastrelle chiare senza effetto trasparente.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1aa0r1u7nx86",
+    "code": "FIS-MUR-10L",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Fissativo muri e soffitti – 10L",
+    "unit": "l",
+    "unitCost": 18,
+    "notes": "Prima di pittura su intonaco nuovo. Caparol Tiefgrund.",
+    "links": "https://www.bauhaus.ch/it/c/colori\nhttps://www.caparol.ch/it"
+  },
+  {
+    "id": "pi-P.06",
+    "code": "P.06",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Fornitura e posa battiscopa in ceramica",
+    "unit": "ml",
+    "unitCost": 22,
+    "notes": "H 7-10cm. Rif. NPK 612.31",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "pi-P.05",
+    "code": "P.05",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Fornitura piastrelle gres porcellanato premium (fino a 80€/m²)",
+    "unit": "m²",
+    "unitCost": 85,
+    "notes": "Grandi formati, effetto marmo",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "pi-P.04",
+    "code": "P.04",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Fornitura piastrelle gres porcellanato standard (fino a 40€/m²)",
+    "unit": "m²",
+    "unitCost": 42,
+    "notes": "Prezzo medio mercato TI 2024",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1bonp25c9qid",
+    "code": "LUC-PAR-M2",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Lucidatura/levigatura parquet esistente",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Con levigatrice, 2 passaggi carta + olio finale.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1bmq15o1cbpi",
+    "code": "MAS-POS-10",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Massetto autolivellante – posa compresa (fino 10mm)",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Materiale + posa. Per livellare prima del pavimento finale.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgv19z7rezpweme",
+    "code": "MAS-AUTO-25",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Massetto autolivellante – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 18,
+    "notes": "Weber floor 4050 o simile. Per livellare sottofondi. Resa ~8mm/m²/sacco.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgv1a1hsud9bt6d",
+    "code": "MAS-FIBR-25",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Massetto tradizionale fibrorinforzato – sacco 25kg",
+    "unit": "sacco",
+    "unitCost": 12,
+    "notes": "Per sottofondi spessi. Holcim/Weber.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1awafzsjccbw",
+    "code": "MAT-EPS-10",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Materassino anticalpestio 10mm – EPS fonoisolante",
+    "unit": "m²",
+    "unitCost": 5.5,
+    "notes": "Per massetto galleggiante su solaio. Riduzione calpestio classe A.",
+    "links": "https://www.bauhaus.ch/it/c/isolamento\nhttps://www.isopan.it"
+  },
+  {
+    "id": "cmpgv1aujlm35hefj",
+    "code": "ISO-ACU-5",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Pannello isolamento acustico 5mm (fibra di legno)",
+    "unit": "m²",
+    "unitCost": 3.2,
+    "notes": "Migliore performance acustica, 5mm. Quick-Step, Pergo.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1asvlvp4ct91",
+    "code": "ISO-ACU-3",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Pannello isolamento acustico sotto parquet 3mm (PE)",
+    "unit": "m²",
+    "unitCost": 1.8,
+    "notes": "Polietilene espanso 3mm. Riduzione rumori da calpestio. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1bfpsw897zki",
+    "code": "POS-LVT",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa LVT click",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Rapida posa sistema click. Ideale sopra pavimento esistente.",
+    "links": "https://www.bauhaus.ch/it/c/pavimenti-in-vinile"
+  },
+  {
+    "id": "cmpgv1bh7gtfz4vxl",
+    "code": "POS-BAT",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa battiscopa – qualsiasi materiale",
+    "unit": "ml",
+    "unitCost": 4.55,
+    "notes": "Incluso taglio e colla. Stima CHF 500 per 110ml.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1be91zd5w6hr",
+    "code": "POS-PAR-MAS",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa parquet massello incollato",
+    "unit": "m²",
+    "unitCost": 45,
+    "notes": "Incollato su massetto. Più stabile, richiede massetto piano a 0.2%.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1bcooydbfr7l",
+    "code": "POS-PAR-FLO",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa parquet prefinito flottante",
+    "unit": "m²",
+    "unitCost": 25,
+    "notes": "Sistema click, rapido. Esclude materassino.",
+    "links": "https://www.bauhaus.ch/it/c/parquet"
+  },
+  {
+    "id": "cmpgv1bb4d46oaq2j",
+    "code": "POS-PIA-BAG",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa piastrelle bagno con impermeabilizzazione doccia",
+    "unit": "m²",
+    "unitCost": 100,
+    "notes": "Include impermeabilizzazione Mapelastic + posa + fughe.",
+    "links": "https://www.leroymerlin.it/prodotti/idraulica-termoidraulica-e-ventilazione/impermeabilizzanti/"
+  },
+  {
+    "id": "cmpgv1b9lqtt48nyg",
+    "code": "POS-PIA-GR",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa piastrelle formato grande >60×60cm",
+    "unit": "m²",
+    "unitCost": 70,
+    "notes": "Maggiore difficoltà, livellatori, lama da taglio grande formato.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "pi-P.02",
+    "code": "P.02",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa piastrelle pavimento (formato fino a 60×60)",
+    "unit": "m²",
+    "unitCost": 58,
+    "notes": "Solo posa. Rif. NPK 612.11",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1b84l8tsr0f6",
+    "code": "POS-PIA-60",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa piastrelle su massetto – fino 60×60cm",
+    "unit": "m²",
+    "unitCost": 50,
+    "notes": "Manodopera posa standard. Include stucco fughe. Esclude colla.",
+    "links": "https://www.bauhaus.ch/it/c/stucco-per-fughe\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "pi-P.03",
+    "code": "P.03",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Posa rivestimento parete (formato fino a 30×90)",
+    "unit": "m²",
+    "unitCost": 68,
+    "notes": "Solo posa. Rif. NPK 612.21",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "pi-P.01",
+    "code": "P.01",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Preparazione sottofondo autolivellante",
+    "unit": "m²",
+    "unitCost": 28,
+    "notes": "Sp. 5-10mm. Rif. NPK 611.11",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1bl3e9jhblsv",
+    "code": "PRE-SOT-M2",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Preparazione sottofondo – livellamento e stuccatura",
+    "unit": "m²",
+    "unitCost": 12,
+    "notes": "Stuccatura crepe, livellamento fino 5mm, primer.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1a8gjq2gj1k6",
+    "code": "PRI-CON-1L",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Primer consolidante sottofondi porosi – 1L",
+    "unit": "l",
+    "unitCost": 12.5,
+    "notes": "Prima di massetto autolivellante o colla. Weber prim 801.",
+    "links": "https://www.it.weber/search-content/content_type/product/activities/malte-e-intonaci-56"
+  },
+  {
+    "id": "cmpgv1bjl915ha35e",
+    "code": "RIM-PAV-M2",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Rimozione pavimento esistente (demolizione)",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Include carico su camion/cassonetto. Escluso smaltimento.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1a6uod8xwzha",
+    "code": "STU-EPO-5",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Stucco fughe epossidico 2 componenti – 5kg",
+    "unit": "sacco",
+    "unitCost": 42,
+    "notes": "Mapei Kerapoxy. Impermeabile, per cucine/docce. Resistente a macchie.",
+    "links": "https://www.bauhaus.ch/it/c/stucco-per-fughe\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1a5a4zyqcodh",
+    "code": "STU-FUG-B-5",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Stucco per fughe 1-5mm bianco – 5kg",
+    "unit": "sacco",
+    "unitCost": 9.5,
+    "notes": "Per fughe strette, piastrelle chiare.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1a3oligs6dp4",
+    "code": "STU-FUG-5",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Stucco per fughe 2-12mm grigio – 5kg (Bauhaus)",
+    "unit": "sacco",
+    "unitCost": 8.9,
+    "notes": "Fughe standard grigio cemento. Mapei Keracolor, Weber jungfix.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgv1axzzs86nm9a",
+    "code": "TEL-BV-50",
+    "category": "Pavimenti – Posa e Collanti",
+    "description": "Telo barriera vapore PE 0.2mm – rotolo 50m²",
+    "unit": "m²",
+    "unitCost": 0.9,
+    "notes": "Sotto parquet su massetto. Evita umidità. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/piastrelle-in-gres-porcellanato/c/10002587\nhttps://www.leroymerlin.it/prodotti/pavimenti-e-rivestimenti/posa-pavimenti-e-piastrelle/colle-per-piastrelle/"
+  },
+  {
+    "id": "cmpgvdm0ako7uc3iz",
+    "code": "AGR-CG-M2",
+    "category": "Strutture – Cartongesso",
+    "description": "Aggrappante stabilizzante su cartongesso – m²",
+    "unit": "m²",
+    "unitCost": 8.5,
+    "notes": "Prima di intonacare o piastrellare su cartongesso nuovo.",
+    "links": "https://tools.knauf.it/\nhttps://www.bauhaus.ch/it/c/cartongesso"
+  },
+  {
+    "id": "cmpgvdlprhcskps9q",
+    "code": "CPR-DOP-M2",
+    "category": "Strutture – Cartongesso",
+    "description": "Controparete in cartongesso doppia lastra – m² (mat + posa)",
+    "unit": "m²",
+    "unitCost": 95,
+    "notes": "Doppia lastra, maggiore acustica. Include lana di roccia 50mm.",
+    "links": "https://www.rockwool.com/it/prodotti/\nhttps://www.bauhaus.ch/it/c/isolamento"
+  },
+  {
+    "id": "cmpgvdlm287kzn4yc",
+    "code": "CPR-SIN-M2",
+    "category": "Strutture – Cartongesso",
+    "description": "Controparete in cartongesso singola lastra – m² (mat + posa)",
+    "unit": "m²",
+    "unitCost": 65,
+    "notes": "Materiale + manodopera. Profili U+C, lastra BA13, stuccatura.",
+    "links": "https://tools.knauf.it/\nhttps://www.bauhaus.ch/it/c/cartongesso"
+  },
+  {
+    "id": "cmpgvdlwa1dmza3n3",
+    "code": "CTF-ACU-M2",
+    "category": "Strutture – Cartongesso",
+    "description": "Controsoffitto cartongesso con isolazione acustica – m²",
+    "unit": "m²",
+    "unitCost": 75,
+    "notes": "Include lana di roccia 60mm sopra cartongesso.",
+    "links": "https://www.rockwool.com/it/prodotti/\nhttps://www.bauhaus.ch/it/c/isolamento"
+  },
+  {
+    "id": "cmpgvdltgxoul6yfl",
+    "code": "CTF-PIA-M2",
+    "category": "Strutture – Cartongesso",
+    "description": "Controsoffitto cartongesso piano – m² (mat + posa)",
+    "unit": "m²",
+    "unitCost": 55,
+    "notes": "Controsoffitto piano standard. Include profili CD+UD, lastra.",
+    "links": "https://tools.knauf.it/\nhttps://www.bauhaus.ch/it/c/cartongesso"
+  },
+  {
+    "id": "cmpgvdkubqgtth3tj",
+    "code": "CG-HD-250",
+    "category": "Strutture – Cartongesso",
+    "description": "Lastra cartongesso ad alta densità 12.5mm – 250×120",
+    "unit": "pz",
+    "unitCost": 16.5,
+    "notes": "Per applicazioni acustiche/pesanti. Fermacell area.",
+    "links": "https://tools.knauf.it/\nhttps://www.bauhaus.ch/it/c/cartongesso"
+  },
+  {
+    "id": "cmpgvdkpbhi6ofmpz",
+    "code": "CG-BA15F-250",
+    "category": "Strutture – Cartongesso",
+    "description": "Lastra cartongesso antifuoco BA15F (rosa) – 250×120cm",
+    "unit": "pz",
+    "unitCost": 14.8,
+    "notes": "Knauf GKF. REI 60-120 a seconda dei strati. Per vani tecnici.",
+    "links": "https://tools.knauf.it/\nhttps://magazine.knauf.it/prodotti/lastre/lastre-gkf/"
+  },
+  {
+    "id": "cmpgvdkkcqusn1ic8",
+    "code": "CG-BA13H-250",
+    "category": "Strutture – Cartongesso",
+    "description": "Lastra cartongesso idrofugo BA13H (verde) – 250×120cm",
+    "unit": "pz",
+    "unitCost": 12.5,
+    "notes": "Knauf GKBI. Per bagni e cucine. Resistente umidità.",
+    "links": "https://tools.knauf.it/\nhttps://magazine.knauf.it/prodotti/lastre/"
+  },
+  {
+    "id": "cmpgvdjollzo2nv0l",
+    "code": "CG-BA13-250",
+    "category": "Strutture – Cartongesso",
+    "description": "Lastra cartongesso standard BA13 – 250×120cm (Knauf)",
+    "unit": "pz",
+    "unitCost": 9.8,
+    "notes": "Knauf GKB 13mm. Per pareti e soffitti interni. Link: https://www.knauf.it",
+    "links": "https://tools.knauf.it/\nhttps://magazine.knauf.it/prodotti/lastre/"
+  },
+  {
+    "id": "cmpgvdlfjp8sin0d0",
+    "code": "NAS-GIU-50",
+    "category": "Strutture – Cartongesso",
+    "description": "Nastro di carta per giunti cartongesso – rotolo 50m",
+    "unit": "pz",
+    "unitCost": 4.8,
+    "notes": "Knauf. Per stuccatura giunti tra lastre.",
+    "links": "https://tools.knauf.it/"
+  },
+  {
+    "id": "cmpgvdkyljcgjaijw",
+    "code": "PRF-C-75",
+    "category": "Strutture – Cartongesso",
+    "description": "Profilo C 75/50 – metro (Knauf)",
+    "unit": "ml",
+    "unitCost": 2.2,
+    "notes": "Profilo anima in acciaio zincato 75mm per controplafoni.",
+    "links": "https://tools.knauf.it/"
+  },
+  {
+    "id": "cmpgvdl64vqyd29xi",
+    "code": "PRF-CD-60",
+    "category": "Strutture – Cartongesso",
+    "description": "Profilo CD 60 per controsoffitto – metro",
+    "unit": "ml",
+    "unitCost": 1.5,
+    "notes": "Profilo portante per controsoffitti a soffitto.",
+    "links": "https://tools.knauf.it/"
+  },
+  {
+    "id": "cmpgvdl2cpoxeamyi",
+    "code": "PRF-U-75",
+    "category": "Strutture – Cartongesso",
+    "description": "Profilo U 75mm – metro (guida)",
+    "unit": "ml",
+    "unitCost": 1.8,
+    "notes": "Guida in acciaio zincato. Per fissaggio a pavimento/soffitto.",
+    "links": "https://tools.knauf.it/\nhttps://www.leroymerlin.it/prodotti/costruzione/cartongesso/"
+  },
+  {
+    "id": "cmpgvdl8r6uzvitox",
+    "code": "STA-MOL",
+    "category": "Strutture – Cartongesso",
+    "description": "Staffa a molla per controsoffitto – pz",
+    "unit": "pz",
+    "unitCost": 1.2,
+    "notes": "Per ancoraggio profilo CD al solaio.",
+    "links": "https://tools.knauf.it/"
+  },
+  {
+    "id": "cmpgvdlihflwf1ed9",
+    "code": "STU-GIU-5",
+    "category": "Strutture – Cartongesso",
+    "description": "Stucco per giunti cartongesso – secchio 5kg",
+    "unit": "pz",
+    "unitCost": 14.5,
+    "notes": "Knauf Fugenfüller HP. Per stuccatura e primer.",
+    "links": "https://tools.knauf.it/"
+  },
+  {
+    "id": "cmpgvdlcdo48tfmhv",
+    "code": "VIT-CG-35",
+    "category": "Strutture – Cartongesso",
+    "description": "Vite per cartongesso 3.5×35mm – box 1000pz",
+    "unit": "pz",
+    "unitCost": 8.5,
+    "notes": "Viti fosfatate. Bauhaus.",
+    "links": "https://tools.knauf.it/\nhttps://www.bauhaus.ch/it/c/cartongesso"
+  },
+  {
+    "id": "cmpgvdrls3so5p42y",
+    "code": "BUS-FAR-CG",
+    "category": "Strutture – Finiture Edili",
+    "description": "Bussola porta faretti cartongesso – pz",
+    "unit": "pz",
+    "unitCost": 4.5,
+    "notes": "Bussola da incasso per faretti LED nel cartongesso.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgvdrezfbmc7knv",
+    "code": "CTF-ARM-60",
+    "category": "Strutture – Finiture Edili",
+    "description": "Controsoffitto Armstrong tegola 60×60 – m²",
+    "unit": "m²",
+    "unitCost": 32,
+    "notes": "Sistema smontabile. Per locali commerciali/uffici.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgvdrc059mfx429",
+    "code": "COP-FIL-8",
+    "category": "Strutture – Finiture Edili",
+    "description": "Coprifilo porta MDF bianco 8cm – ml",
+    "unit": "ml",
+    "unitCost": 5.5,
+    "notes": "Coprigiunto tra telaio porta e parete.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgvdr8w8prwh2ki",
+    "code": "COR-GES-7",
+    "category": "Strutture – Finiture Edili",
+    "description": "Cornice decorativa in gesso 7cm – ml",
+    "unit": "ml",
+    "unitCost": 7.5,
+    "notes": "Cornice stucco per soffitto. Posa con colla speciale.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgvdr5pocr5koq0",
+    "code": "SOG-MAR-100",
+    "category": "Strutture – Finiture Edili",
+    "description": "Soglia in marmo/pietra 100cm – bianco",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Soglia d'ingresso. Marmo bianco levigato.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgvdrilxf38ioiu",
+    "code": "TRA-DEC-ML",
+    "category": "Strutture – Finiture Edili",
+    "description": "Travetti in legno decorativi – finti travi ml",
+    "unit": "ml",
+    "unitCost": 38,
+    "notes": "Travi decorative in poliuretano effetto legno. Leggere.",
+    "links": "https://www.bauhaus.ch/it/c/cornici-e-modanature"
+  },
+  {
+    "id": "cmpgv1agjbybtnnd8",
+    "code": "GUA-BIT-M2",
+    "category": "Strutture – Impermeabilizzazione",
+    "description": "Guaina bituminosa autoprotetta – m²",
+    "unit": "m²",
+    "unitCost": 22,
+    "notes": "Per terrazzi e balconi. Spessore 4mm. Posa a fiamma.",
+    "links": "https://www.bauhaus.ch/it/c/impermeabilizzazione"
+  },
+  {
+    "id": "cmpgv1ac9re6eu3mp",
+    "code": "GUA-PAS-10",
+    "category": "Strutture – Impermeabilizzazione",
+    "description": "Guaina impermeabilizzante per doccia in pasta – 10L",
+    "unit": "l",
+    "unitCost": 38,
+    "notes": "Mapei Mapelastic, Weber waterproof. Obbligatorio sotto piastrelle doccia.",
+    "links": "https://www.leroymerlin.it/prodotti/idraulica-termoidraulica-e-ventilazione/impermeabilizzanti/"
+  },
+  {
+    "id": "cmpgv1ai3pyolillf",
+    "code": "GUA-LIQ-1L",
+    "category": "Strutture – Impermeabilizzazione",
+    "description": "Guaina liquida poliuretanica per terrazzo – 1L",
+    "unit": "l",
+    "unitCost": 28,
+    "notes": "Applicazione a pennello. Resa 1-1.5kg/m² per 2 mani. Bauhaus/Weber.",
+    "links": "https://www.bauhaus.ch/it/c/impermeabilizzazione"
+  },
+  {
+    "id": "cmpgv1aju1bhdsacd",
+    "code": "MEM-KER-M2",
+    "category": "Strutture – Impermeabilizzazione",
+    "description": "Membrana impermeabilizzante sottile (Schlüter Kerdi) – m²",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Sistema professionale per doccia. Schlüter Systems.",
+    "links": "https://www.schluter.com/it-it/products/schluter-kerdi"
+  },
+  {
+    "id": "cmpgv1aezqjn5ftdg",
+    "code": "NAS-ANG-5",
+    "category": "Strutture – Impermeabilizzazione",
+    "description": "Nastro impermeabilizzante per angoli doccia – 5m",
+    "unit": "pz",
+    "unitCost": 12.5,
+    "notes": "Nastro flessibile per angoli e giunti. Mapei/Ardex.",
+    "links": "https://www.bauhaus.ch/it/c/impermeabilizzazione"
+  },
+  {
+    "id": "cmpgvdm4nsyr7hs20",
+    "code": "LDR-50-M2",
+    "category": "Strutture – Isolamento",
+    "description": "Lana di roccia 50mm – pannello 60×100cm (Rockwool)",
+    "unit": "m²",
+    "unitCost": 12,
+    "notes": "Rockwool Rockboard 035. Per contropareti. Link: https://www.rockwool.com/it",
+    "links": "https://www.rockwool.com/it/prodotti/"
+  },
+  {
+    "id": "cmpgvdm8xxm5c1ow6",
+    "code": "LDR-80-M2",
+    "category": "Strutture – Isolamento",
+    "description": "Lana di roccia 80mm – pannello per copertura",
+    "unit": "m²",
+    "unitCost": 16.5,
+    "notes": "Rockwool Monrock MAX E. Cappotto tetto/soffitto.",
+    "links": "https://www.rockwool.com/it/prodotti/"
+  },
+  {
+    "id": "cmpgvdmglovh0248z",
+    "code": "EPS-100-M2",
+    "category": "Strutture – Isolamento",
+    "description": "Pannello EPS 100mm per cappotto esterno – m²",
+    "unit": "m²",
+    "unitCost": 10.5,
+    "notes": "Standard cappotto ETICS. Isopan/Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/isolamento\nhttps://www.isopan.it"
+  },
+  {
+    "id": "cmpgvdmcgrlqok5oi",
+    "code": "EPS-60-M2",
+    "category": "Strutture – Isolamento",
+    "description": "Pannello EPS 60mm (polistirene espanso) – m²",
+    "unit": "m²",
+    "unitCost": 6.8,
+    "notes": "Cappotto esterno. Densità 15-20kg/m³. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/isolamento\nhttps://www.isopan.it"
+  },
+  {
+    "id": "cmpgvdmlhpj6bc356",
+    "code": "XPS-50-M2",
+    "category": "Strutture – Isolamento",
+    "description": "Pannello XPS 50mm (estruso) – terrazzo/fondazioni",
+    "unit": "m²",
+    "unitCost": 14,
+    "notes": "Resistente umidità. Sotto massetto su terreno. Styrodur.",
+    "links": "https://www.bauhaus.ch/it/c/isolamento"
+  },
+  {
+    "id": "cmpgvdmrwo5ip6wmv",
+    "code": "SCH-PU-750",
+    "category": "Strutture – Isolamento",
+    "description": "Schiuma poliuretanica espandente – bomboletta 750ml",
+    "unit": "pz",
+    "unitCost": 8.5,
+    "notes": "Per sigillatura interstizi, fissaggio telai porte/finestre. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/schiume-poliuretaniche"
+  },
+  {
+    "id": "cmpgvdmopxf4hmfzs",
+    "code": "TEL-BV-RIF",
+    "category": "Strutture – Isolamento",
+    "description": "Telo barriera vapore rifrangente – m²",
+    "unit": "m²",
+    "unitCost": 3.5,
+    "notes": "Multifoil riflettente. Per tetti e pareti. Bauhaus.",
+    "links": "https://www.rockwool.com/it/prodotti/\nhttps://www.bauhaus.ch/it/c/isolamento"
+  },
+  {
+    "id": "pi-M.04",
+    "code": "M.04",
+    "category": "Strutture – Muratura",
+    "description": "Chiusura traccia impiantistica con gesso",
+    "unit": "ml",
+    "unitCost": 18,
+    "notes": "Rif. NPK 651",
+    "links": "https://www.bauhaus.ch/it/c/legno-e-materiali-edilizi\nhttps://www.holcim.ch"
+  },
+  {
+    "id": "pi-M.05",
+    "code": "M.05",
+    "category": "Strutture – Muratura",
+    "description": "Fornitura e posa porta scorrevole tipo Scrigno (solo struttura)",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Esclusa porta. Rif. listino Eclisse 2024",
+    "links": "https://www.bauhaus.ch/it/c/legno-e-materiali-edilizi\nhttps://www.holcim.ch"
+  },
+  {
+    "id": "pi-M.02",
+    "code": "M.02",
+    "category": "Strutture – Muratura",
+    "description": "Parete divisoria in cartongesso doppio con lana di roccia",
+    "unit": "m²",
+    "unitCost": 105,
+    "notes": "Isolamento acustico 50mm. Rif. NPK 672.21",
+    "links": "https://www.rockwool.com/it/prodotti/\nhttps://www.bauhaus.ch/it/c/isolamento"
+  },
+  {
+    "id": "pi-M.01",
+    "code": "M.01",
+    "category": "Strutture – Muratura",
+    "description": "Parete divisoria in cartongesso singolo (1×12.5mm)",
+    "unit": "m²",
+    "unitCost": 72,
+    "notes": "Telaio 75mm, incl. materiali. Rif. NPK 672.11",
+    "links": "https://www.bauhaus.ch/it/c/legno-e-materiali-edilizi\nhttps://www.holcim.ch"
+  },
+  {
+    "id": "pi-M.06",
+    "code": "M.06",
+    "category": "Strutture – Muratura",
+    "description": "Rinforzo strutturale con putrella HEA 120",
+    "unit": "ml",
+    "unitCost": 380,
+    "notes": "Incl. posa e protezione antincendio. Rif. NPK 511",
+    "links": "https://www.bauhaus.ch/it/c/legno-e-materiali-edilizi\nhttps://www.holcim.ch"
+  },
+  {
+    "id": "pi-M.03",
+    "code": "M.03",
+    "category": "Strutture – Muratura",
+    "description": "Rivestimento parete in cartongesso su muro esistente",
+    "unit": "m²",
+    "unitCost": 58,
+    "notes": "Rif. NPK 672.31",
+    "links": "https://www.bauhaus.ch/it/c/legno-e-materiali-edilizi\nhttps://www.holcim.ch"
+  },
+  {
+    "id": "cmpgvdqmnr1hhlp8y",
+    "code": "DAV-ALL-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Davanzale in alluminio verniciato 100cm",
+    "unit": "pz",
+    "unitCost": 65,
+    "notes": "Leggero, anticorrosione.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdqj93j2g2mt7",
+    "code": "DAV-PIE-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Davanzale in pietra artificiale 100cm – bianco",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Sporgenza 3cm, con gocciolatoio. Bauhaus area.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdq3e2c32r5ki",
+    "code": "FIN-PVC-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Finestra PVC doppio vetro 100×120cm – bianco",
+    "unit": "pz",
+    "unitCost": 480,
+    "notes": "Uw ≤1.4. 2 ante. Include posa e sigillatura.",
+    "links": "https://www.bauhaus.ch/it/c/finestre\nhttps://www.leroymerlin.it/prodotti/costruzione/finestre-e-portefinestre/"
+  },
+  {
+    "id": "cmpgvdq6mapuuairx",
+    "code": "FIN-PVC-TRI",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Finestra PVC triplo vetro 100×120cm – bianco",
+    "unit": "pz",
+    "unitCost": 650,
+    "notes": "Uw ≤0.9. Ideale per riqualificazione energetica.",
+    "links": "https://www.bauhaus.ch/it/c/finestre\nhttps://www.leroymerlin.it/prodotti/costruzione/finestre-e-portefinestre/"
+  },
+  {
+    "id": "cmpgvdq9dqm0uy38s",
+    "code": "FIN-ALL-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Finestra alluminio taglio termico 100×120cm",
+    "unit": "pz",
+    "unitCost": 780,
+    "notes": "Alluminio a taglio termico. Più robusto, finitura migliore.",
+    "links": "https://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdqcmaosntcfh",
+    "code": "FIN-LEA-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Finestra legno-alluminio 100×120cm – high-end",
+    "unit": "pz",
+    "unitCost": 1100,
+    "notes": "Interno legno, esterno alluminio. Standard svizzero top.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "pi-F.03",
+    "code": "F.03",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Fornitura e posa battiscopa in legno H80mm",
+    "unit": "ml",
+    "unitCost": 28,
+    "notes": "MDF laccato bianco. Rif. NPK 631",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "pi-F.02",
+    "code": "F.02",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Fornitura e posa porta interna laminata (70×210)",
+    "unit": "pz",
+    "unitCost": 355,
+    "notes": "Incl. telaio e maniglia. Listino 2024",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "pi-F.01",
+    "code": "F.01",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Fornitura e posa porta interna laminata (80×210)",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Incl. telaio e maniglia. Listino Garofoli/Bertolotto 2024",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "pi-F.04",
+    "code": "F.04",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Fornitura e posa soglia in alluminio tra ambienti",
+    "unit": "ml",
+    "unitCost": 45,
+    "notes": "Profilo di raccordo parquet/ceramica",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdpcvyerumlqb",
+    "code": "MAN-POR-INT",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Maniglia porta interna – set (rosetta + maniglia pz)",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Maniglia in acciaio satinato o cromato. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/maniglie"
+  },
+  {
+    "id": "cmpgvdpjak5tou3tr",
+    "code": "POS-POR-INT",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Montaggio porta interna (con telaio esistente)",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Falegname. Regolazione telaio, installazione cerniere, collaudo.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdpn4tc0w9zcc",
+    "code": "POS-POR-NUO",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Montaggio porta interna (nuova muratura + telaio)",
+    "unit": "pz",
+    "unitCost": 350,
+    "notes": "Include muratura apertura + telaio + porta.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdr2qjai0rw1v",
+    "code": "PER-LEG-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Persiana in legno 100×120cm – verniciata",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Persiana tradizionale. Include cerniere e fermo.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdp63lnkxkdkl",
+    "code": "POR-SCO-80",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta a scorrimento a parete 80×210 – bianco (con controtelaio)",
+    "unit": "pz",
+    "unitCost": 680,
+    "notes": "Scompare nella parete. Include controtelaio Eclisse/Scrigno.",
+    "links": "https://www.bauhaus.ch/it/c/porte-scorrevoli"
+  },
+  {
+    "id": "cmpgvdppwr9uapjb5",
+    "code": "POR-BAG-GRI",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta bagno con griglie ventilazione – 80×210",
+    "unit": "pz",
+    "unitCost": 380,
+    "notes": "Porta con griglia bassa per areazione bagno cieco.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdpsfk5wr7fp4",
+    "code": "PBL-CL3-90",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta blindata classe 3 – bianco 90×210 (Dierre)",
+    "unit": "pz",
+    "unitCost": 1650,
+    "notes": "Dierre/Alias. Classe WK3, certificata. Include installazione.",
+    "links": "https://www.dierre.it/it/porte-blindate/"
+  },
+  {
+    "id": "cmpgvdpve65ohprgd",
+    "code": "PBL-CL4-90",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta blindata classe 4 – noce 90×210",
+    "unit": "pz",
+    "unitCost": 2200,
+    "notes": "Massima sicurezza residenziale. Include controtelaio.",
+    "links": "https://www.dierre.it/it/porte-blindate/"
+  },
+  {
+    "id": "cmpgvdp29hyzvemmj",
+    "code": "POR-MAS-80",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta interna in legno massello rovere 80×210cm",
+    "unit": "pz",
+    "unitCost": 850,
+    "notes": "Rovere naturale o tinto. Qualità medio-alta. Include telaio.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdowhvqxytato",
+    "code": "POR-INT-80",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta interna tamburata 80×210cm – bianco laccato (con telaio)",
+    "unit": "pz",
+    "unitCost": 420,
+    "notes": "Porta tamburata standard. Include telaio fisso e cerniere.",
+    "links": "https://www.bauhaus.ch/it/c/porte-interne"
+  },
+  {
+    "id": "cmpgvdozarj98w14v",
+    "code": "POR-INT-90",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta interna tamburata 90×210cm – bianco (con telaio)",
+    "unit": "pz",
+    "unitCost": 450,
+    "notes": "Formato bagno/camera principale.",
+    "links": "https://www.bauhaus.ch/it/c/porte-interne"
+  },
+  {
+    "id": "cmpgvdpa52764ia0n",
+    "code": "POR-VET-80",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Porta scorrevole binario esterno 80×210 – vetro smerigliato",
+    "unit": "pz",
+    "unitCost": 520,
+    "notes": "Binario in alluminio a vista. Vetro opaco.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdpz80j2dllui",
+    "code": "SER-AGG-EU",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Serratura europea aggiuntiva per porta esistente",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Mul-T-Lock/EVVA. Montaggio su porta esistente.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdpfz3g2tcgym",
+    "code": "SER-POR-INT",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Serratura porta interna a bussola – pz",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Catenaccio standard. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/porte\nhttps://www.bauhaus.ch/it/c/finestre"
+  },
+  {
+    "id": "cmpgvdqqsr9qbudqt",
+    "code": "POS-FIN-SOI",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Sostituzione finestra + posa (manodopera)",
+    "unit": "pz",
+    "unitCost": 280,
+    "notes": "Muratore + falegname. Rimozione vecchia, posa nuova, sigillatura.",
+    "links": null
+  },
+  {
+    "id": "cmpgvdqwzbu81qsml",
+    "code": "TAP-PVC-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Tapparella avvolgibile PVC 100×120cm – manuale",
+    "unit": "pz",
+    "unitCost": 180,
+    "notes": "Avvolgibile standard. Include cassonetto.",
+    "links": "https://www.bauhaus.ch/it/c/tapparelle"
+  },
+  {
+    "id": "cmpgvdqz5ukmtztjd",
+    "code": "TAP-MOT-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Tapparella avvolgibile motorizzata 100×120cm",
+    "unit": "pz",
+    "unitCost": 320,
+    "notes": "Motore Somfy/Rolladenmotor. Telecomando.",
+    "links": "https://www.bauhaus.ch/it/c/tapparelle"
+  },
+  {
+    "id": "cmpgvdqghzus06g2b",
+    "code": "VEL-TET-78",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Velux finestra tetto 78×118cm – doppio vetro",
+    "unit": "pz",
+    "unitCost": 780,
+    "notes": "Velux GGL MK04. Include Flash KIT impermeabilizzazione.",
+    "links": "https://www.velux.ch/it"
+  },
+  {
+    "id": "cmpgvdqufcdszv6bg",
+    "code": "ZAN-RUL-100",
+    "category": "Strutture – Porte e Finestre",
+    "description": "Zanzariera a rullo per finestra 100×120cm",
+    "unit": "pz",
+    "unitCost": 85,
+    "notes": "Laterale o frontale. Bauhaus/Jumbo.",
+    "links": "https://www.bauhaus.ch/it/c/zanzariere"
+  },
+  {
+    "id": "cmpgv1c0jfs8hgmod",
+    "code": "BOR-ANTI-120",
+    "category": "Strutture – Scale",
+    "description": "Bordo antiscivolo alluminio per scalino – 120cm",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Profilo antiscivolo, riduce rischio cadute. Obbligatorio in edifici pubblici.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgvdrrwaoqovgfx",
+    "code": "COR-LEG-ML",
+    "category": "Strutture – Scale",
+    "description": "Corrimano in legno rovere su parete – ml",
+    "unit": "ml",
+    "unitCost": 85,
+    "notes": "Corrimano legno massello fissato a parete.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgv1byri9zgpy1h",
+    "code": "GRA-GRE-120",
+    "category": "Strutture – Scale",
+    "description": "Gradino in gres 120×30cm – rivestimento scala",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Gradino completo con alzata. Antiscivolo frontale.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgv1c3ov69c1a6t",
+    "code": "POS-GRA-PZ",
+    "category": "Strutture – Scale",
+    "description": "Posa gradini scala – per gradino",
+    "unit": "pz",
+    "unitCost": 35,
+    "notes": "Manodopera posa singolo gradino, incluso taglio e stucco.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgvdrp38xlt99lp",
+    "code": "RIN-INO-ML",
+    "category": "Strutture – Scale",
+    "description": "Ringhiera acciaio inox satinato – ml",
+    "unit": "ml",
+    "unitCost": 280,
+    "notes": "Include montanti + corrimano + fissaggi. Produzione su misura.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgv1c23bf320q6u",
+    "code": "GRA-LEG-120",
+    "category": "Strutture – Scale",
+    "description": "Rivestimento scalino in legno massello rovere 120×30",
+    "unit": "pz",
+    "unitCost": 75,
+    "notes": "Gradino in rovere massello per scala in legno.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgvdrv4toy3uamu",
+    "code": "SCA-FER-INT",
+    "category": "Strutture – Scale",
+    "description": "Struttura scala in ferro (interna, dritto)",
+    "unit": "corpo",
+    "unitCost": 3200,
+    "notes": "Struttura portante scala interna. Verniciata a polvere.",
+    "links": "https://www.bauhaus.ch/it/c/scale-e-gradini"
+  },
+  {
+    "id": "cmpgv1c573s1a5x7v",
+    "code": "CRO-2MM-500",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Crocette distanziatrici 2mm – busta 500pz",
+    "unit": "pz",
+    "unitCost": 3.5,
+    "notes": "Per fughe standard. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1c6t7xn1q750",
+    "code": "CRO-5MM-200",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Crocette distanziatrici 5mm – busta 200pz",
+    "unit": "pz",
+    "unitCost": 3.8,
+    "notes": "Per fughe larghe stile rustico.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1cc1w9ifg0rf",
+    "code": "DIS-DIA-125",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Disco diamantato per flex – piastrelle ceramica 125mm",
+    "unit": "pz",
+    "unitCost": 12,
+    "notes": "Consumabile. Bauhaus/Jumbo.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1cfgljismc95",
+    "code": "FRA-DEN-10",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Frattazzo dentato inox 10mm – colla piastrelle",
+    "unit": "pz",
+    "unitCost": 8.5,
+    "notes": "Per stendere colla con dente 10mm su formato 60×60.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1cahnfdbkogk",
+    "code": "TAG-PIA-60",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Lama taglio piastrelle manuali fino 60cm",
+    "unit": "pz",
+    "unitCost": 45,
+    "notes": "Tagliapiastrelle manuale. Bauhaus.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1ch1knqe7ms0",
+    "code": "MIS-FRU",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Miscelatore a frusta per colla – per trapano 710W",
+    "unit": "pz",
+    "unitCost": 22,
+    "notes": "Mescolatore a elica per massetti e colle in polvere.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1c8ce9pi5p6n",
+    "code": "LIV-RAI-100",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Sistema livellazione piastrelle Raimondi – kit 100pz",
+    "unit": "pz",
+    "unitCost": 28,
+    "notes": "Riduce difetto lippage su grande formato. Essenziale per 60×120+.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgv1cdsf04rk4ko",
+    "code": "SPU-FUG",
+    "category": "Utensili – Accessori e Strumenti",
+    "description": "Spugna per fughe – grande",
+    "unit": "pz",
+    "unitCost": 4.5,
+    "notes": "Per pulizia fughe durante la posa.",
+    "links": "https://www.bauhaus.ch/it/c/utensili"
+  },
+  {
+    "id": "cmpgviqqy2wqqe1po",
+    "code": "CAS-DER-IP55",
+    "category": "Varie – Generale",
+    "description": "Cassetta di derivazione stagna IP55 – 100×100mm",
+    "unit": "pz",
+    "unitCost": 8.5,
+    "notes": "Per derivazioni in ambienti umidi.",
+    "links": "https://www.bauhaus.ch/it"
+  },
+  {
+    "id": "cmpgvir4nynbx72wh",
+    "code": "DIS-ANT-UM",
+    "category": "Varie – Generale",
+    "description": "Disinfezione e trattamento antiumidità – m²",
+    "unit": "m²",
+    "unitCost": 18,
+    "notes": "Trattamento muri con umidità saliente. Include prodotti biocidi.",
+    "links": "https://www.bauhaus.ch/it"
+  },
+  {
+    "id": "cmpgvir3029nv7pr7",
+    "code": "NAS-MAS-50",
+    "category": "Varie – Generale",
+    "description": "Nastro in carta per mascheratura – 50mm × 50m",
+    "unit": "pz",
+    "unitCost": 3.5,
+    "notes": "Bauhaus. Per pittura e protezione bordi.",
+    "links": "https://www.bauhaus.ch/it"
+  },
+  {
+    "id": "cmpgviqyzdj5tafbw",
+    "code": "RET-FIB-50",
+    "category": "Varie – Generale",
+    "description": "Rete fibra di vetro per intonaco – rotolo 50m²",
+    "unit": "m²",
+    "unitCost": 2.8,
+    "notes": "Armatura per intonaci e rasanti su giunti. Evita crepe.",
+    "links": "https://www.bauhaus.ch/it/c/reti-di-armatura"
+  },
+  {
+    "id": "cmpgviqxfaznlavkk",
+    "code": "SIG-PU-600",
+    "category": "Varie – Generale",
+    "description": "Sigillante poliuretanico grigio – 600ml (pistola)",
+    "unit": "pz",
+    "unitCost": 18,
+    "notes": "Per giunti di dilatazione, davanzali, bocchette.",
+    "links": "https://www.bauhaus.ch/it"
+  },
+  {
+    "id": "cmpgviqvuuvmt800x",
+    "code": "SIL-SAN-310",
+    "category": "Varie – Generale",
+    "description": "Silicone acetico sanitario bianco – 310ml",
+    "unit": "pz",
+    "unitCost": 8,
+    "notes": "Antibatterico per bagni. Durata 15+ anni.",
+    "links": "https://www.bauhaus.ch/it/c/silicone"
+  },
+  {
+    "id": "cmpgviqt6cszklt9b",
+    "code": "SIL-NEU-310",
+    "category": "Varie – Generale",
+    "description": "Silicone neutro trasparente – 310ml",
+    "unit": "pz",
+    "unitCost": 9.5,
+    "notes": "Per sigillatura universale. Bagni, cucine, finestre.",
+    "links": "https://www.bauhaus.ch/it/c/silicone"
+  },
+  {
+    "id": "cmpgvir1daemdocgm",
+    "code": "TEL-PRO-PAV",
+    "category": "Varie – Generale",
+    "description": "Telo di protezione pavimento – rotolo 50m²",
+    "unit": "m²",
+    "unitCost": 1.2,
+    "notes": "Film protettivo durante lavori. Polietilene.",
+    "links": "https://www.bauhaus.ch/it"
+  },
+  {
+    "id": "cmpgvir6b18f2iiid",
+    "code": "TRA-ANT-MUF",
+    "category": "Varie – Generale",
+    "description": "Trattamento antimuffa preventivo – m²",
+    "unit": "m²",
+    "unitCost": 12,
+    "notes": "Prima di pittura in zone a rischio (bagni, cantine).",
+    "links": "https://www.bauhaus.ch/it"
+  }
+]

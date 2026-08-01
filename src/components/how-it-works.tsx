@@ -22,32 +22,26 @@ export function HowItWorks() {
   return (
     <Section
       id="come-funziona"
-      index="II"
-      label="Come funziona"
+      tone="off"
+      eyebrow="Come funziona"
       title={
         <>
-          Tre passaggi. Il primo è l&apos;unico <em>che tocca a te.</em>
+          Tre passaggi. Il primo è l&apos;unico{' '}
+          <span className="text-mint-deep">che tocca a te.</span>
         </>
       }
     >
-      {/* A real sequence, so it earns its numbers and its connecting rule. */}
-      <ol className="relative">
-        <span
-          aria-hidden
-          className="absolute left-[1.15rem] top-3 bottom-3 hidden w-px bg-rule sm:block"
-        />
+      <ol className="grid gap-6 md:grid-cols-3">
         {STEPS.map((step) => (
           <li
             key={step.n}
-            className="relative grid gap-x-7 gap-y-2 pb-10 last:pb-0 sm:grid-cols-[2.3rem_1fr]"
+            className="rounded-2xl border border-line bg-white p-8"
           >
-            <span className="tabular relative z-10 hidden h-[2.3rem] w-[2.3rem] items-center justify-center rounded-full border border-rule bg-paper text-[0.8rem] font-semibold text-wine sm:flex">
+            <span className="tabular inline-flex h-11 w-11 items-center justify-center rounded-full bg-mint text-[0.9rem] font-extrabold text-navy">
               {step.n}
             </span>
-            <div>
-              <h3 className="text-[1.4rem] leading-snug">{step.title}</h3>
-              <p className="mt-2 max-w-[54ch] text-ink-soft">{step.body}</p>
-            </div>
+            <h3 className="mt-6 text-[1.35rem]">{step.title}</h3>
+            <p className="mt-3 text-slate-ink">{step.body}</p>
           </li>
         ))}
       </ol>

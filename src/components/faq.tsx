@@ -48,22 +48,31 @@ export function Faq() {
   }
 
   return (
-    <Section id="domande" index="IX" label="Domande">
-      <div className="border-t border-rule">
+    <Section
+      id="domande"
+      tone="off"
+      eyebrow="Domande"
+      title={
+        <>
+          Domande che ci <span className="text-mint-deep">fanno sempre</span>
+        </>
+      }
+    >
+      <div className="overflow-hidden rounded-2xl border border-line bg-white">
         {FAQS.map((faq) => (
-          <details key={faq.q} className="group border-b border-rule">
-            <summary className="flex cursor-pointer list-none items-baseline justify-between gap-6 py-5">
-              <h3 className="font-display text-[1.2rem] leading-snug transition-colors group-open:text-wine">
+          <details key={faq.q} className="group border-b border-line last:border-0">
+            <summary className="flex cursor-pointer list-none items-baseline justify-between gap-6 px-7 py-5">
+              <h3 className="text-[1.08rem] transition-colors group-open:text-mint-deep">
                 {faq.q}
               </h3>
               <span
                 aria-hidden
-                className="mt-1 shrink-0 text-lg text-ink-faint transition-transform duration-200 group-open:rotate-45"
+                className="mt-1 shrink-0 text-lg text-slate transition-transform duration-200 group-open:rotate-45"
               >
                 +
               </span>
             </summary>
-            <p className="max-w-[64ch] pb-6 pr-10 text-ink-soft">{faq.a}</p>
+            <p className="max-w-[68ch] px-7 pb-6 text-slate-ink">{faq.a}</p>
           </details>
         ))}
       </div>

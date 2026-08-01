@@ -3,7 +3,7 @@ import { Section } from '@/components/section'
 const ITEMS = [
   {
     term: 'Preventivi',
-    def: 'Redatti da noi, da un vocale o da quattro misure. Italiano professionale, PDF pronto per il cliente — più una versione interna con i tuoi margini.',
+    def: 'Redatti da noi, da un vocale o da quattro misure. PDF pronto per il cliente, più una versione interna con i tuoi margini.',
   },
   {
     term: 'Fatture e acconti',
@@ -31,7 +31,7 @@ const ITEMS = [
   },
   {
     term: 'App e archivio',
-    def: 'Accesso titolare e accesso operai. Documenti, foto e contratti organizzati per cantiere, sempre a portata di mano.',
+    def: 'Accesso titolare e accesso operai. Documenti, foto e contratti organizzati per cantiere.',
   },
 ]
 
@@ -39,39 +39,35 @@ export function Deliverables() {
   return (
     <Section
       id="cosa-ricevi"
-      index="III"
-      label="Cosa ricevi"
+      eyebrow="Cosa ricevi"
       title={
         <>
-          Una lista chiusa, <em>non promesse generiche.</em>
+          Una lista chiusa,{' '}
+          <span className="text-mint-deep">non promesse generiche.</span>
         </>
       }
       lead="Quello che è scritto qui lo facciamo, con tempi concordati. Quello che non c'è, te lo diciamo prima di cominciare."
     >
       {/* The weekly receipt chase is the one thing nobody else in this market
           does — it leads the list instead of hiding in the middle of it. */}
-      <div className="bg-wine px-7 py-8 text-paper sm:px-10 sm:py-10">
-        <p className="eyebrow text-wine-bright">Quello che nessun altro fa</p>
-        <h3 className="mt-4 max-w-[24ch] text-[clamp(1.5rem,3vw,2.15rem)] leading-[1.15] text-paper">
-          Ogni venerdì gli scontrini <em>te li chiediamo noi.</em>
+      <div className="rounded-2xl bg-navy px-7 py-9 sm:px-10 sm:py-11">
+        <p className="eyebrow text-mint">Quello che nessun altro fa</p>
+        <h3 className="mt-4 max-w-[24ch] text-[clamp(1.5rem,3vw,2.15rem)] text-white">
+          Ogni venerdì gli scontrini{' '}
+          <span className="text-mint">te li chiediamo noi.</span>
         </h3>
-        <p className="mt-4 max-w-[54ch] text-paper/80">
+        <p className="mt-4 max-w-[56ch] text-white/70">
           Non devi ricordarti niente. Il venerdì ti arriva un messaggio e tu
           rispondi con le foto della settimana. È il motivo per cui i nostri
           clienti non hanno più buste di scontrini nel furgone.
         </p>
       </div>
 
-      <dl className="mt-10 border-t border-rule">
+      <dl className="mt-8 grid gap-x-10 gap-y-px sm:grid-cols-2">
         {ITEMS.map((item) => (
-          <div
-            key={item.term}
-            className="grid gap-x-8 gap-y-1 border-b border-rule py-5 sm:grid-cols-[15rem_1fr]"
-          >
-            <dt className="font-display text-[1.15rem] leading-snug">
-              {item.term}
-            </dt>
-            <dd className="max-w-[56ch] text-ink-soft">{item.def}</dd>
+          <div key={item.term} className="border-b border-line py-5">
+            <dt className="text-[1.05rem] font-extrabold">{item.term}</dt>
+            <dd className="mt-1.5 text-[0.95rem] text-slate-ink">{item.def}</dd>
           </div>
         ))}
       </dl>

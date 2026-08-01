@@ -22,27 +22,27 @@ const PAINS = [
 export function Problem() {
   return (
     <Section
-      index="I"
-      label="Il problema"
+      eyebrow="Il problema"
       title={
         <>
-          Ti riconosci in almeno una <em>di queste?</em>
+          Ti riconosci in almeno una{' '}
+          <span className="text-mint-deep">di queste?</span>
         </>
       }
     >
-      <ul className="border-t border-rule">
+      <div className="grid gap-5 sm:grid-cols-2">
         {PAINS.map((pain) => (
-          <li
+          <div
             key={pain.title}
-            className="grid gap-x-8 gap-y-1.5 border-b border-rule py-6 sm:grid-cols-[16rem_1fr]"
+            className="rounded-2xl border border-line bg-off p-7"
           >
-            <h3 className="text-[1.15rem] leading-snug">{pain.title}</h3>
-            <p className="max-w-[52ch] text-ink-soft">{pain.body}</p>
-          </li>
+            <h3 className="text-[1.15rem]">{pain.title}</h3>
+            <p className="mt-2.5 text-slate-ink">{pain.body}</p>
+          </div>
         ))}
-      </ul>
+      </div>
 
-      <p className="mt-12 max-w-[34ch] font-display text-[clamp(1.5rem,2.6vw,2.1rem)] italic leading-[1.25]">
+      <p className="mt-12 max-w-[36ch] text-[clamp(1.4rem,2.6vw,2rem)] font-extrabold leading-tight">
         Non è disorganizzazione. È che nessuno può costruire di giorno e fare
         l&apos;ufficio di notte.
       </p>

@@ -22,31 +22,34 @@ const EXCLUDED = [
 export function NotIncluded() {
   return (
     <Section
-      index="IV"
-      label="I limiti"
+      tone="off"
+      eyebrow="I limiti"
       title={
         <>
-          E cosa <em>non</em> facciamo
+          E cosa <span className="text-mint-deep">non</span> facciamo
         </>
       }
       lead="Lo scriviamo qui perché lo scriviamo anche nel contratto. Sapere cosa non è incluso vale quanto sapere cosa lo è — è così che si evitano i malintesi al terzo mese."
     >
-      <dl className="border-t border-rule">
+      <ul className="grid gap-5 sm:grid-cols-2">
         {EXCLUDED.map((item) => (
-          <div
+          <li
             key={item.term}
-            className="grid gap-x-8 gap-y-1 border-b border-rule py-5 sm:grid-cols-[15rem_1fr]"
+            className="rounded-2xl border border-line bg-white p-7"
           >
-            <dt className="flex items-baseline gap-3 font-display text-[1.15rem] leading-snug text-ink-faint">
-              <span aria-hidden className="text-wine">
+            <div className="flex items-center gap-3">
+              <span
+                aria-hidden
+                className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-line text-slate-ink"
+              >
                 ×
               </span>
-              <span className="line-through decoration-rule">{item.term}</span>
-            </dt>
-            <dd className="max-w-[56ch] text-ink-soft">{item.def}</dd>
-          </div>
+              <h3 className="text-[1.05rem]">{item.term}</h3>
+            </div>
+            <p className="mt-3 text-[0.95rem] text-slate-ink">{item.def}</p>
+          </li>
         ))}
-      </dl>
+      </ul>
     </Section>
   )
 }

@@ -1,100 +1,91 @@
 @import 'tailwindcss';
 
-/* Self-hosted so the identity never falls back to a system face. */
+/* Brand typeface, self-hosted. Plus Jakarta Sans (SIL OFL) — one family, with
+   weight doing the work the way the brand sheet sets it out. */
 @font-face {
-  font-family: 'Newsreader';
-  src: url('/fonts/Newsreader.woff2') format('woff2-variations');
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans.woff2') format('woff2-variations');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Italic.woff2') format('woff2-variations');
   font-weight: 300 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Newsreader';
-  src: url('/fonts/Newsreader-Italic.woff2') format('woff2-variations');
-  font-weight: 300 600;
   font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Archivo';
-  src: url('/fonts/Archivo.woff2') format('woff2-variations');
-  font-weight: 400 700;
-  font-style: normal;
   font-display: swap;
 }
 
 @theme {
-  /* Paper, ink and a single bordeaux. The palette is the brand: this is a
-     business made of documents, so the page is built out of paper and rules. */
-  --color-paper: #faf8f4;
-  --color-paper-deep: #efeae1;
-  --color-paper-edge: #e5ded2;
-  --color-ink: #22201d;
-  --color-ink-soft: #6e675e;
-  --color-ink-faint: #9a9287;
-  --color-wine: #6b2637;
-  --color-wine-deep: #521c2a;
-  --color-wine-bright: #b85a6c;
-  --color-rule: #dcd5c9;
+  /* ── Brand ───────────────────────────────────────────────────────────────
+     Navy carries text and structure. Mint is a FILL — 2.1:1 on white, so it
+     can never hold text; anything written on mint is navy (5.7:1). Mint as a
+     text colour is legal on navy and nowhere else. */
+  --color-navy: #143a56;
+  --color-navy-deep: #0e2a3f;
+  --color-navy-soft: #1d5175;
 
-  --font-display: 'Newsreader', 'Iowan Old Style', Palatino, Georgia, serif;
-  --font-sans: 'Archivo', ui-sans-serif, system-ui, 'Helvetica Neue', sans-serif;
+  --color-mint: #2acaab;
+  --color-mint-deep: #1fa98d;
+  --color-mint-soft: #e3f7f1;
+
+  --color-off: #f5f7f8;
+  --color-slate: #647786; /* icons, dividers, quiet marks — not body text */
+  --color-slate-ink: #566b7c; /* 5.0:1 on off — the secondary text colour */
+  --color-line: #e2e9ee;
+  --color-line-strong: #cbd7df;
+
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
 }
 
-/* The brand commits to the paper world. One ground, deliberately — a warm
-   sheet is the whole identity, and inverting it would say something else. */
+/* The brand commits to a light ground; the navy blocks are the contrast. */
 :root {
   color-scheme: light;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 4.5rem;
+  scroll-padding-top: 5rem;
 }
 
 body {
-  background: var(--color-paper);
-  color: var(--color-ink);
+  background: #ffffff;
+  color: var(--color-navy);
   font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
   text-wrap: balance;
-  letter-spacing: -0.015em;
 }
 
-/* Figures line up in the invoice, the ledger and the case table. */
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .tabular {
   font-variant-numeric: tabular-nums;
-}
-
-/* The margin index: a hanging label that runs down the left of each section,
-   the way a section number sits in the margin of a printed document. */
-.eyebrow {
-  font-family: var(--font-sans);
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
 }
 
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
-  outline: 2px solid var(--color-wine);
+  outline: 2px solid var(--color-mint-deep);
   outline-offset: 3px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
-/* iOS Safari zooms the page when a focused input is under 16px. */
 @media (max-width: 640px) {
   input,
   select,

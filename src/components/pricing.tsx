@@ -4,17 +4,12 @@ import { PRICING, WHATSAPP_GENERIC } from '@/lib/site'
 
 const chf = (n: number) => n.toLocaleString('de-CH')
 
-const LINES = [
-  { desc: 'Canone mensile — servizio completo', amount: `da CHF ${PRICING.from}` },
-  { desc: 'App titolare + fino a 5 operai', amount: 'incluso' },
-  { desc: 'Attivazione, configurazione e formazione', amount: 'una tantum' },
-  { desc: 'Esportazione di tutti i tuoi dati all’uscita', amount: 'CHF 0' },
-]
-
-const CONDITIONS = [
+const INCLUDED = [
+  'Tutto quello che trovi nella lista qui sopra',
+  'App per te e fino a 5 operai',
+  'Attivazione, configurazione e formazione',
   `Impegno minimo ${PRICING.minimumCommitmentMonths} mesi, poi disdetta con ${PRICING.noticeDays} giorni`,
-  `Dati esportabili in ${PRICING.exportDays} giorni lavorativi, gratis, sempre`,
-  'Nessun costo nascosto: gli extra si concordano prima, mai in fattura a sorpresa',
+  `Dati esportabili in ${PRICING.exportDays} giorni, gratis, sempre`,
 ]
 
 const ALTERNATIVES = [
@@ -40,91 +35,71 @@ export function Pricing() {
   return (
     <Section
       id="prezzo"
-      index="VI"
-      label="Quanto costa"
+      eyebrow="Quanto costa"
       title={
         <>
-          Un canone, <em>e sai già cosa comprende.</em>
+          Un canone,{' '}
+          <span className="text-mint-deep">e sai già cosa comprende.</span>
         </>
       }
     >
-      <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr] lg:gap-12">
-        {/* The price list is set as a document, because documents are the product. */}
-        <div className="border border-rule bg-paper">
-          <div className="flex items-baseline justify-between gap-4 border-b border-rule bg-paper-deep px-6 py-4">
-            <span className="eyebrow text-ink-soft">Listino</span>
-            <span className="font-display text-lg leading-none">Delegami</span>
-          </div>
-
-          <table className="w-full text-left">
-            <caption className="sr-only">
-              Riepilogo di cosa comprende il canone mensile
-            </caption>
-            <tbody>
-              {LINES.map((line) => (
-                <tr key={line.desc} className="border-b border-rule">
-                  <th
-                    scope="row"
-                    className="px-6 py-4 pr-3 text-left font-normal text-ink-soft"
-                  >
-                    {line.desc}
-                  </th>
-                  <td className="tabular whitespace-nowrap px-6 py-4 text-right font-medium">
-                    {line.amount}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-
-          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-rule px-6 py-7">
-            <span className="eyebrow text-ink-faint">A partire da</span>
-            <p className="tabular font-display text-[clamp(2.4rem,5vw,3.4rem)] leading-none">
+      <div className="grid gap-6 lg:grid-cols-[1.15fr_1fr]">
+        <div className="overflow-hidden rounded-2xl border border-line">
+          <div className="bg-navy px-8 py-9">
+            <p className="eyebrow text-mint">A partire da</p>
+            <p className="tabular mt-3 text-[clamp(2.6rem,5vw,3.6rem)] font-extrabold leading-none text-white">
               CHF {PRICING.from}
-              <span className="ml-1 font-sans text-base font-normal text-ink-soft">
+              <span className="ml-1.5 text-base font-medium text-white/60">
                 /mese
               </span>
             </p>
           </div>
 
-          <ul className="space-y-2.5 px-6 py-6 text-[0.9rem] text-ink-soft">
-            {CONDITIONS.map((c) => (
-              <li key={c} className="flex gap-3">
-                <span aria-hidden className="text-wine">
-                  —
+          <ul className="space-y-4 bg-white px-8 py-8">
+            {INCLUDED.map((line) => (
+              <li key={line} className="flex gap-3.5">
+                <span
+                  aria-hidden
+                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-mint-soft text-mint-deep"
+                >
+                  <svg viewBox="0 0 20 20" className="h-3 w-3">
+                    <path
+                      d="M4 10.5 8 14.5 16 5.5"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </span>
-                <span>{c}</span>
+                <span className="text-[0.97rem]">{line}</span>
               </li>
             ))}
           </ul>
         </div>
 
-        <div>
-          <h3 className="font-display text-[1.35rem]">
-            Con cosa lo stai confrontando
-          </h3>
+        <div className="rounded-2xl border border-line bg-off p-8">
+          <h3 className="text-[1.25rem]">Con cosa lo stai confrontando</h3>
 
-          <dl className="mt-6 border-t border-rule">
+          <dl className="mt-7 space-y-6">
             {ALTERNATIVES.map((alt) => (
-              <div key={alt.label} className="border-b border-rule py-5">
-                <dt className="text-[0.9rem] text-ink-soft">{alt.label}</dt>
+              <div key={alt.label}>
+                <dt className="text-[0.88rem] text-slate-ink">{alt.label}</dt>
                 <dd
-                  className={`tabular mt-1.5 font-display text-2xl ${
-                    alt.highlight ? 'text-wine' : ''
+                  className={`tabular mt-1 text-2xl font-extrabold ${
+                    alt.highlight ? 'text-mint-deep' : ''
                   }`}
                 >
                   {alt.price}
                 </dd>
-                <dd className="mt-1 text-[0.85rem] text-ink-faint">
-                  {alt.unit}
-                </dd>
+                <dd className="mt-0.5 text-[0.85rem] text-slate">{alt.unit}</dd>
               </div>
             ))}
           </dl>
 
-          <p className="mt-7 max-w-[38ch] text-[0.95rem] text-ink-soft">
-            Il prezzo esatto dipende dal volume del tuo lavoro — quanti
-            preventivi, quanti cantieri aperti, quanti operai. Te lo diciamo in
+          <p className="mt-8 text-[0.95rem] text-slate-ink">
+            Il prezzo esatto dipende dal volume del tuo lavoro. Te lo diciamo in
             cinque minuti, senza riunioni.
           </p>
 
@@ -132,7 +107,7 @@ export function Pricing() {
             href={WHATSAPP_GENERIC}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-flex items-center gap-2 font-medium text-wine underline decoration-1 underline-offset-[6px] transition-colors hover:text-ink"
+            className="mt-5 inline-flex items-center gap-2 font-bold text-navy underline decoration-mint decoration-2 underline-offset-[6px]"
           >
             <WhatsappGlyph />
             Chiedi il tuo prezzo

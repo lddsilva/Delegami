@@ -1,0 +1,1 @@
+ALTER TABLE quote_items ADD COLUMN hiddenFromClient INTEGER NOT NULL DEFAULT 0;

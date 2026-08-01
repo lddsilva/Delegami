@@ -1,0 +1,1 @@
+ALTER TABLE quote_templates ADD COLUMN templateType TEXT NOT NULL DEFAULT 'QUOTE';

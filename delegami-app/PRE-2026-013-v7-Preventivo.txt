@@ -1,0 +1,890 @@
+################################################################################
+# PREVENTIVO ZANETTI SOLUZIONI EDILI
+# Formato: sezioni marcate con [SECTION], articoli con [ITEM], note con [NOTE]
+# Per importare come nuova versione: scripts/import-preventivo.js <file>
+################################################################################
+
+[META]
+quoteNumber = PRE-2026-013
+version     = 7
+status      = SENT
+projectId   = cmobzgzlk0001y0ukb3hkjyih
+marginPercent = 0
+taxRate     = 0
+
+[CLIENTE]
+nome        = Comunione eredi fu Alda Martini
+indirizzo   = c/o Fiduciaria Dr. Aldo Ballestra, Via dei Castagni 3
+cap_citta   = 6962 Viganello
+
+[OPERA]
+nome        = Ristrutturazione Appartamento - Via Bernardino Stazio 2
+indirizzo   = Via Bernardino Stazio 2, 3° piano, 6815 Massagno
+
+[NOTE_CLIENTE]
+| Per i materiali forniti potranno essere presentate fino a 2 opzioni tra cui scegliere. I materiali saranno concordati prima dell'inizio lavori. In caso di mancato accordo, il valore del materiale sarà detratto e il cliente provvederà autonomamente alla fornitura. Per pavimenti e rivestimenti: in caso di mancato accordo verrà detratto CHF 25/m² (restano inclusi stucco, silicone, colla e profili in alluminio). Qualora il cliente rifiuti entrambe le opzioni proposte e scelga materiale proprio, la manodopera potrà essere soggetta a revisione.
+| 
+| 
+| Non incluso nel presente preventivo:
+| • Impianto idraulico: offerta separata GC Termo-Idraulica N° 2026.05.002.
+| • Eventuale domanda di costruzione per lavori strutturali.
+| • Corpi illuminanti (lampadari, plafoniere, faretti), citofono/videocitofono, cavi rete dati e TV.
+| • Adeguamento impianto di terra ed eventuale upgrade potenza di ingresso: da verificare in loco; se necessari, oggetto di offerta separata.
+| 
+| N.B.: Eventuali opere supplementari verranno comunicate e approvate dalla committenza prima dell'esecuzione.
+
+[NOTE_INTERNE]
+| MARGINE APPLICATO: 0% (preventivo a prezzo di costo – margine da definire)
+| 
+| NOTE OPERATIVE:
+| • WC entrambi i bagni: Geberit – vaso rimless + placca Sigma + copriwater (senza Duofix)
+| • Bidet bagno esistente: Duravit D-Code sospeso + rubinetteria Hansgrohe Logis
+| • Box doccia bagno esistente 120×80 cm, bagno nuovo 70×110 cm: acquisto locale Ticino
+| • Sistema doccia: Grohe / Hansgrohe o equivalente qualità media
+| • Lavastoviglie: modello da definire, verifica spazio cucina 307 cm
+| • Edilgroup CH Manno: +41 91 610 02 02 · Sanitas Troesch Mendrisio: Via Borromini 4
+| • Bagno Design Contone: +41 91 290 81 01
+| • Impianto elettrico: tracce incluse nelle rispettive sezioni muratura; IMPIANTO ELETTRICO copre la parte impiantistica
+| • Prese: ABB Basic55 T13 (qualità standard, budget); interruttori: Feller EDIZIOdue (mantenuti)
+| • Eletricista: tariffa CHF 100/h
+
+================================================================================
+# ARTICOLI — modifica description, unit, quantity, unitCost, unitPrice, marginPercent
+# I totali vengono ricalcolati automaticamente all'importazione
+================================================================================
+
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Stanze
+description = STANZE
+--------------------------------------------------------------------------------
+
+[ITEM 1]
+section      = Stanze
+description  = Muratura 3 stanze – tracce e installazione cassette elettriche; rimozione armadio e creazione nicchia in cartongesso nel soggiorno
+unit         = corpo
+quantity     = 1
+unitCost     = 2900
+unitPrice    = 2900
+marginPercent= 0
+totalCost    = 2'900.00  # calcolato automaticamente
+totalPrice   = 2'900.00  # calcolato automaticamente
+sourceNote   = CHF 2.000 muratura tracce + CHF 900 rimozione armadio e creazione nicchia cartongesso soggiorno
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Apertura Corridoio – Soggiorno
+description = APERTURA CORRIDOIO – SOGGIORNO
+--------------------------------------------------------------------------------
+
+[ITEM 2]
+section      = Apertura Corridoio – Soggiorno
+description  = Demolizione parete e smaltimento materiale
+unit         = corpo
+quantity     = 1
+unitCost     = 1500
+unitPrice    = 1500
+marginPercent= 0
+totalCost    = 1'500.00  # calcolato automaticamente
+totalPrice   = 1'500.00  # calcolato automaticamente
+
+[ITEM 3]
+section      = Apertura Corridoio – Soggiorno
+description  = Posa putrella (trave metallica) su parete non strutturale
+unit         = corpo
+quantity     = 1
+unitCost     = 2000
+unitPrice    = 2000
+marginPercent= 0
+totalCost    = 2'000.00  # calcolato automaticamente
+totalPrice   = 2'000.00  # calcolato automaticamente
+
+[ITEM 4]
+section      = Apertura Corridoio – Soggiorno
+description  = Requadratura vano
+unit         = corpo
+quantity     = 1
+unitCost     = 500
+unitPrice    = 500
+marginPercent= 0
+totalCost    = 500.00  # calcolato automaticamente
+totalPrice   = 500.00  # calcolato automaticamente
+
+[ITEM 5]
+section      = Apertura Corridoio – Soggiorno
+description  = Aggrappante, rasatura con cola e rete e stabilitura sulla parete oggetto dell'intervento
+unit         = corpo
+quantity     = 1
+unitCost     = 1000
+unitPrice    = 1000
+marginPercent= 0
+totalCost    = 1'000.00  # calcolato automaticamente
+totalPrice   = 1'000.00  # calcolato automaticamente
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Corridoio d'Ingresso
+description = CORRIDOIO D'INGRESSO
+--------------------------------------------------------------------------------
+
+[ITEM 6]
+section      = Corridoio d'Ingresso
+description  = Controparete 15 m² doppia lastra con isolazione
+unit         = m²
+quantity     = 15
+unitCost     = 145
+unitPrice    = 145
+marginPercent= 0
+totalCost    = 2'175.00  # calcolato automaticamente
+totalPrice   = 2'175.00  # calcolato automaticamente
+sourceNote   = CHF 145/m² = doppia lastra + isolazione lana di roccia + manodopera. (Base CHF 95/m² materiale + CHF 50/m² manodopera)
+
+[ITEM 7]
+section      = Corridoio d'Ingresso
+description  = Aggrappante e stabilitura sulla superficie di cartongesso
+unit         = corpo
+quantity     = 1
+unitCost     = 600
+unitPrice    = 600
+marginPercent= 0
+totalCost    = 600.00  # calcolato automaticamente
+totalPrice   = 600.00  # calcolato automaticamente
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Nuovo Corridoio Interno
+description = NUOVO CORRIDOIO INTERNO
+--------------------------------------------------------------------------------
+
+[ITEM 8]
+section      = Nuovo Corridoio Interno
+description  = Chiusura porta esistente – muratura e intonaco
+unit         = corpo
+quantity     = 1
+unitCost     = 1300
+unitPrice    = 1300
+marginPercent= 0
+totalCost    = 1'300.00  # calcolato automaticamente
+totalPrice   = 1'300.00  # calcolato automaticamente
+
+[ITEM 9]
+section      = Nuovo Corridoio Interno
+description  = Apertura nuova porta – demolizione
+unit         = corpo
+quantity     = 1
+unitCost     = 800
+unitPrice    = 800
+marginPercent= 0
+totalCost    = 800.00  # calcolato automaticamente
+totalPrice   = 800.00  # calcolato automaticamente
+
+[ITEM 10]
+section      = Nuovo Corridoio Interno
+description  = Aggrappante e stabilitura sulle superfici di cartongesso del corridoio interno
+unit         = corpo
+quantity     = 1
+unitCost     = 1900
+unitPrice    = 1900
+marginPercent= 0
+totalCost    = 1'900.00  # calcolato automaticamente
+totalPrice   = 1'900.00  # calcolato automaticamente
+
+[ITEM 11]
+section      = Nuovo Corridoio Interno
+description  = Creazione corridoio interno – parete in cartongesso 12 m² doppia lastra con isolazione
+unit         = m²
+quantity     = 12
+unitCost     = 170
+unitPrice    = 170
+marginPercent= 0
+totalCost    = 2'040.00  # calcolato automaticamente
+totalPrice   = 2'040.00  # calcolato automaticamente
+sourceNote   = CHF 170/m² = doppia lastra + isolazione lana di roccia + manodopera
+
+[ITEM 12]
+section      = Nuovo Corridoio Interno
+description  = Porta nuova (fornitura + montaggio)
+unit         = pz
+quantity     = 2
+unitCost     = 750
+unitPrice    = 750
+marginPercent= 0
+totalCost    = 1'500.00  # calcolato automaticamente
+totalPrice   = 1'500.00  # calcolato automaticamente
+sourceNote   = CHF 500 fornitura porta + CHF 250 montaggio
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Bagno
+description = BAGNO – RISTRUTTURAZIONE
+--------------------------------------------------------------------------------
+
+[ITEM 13]
+section      = Bagno
+description  = Muratura – smontaggio fisico, rimozione e smaltimento vasca e accessori esistenti; passaggio conduit e cassette elettriche; impermeabilizzazione box doccia; aggrappante su piastrelle restanti; rasatura in stabilitura (malta fine)
+unit         = corpo
+quantity     = 1
+unitCost     = 2000
+unitPrice    = 2000
+marginPercent= 0
+totalCost    = 2'000.00  # calcolato automaticamente
+totalPrice   = 2'000.00  # calcolato automaticamente
+sourceNote   = Incluso: smontaggio fisico, rimozione e smaltimento vasca e accessori (opera edile). La disconnessione idraulica (taglio tubazioni acqua) è a cura di GC Termo-Idraulica (offerta N° 2026.05.002 — «Smontaggio apparecchi sanitari» CHF 140). Nessuna sovrapposizione.
+
+[ITEM 14]
+section      = Bagno
+description  = Piastrelatura bagno 25,04 m² (fornitura materiale e posa inclusa)
+unit         = m²
+quantity     = 25.04
+unitCost     = 135
+unitPrice    = 135
+marginPercent= 0
+totalCost    = 3'380.40  # calcolato automaticamente
+totalPrice   = 3'380.40  # calcolato automaticamente
+sourceNote   = Materiale CHF 35/m² (Bauhaus art. 28795195 – gres 60×60) + posa CHF 100/m²
+sourceUrl    = https://www.bauhaus.ch/it/p/piastrella-in-gres-porcellanato-tribeca-28795195
+
+[ITEM 15]
+section      = Bagno
+description  = Sanitario WC Geberit: vaso sospeso rimless, placca Sigma, copriwater (telaio Duofix escluso – fornito da GC Termo-Idraulica)
+unit         = pz
+quantity     = 1
+unitCost     = 550
+unitPrice    = 550
+marginPercent= 0
+totalCost    = 550.00  # calcolato automaticamente
+totalPrice   = 550.00  # calcolato automaticamente
+sourceNote   = Vaso rimless ≈ CHF 350 + placca Sigma ≈ CHF 100 + copriwater ≈ CHF 100 = CHF 550. Telaio Duofix ESCLUSO: fornito da GC Termo-Idraulica offerta N° 2026.05.002 («Fornitura e posa 2 Duofix per WC e Bidet» CHF 720). Confermare sconto professionale Sanitas Troesch.
+sourceUrl    = https://shop.sanitastroesch.ch
+
+[ITEM 16]
+section      = Bagno
+description  = Mobile lavabo con cassetti, lavabo e rubinetteria (fornitura completa)
+unit         = pz
+quantity     = 1
+unitCost     = 517
+unitPrice    = 517
+marginPercent= 0
+totalCost    = 517.00  # calcolato automaticamente
+totalPrice   = 517.00  # calcolato automaticamente
+sourceNote   = IKEA ÄNGSJÖN + BACKSJÖN art. 195.211.23
+sourceUrl    = https://www.ikea.com/ch/it/p/aengsjoen-backsjoen-mobile-lavabo-cassetti-lavabo-misc-s19521123/
+
+[ITEM 17]
+section      = Bagno
+description  = Specchio con armadietto pensile 80 cm
+unit         = pz
+quantity     = 1
+unitCost     = 259
+unitPrice    = 259
+marginPercent= 0
+totalCost    = 259.00  # calcolato automaticamente
+totalPrice   = 259.00  # calcolato automaticamente
+sourceNote   = IKEA LETTAN art. 805.349.23
+sourceUrl    = https://www.ikea.com/ch/it/p/lettan-mobile-a-specchio-con-ante-effetto-specchio-vetro-a-specchio-80534923/
+
+[ITEM 18]
+section      = Bagno
+description  = Box doccia rettangolare 120×80 cm
+unit         = pz
+quantity     = 1
+unitCost     = 500
+unitPrice    = 500
+marginPercent= 0
+totalCost    = 500.00  # calcolato automaticamente
+totalPrice   = 500.00  # calcolato automaticamente
+sourceNote   = Acquisto locale Ticino (Sanitas Troesch o Bagno Design) – stima CHF 400–600
+
+[ITEM 19]
+section      = Bagno
+description  = Fornitura sistema doccia completo (colonna doccia, soffione, doccetta, miscelatore)
+unit         = pz
+quantity     = 1
+unitCost     = 450
+unitPrice    = 450
+marginPercent= 0
+totalCost    = 450.00  # calcolato automaticamente
+totalPrice   = 450.00  # calcolato automaticamente
+sourceNote   = Stima standard qualità media – Grohe / Hansgrohe o equivalente
+
+[ITEM 20]
+section      = Bagno
+description  = Installazione sistema doccia completo (collegamenti idraulici, fissaggio, regolazione)
+unit         = corpo
+quantity     = 1
+unitCost     = 250
+unitPrice    = 250
+marginPercent= 0
+totalCost    = 250.00  # calcolato automaticamente
+totalPrice   = 250.00  # calcolato automaticamente
+
+[ITEM 21]
+section      = Bagno
+description  = Fornitura piletta e sistema di scarico doccia (sifone, collegamenti, accessori)
+unit         = pz
+quantity     = 1
+unitCost     = 120
+unitPrice    = 120
+marginPercent= 0
+totalCost    = 120.00  # calcolato automaticamente
+totalPrice   = 120.00  # calcolato automaticamente
+
+[ITEM 22]
+section      = Bagno
+description  = Accessori bagno – fornitura standard (porta asciugamani, porta carta igienica, ganci)
+unit         = corpo
+quantity     = 1
+unitCost     = 150
+unitPrice    = 150
+marginPercent= 0
+totalCost    = 150.00  # calcolato automaticamente
+totalPrice   = 150.00  # calcolato automaticamente
+
+[ITEM 23]
+section      = Bagno
+description  = Montaggio accessori bagno
+unit         = corpo
+quantity     = 1
+unitCost     = 1000
+unitPrice    = 1000
+marginPercent= 0
+totalCost    = 1'000.00  # calcolato automaticamente
+totalPrice   = 1'000.00  # calcolato automaticamente
+sourceNote   = Incluso: posa porta asciugamani, porta carta igienica, ganci, specchio e complementi. Escluso: montaggio WC e bidet (a carico di GC Termo-Idraulica).
+
+[ITEM 24]
+section      = Bagno
+description  = Controparete 10 m² doppio pannello idrofugo con isolazione
+unit         = m²
+quantity     = 10
+unitCost     = 145
+unitPrice    = 145
+marginPercent= 0
+totalCost    = 1'450.00  # calcolato automaticamente
+totalPrice   = 1'450.00  # calcolato automaticamente
+sourceNote   = Doppio pannello (2° idrofugo, es. Rigips impregnato) + isolazione lana di roccia 100mm (Swisspor ROC Tipo 1 ≈ CHF 15/m²) + manodopera
+
+[ITEM 25]
+section      = Bagno
+description  = Bidet sospeso con rubinetteria (fornitura)
+unit         = pz
+quantity     = 1
+unitCost     = 320
+unitPrice    = 320
+marginPercent= 0
+totalCost    = 320.00  # calcolato automaticamente
+totalPrice   = 320.00  # calcolato automaticamente
+sourceNote   = Bidet ceramico sospeso Duravit D-Code art. 2143 192.100.000 ≈ CHF 193.50 + miscelatore monocomando Hansgrohe Logis ≈ CHF 120 = CHF 313.50, arrotondato CHF 320. Telaio Duofix e posa a carico di GC Termo-Idraulica (già incluso «Fornitura e posa 2 Duofix per WC e Bidet» CHF 720). Confermare sconto professionale Sanitas Troesch.
+sourceUrl    = https://shop.sanitastroesch.ch/it/bagno/ceramiche-bagno/bidet/bidet-sospeso-duravit-d-code/2143+192.100.000.html
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Bagno Nuovo
+description = BAGNO NUOVO
+--------------------------------------------------------------------------------
+
+[ITEM 26]
+section      = Bagno Nuovo
+description  = Muratura bagno nuovo: base pareti, WC e doccia, rimozione parquet, creazione pavimento in 3 livelli, passaggi idraulici ed elettrici, intonaco, impermeabilizzazione
+unit         = corpo
+quantity     = 1
+unitCost     = 4900
+unitPrice    = 4900
+marginPercent= 0
+totalCost    = 4'900.00  # calcolato automaticamente
+totalPrice   = 4'900.00  # calcolato automaticamente
+
+[ITEM 27]
+section      = Bagno Nuovo
+description  = Parete in cartongesso idrofugo 12 m² doppia lastra con isolazione
+unit         = m²
+quantity     = 12
+unitCost     = 170
+unitPrice    = 170
+marginPercent= 0
+totalCost    = 2'040.00  # calcolato automaticamente
+totalPrice   = 2'040.00  # calcolato automaticamente
+sourceNote   = CHF 170/m² = doppia lastra + isolazione lana di roccia + manodopera
+
+[ITEM 28]
+section      = Bagno Nuovo
+description  = Controparete 4,5 m² lastra idrofuga con isolazione
+unit         = corpo
+quantity     = 1
+unitCost     = 725
+unitPrice    = 725
+marginPercent= 0
+totalCost    = 725.00  # calcolato automaticamente
+totalPrice   = 725.00  # calcolato automaticamente
+sourceNote   = 4,5 m² controparete lastra idrofuga + isolazione lana di roccia + manodopera
+
+[ITEM 29]
+section      = Bagno Nuovo
+description  = Aggrappante e stabilitura sulle pareti interne ed esterne del bagno (superfici oggetto di intervento)
+unit         = corpo
+quantity     = 1
+unitCost     = 1200
+unitPrice    = 1200
+marginPercent= 0
+totalCost    = 1'200.00  # calcolato automaticamente
+totalPrice   = 1'200.00  # calcolato automaticamente
+
+[ITEM 30]
+section      = Bagno Nuovo
+description  = Sanitario WC Geberit: vaso sospeso rimless, placca Sigma, copriwater (telaio Duofix escluso – fornito da GC Termo-Idraulica)
+unit         = pz
+quantity     = 1
+unitCost     = 550
+unitPrice    = 550
+marginPercent= 0
+totalCost    = 550.00  # calcolato automaticamente
+totalPrice   = 550.00  # calcolato automaticamente
+sourceNote   = Identico al bagno esistente. Vaso rimless ≈ CHF 350 + placca Sigma ≈ CHF 100 + copriwater ≈ CHF 100 = CHF 550. Telaio Duofix ESCLUSO: fornito da GC Termo-Idraulica offerta N° 2026.05.002 («Fornitura e posa Duofix per WC» CHF 360). Confermare sconto professionale Sanitas Troesch.
+sourceUrl    = https://shop.sanitastroesch.ch
+
+[ITEM 31]
+section      = Bagno Nuovo
+description  = Mobile lavabo con cassetti, lavabo e rubinetteria (fornitura completa)
+unit         = pz
+quantity     = 1
+unitCost     = 517
+unitPrice    = 517
+marginPercent= 0
+totalCost    = 517.00  # calcolato automaticamente
+totalPrice   = 517.00  # calcolato automaticamente
+sourceNote   = IKEA ÄNGSJÖN + BACKSJÖN art. 195.211.23
+sourceUrl    = https://www.ikea.com/ch/it/p/aengsjoen-backsjoen-mobile-lavabo-cassetti-lavabo-misc-s19521123/
+
+[ITEM 32]
+section      = Bagno Nuovo
+description  = Specchio con armadietto pensile 80 cm
+unit         = pz
+quantity     = 1
+unitCost     = 259
+unitPrice    = 259
+marginPercent= 0
+totalCost    = 259.00  # calcolato automaticamente
+totalPrice   = 259.00  # calcolato automaticamente
+sourceNote   = IKEA LETTAN art. 805.349.23
+sourceUrl    = https://www.ikea.com/ch/it/p/lettan-mobile-a-specchio-con-ante-effetto-specchio-vetro-a-specchio-80534923/
+
+[ITEM 33]
+section      = Bagno Nuovo
+description  = Box doccia 70×110 cm
+unit         = pz
+quantity     = 1
+unitCost     = 500
+unitPrice    = 500
+marginPercent= 0
+totalCost    = 500.00  # calcolato automaticamente
+totalPrice   = 500.00  # calcolato automaticamente
+sourceNote   = Acquisto locale Ticino (Sanitas Troesch o Bagno Design) – dimensioni 70×110 cm, stima CHF 400–600
+
+[ITEM 34]
+section      = Bagno Nuovo
+description  = Fornitura sistema doccia completo (colonna doccia, soffione, doccetta, miscelatore)
+unit         = pz
+quantity     = 1
+unitCost     = 450
+unitPrice    = 450
+marginPercent= 0
+totalCost    = 450.00  # calcolato automaticamente
+totalPrice   = 450.00  # calcolato automaticamente
+sourceNote   = Stima standard qualità media – Grohe / Hansgrohe o equivalente
+
+[ITEM 35]
+section      = Bagno Nuovo
+description  = Installazione sistema doccia completo (collegamenti idraulici, fissaggio, regolazione)
+unit         = corpo
+quantity     = 1
+unitCost     = 250
+unitPrice    = 250
+marginPercent= 0
+totalCost    = 250.00  # calcolato automaticamente
+totalPrice   = 250.00  # calcolato automaticamente
+
+[ITEM 36]
+section      = Bagno Nuovo
+description  = Fornitura piletta e sistema di scarico doccia (sifone, collegamenti, accessori)
+unit         = pz
+quantity     = 1
+unitCost     = 120
+unitPrice    = 120
+marginPercent= 0
+totalCost    = 120.00  # calcolato automaticamente
+totalPrice   = 120.00  # calcolato automaticamente
+
+[ITEM 37]
+section      = Bagno Nuovo
+description  = Accessori bagno – fornitura standard (porta asciugamani, porta carta igienica, ganci)
+unit         = corpo
+quantity     = 1
+unitCost     = 150
+unitPrice    = 150
+marginPercent= 0
+totalCost    = 150.00  # calcolato automaticamente
+totalPrice   = 150.00  # calcolato automaticamente
+
+[ITEM 38]
+section      = Bagno Nuovo
+description  = Montaggio accessori bagno
+unit         = corpo
+quantity     = 1
+unitCost     = 1000
+unitPrice    = 1000
+marginPercent= 0
+totalCost    = 1'000.00  # calcolato automaticamente
+totalPrice   = 1'000.00  # calcolato automaticamente
+sourceNote   = Incluso: posa porta asciugamani, porta carta igienica, ganci, specchio e complementi. Escluso: montaggio WC e bidet (a carico di GC Termo-Idraulica).
+
+[ITEM 39]
+section      = Bagno Nuovo
+description  = Pavimenti e rivestimenti bagno nuovo — piastrella 60×60 (fornitura e posa inclusa)
+unit         = corpo
+quantity     = 1
+unitCost     = 3000
+unitPrice    = 3000
+marginPercent= 0
+totalCost    = 3'000.00  # calcolato automaticamente
+totalPrice   = 3'000.00  # calcolato automaticamente
+sourceNote   = Pavimenti e rivestimenti bagno nuovo. Materiale da definire con cliente (min. 2 opzioni presentate).
+
+[ITEM 40]
+section      = Bagno Nuovo
+description  = Porta nuova (fornitura + montaggio)
+unit         = pz
+quantity     = 1
+unitCost     = 750
+unitPrice    = 750
+marginPercent= 0
+totalCost    = 750.00  # calcolato automaticamente
+totalPrice   = 750.00  # calcolato automaticamente
+sourceNote   = CHF 500 fornitura porta + CHF 250 montaggio
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Corridoio e Cucina
+description = CORRIDOIO E CUCINA
+--------------------------------------------------------------------------------
+
+[ITEM 41]
+section      = Corridoio e Cucina
+description  = Muratura – rimozione pavimento del corridoio, levigatura e aggrappante sul pavimento della cucina (il pavimento della cucina non viene rimosso), predisposizione conduit elettrici e installazione cassette
+unit         = corpo
+quantity     = 1
+unitCost     = 3000
+unitPrice    = 3000
+marginPercent= 0
+totalCost    = 3'000.00  # calcolato automaticamente
+totalPrice   = 3'000.00  # calcolato automaticamente
+
+[ITEM 42]
+section      = Corridoio e Cucina
+description  = Piastrelatura corridoio e cucina 30 m² (fornitura materiale e posa inclusa)
+unit         = m²
+quantity     = 30
+unitCost     = 79.95
+unitPrice    = 79.95
+marginPercent= 0
+totalCost    = 2'398.50  # calcolato automaticamente
+totalPrice   = 2'398.50  # calcolato automaticamente
+sourceNote   = Materiale CHF 29.95/m² (Bauhaus art. 31365295 – gres 60×60 Active Beige) + posa CHF 50/m²
+sourceUrl    = https://www.bauhaus.ch/it/p/gres-porcellanato-active-beige-31365295
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Cucina
+description = CUCINA – ARREDAMENTO E ELETTRODOMESTICI
+--------------------------------------------------------------------------------
+
+[ITEM 43]
+section      = Cucina
+description  = Cucina componibile 310cm (montaggio incluso)
+unit         = pz
+quantity     = 1
+unitCost     = 1990
+unitPrice    = 1990
+marginPercent= 0
+totalCost    = 1'990.00  # calcolato automaticamente
+totalPrice   = 1'990.00  # calcolato automaticamente
+sourceNote   = IKEA METOD/Veddinge bianco – combinazione ME K16 307×60×228 cm, art. 896.149.20. Include colonna alta per forno, spazio lavastoviglie, piano lavoro JÄRSTORP. CHF 1.990 comprensivo di posa e configurazione.
+sourceUrl    = https://www.ikea.com/ch/it/p/metod-cucina-bianco-veddinge-bianco-s89614920/
+
+[ITEM 44]
+section      = Cucina
+description  = Piano cottura a induzione 4 zone 59 cm
+unit         = pz
+quantity     = 1
+unitCost     = 449
+unitPrice    = 449
+marginPercent= 0
+totalCost    = 449.00  # calcolato automaticamente
+totalPrice   = 449.00  # calcolato automaticamente
+sourceNote   = IKEA MATMÄSSIG 300 NERO art. 10467093
+sourceUrl    = https://www.ikea.com/ch/it/p/matmaessig-piano-cottura-a-induzione-ikea-300-nero-10467093/
+
+[ITEM 45]
+section      = Cucina
+description  = Cappa aspirante da parete 60 cm
+unit         = pz
+quantity     = 1
+unitCost     = 49.95
+unitPrice    = 49.95
+marginPercent= 0
+totalCost    = 49.95  # calcolato automaticamente
+totalPrice   = 49.95  # calcolato automaticamente
+sourceNote   = IKEA LAGAN art. 503.013.97
+sourceUrl    = https://www.ikea.com/ch/it/p/lagan-cappa-da-fissare-alla-parete-bianco-50401397/
+
+[ITEM 46]
+section      = Cucina
+description  = Frigorifero/congelatore freestanding 262 L
+unit         = pz
+quantity     = 1
+unitCost     = 479
+unitPrice    = 479
+marginPercent= 0
+totalCost    = 479.00  # calcolato automaticamente
+totalPrice   = 479.00  # calcolato automaticamente
+sourceNote   = IKEA LAGAN art. 805.712.94
+sourceUrl    = https://www.ikea.com/ch/it/p/lagan-frigorifero-congelatore-freestanding-bianco-80571294/
+
+[ITEM 47]
+section      = Cucina
+description  = Forno ventilato con funzione grill
+unit         = pz
+quantity     = 1
+unitCost     = 429
+unitPrice    = 429
+marginPercent= 0
+totalCost    = 429.00  # calcolato automaticamente
+totalPrice   = 429.00  # calcolato automaticamente
+sourceNote   = IKEA STENABY art. 406.139.41
+sourceUrl    = https://www.ikea.com/ch/it/p/stenaby-forno-ventilato-funzione-grill-bianco-ikea-300-40613941/
+
+[ITEM 48]
+section      = Cucina
+description  = Lavello inox a 1 vasca
+unit         = pz
+quantity     = 1
+unitCost     = 24.95
+unitPrice    = 24.95
+marginPercent= 0
+totalCost    = 24.95  # calcolato automaticamente
+totalPrice   = 24.95  # calcolato automaticamente
+sourceNote   = IKEA FYNDIG art. 902.021.26
+sourceUrl    = https://www.ikea.com/ch/it/p/fyndig-lavello-da-incasso-a-1-vasca-inox-90202126/
+
+[ITEM 49]
+section      = Cucina
+description  = Miscelatore lavello
+unit         = pz
+quantity     = 1
+unitCost     = 59.95
+unitPrice    = 59.95
+marginPercent= 0
+totalCost    = 59.95  # calcolato automaticamente
+totalPrice   = 59.95  # calcolato automaticamente
+sourceNote   = IKEA EDSVIK art. 505.072.09
+sourceUrl    = https://www.ikea.com/ch/it/p/edsvik-miscelatore-lavello-doppio-comando-cromato-50507209/
+
+[ITEM 50]
+section      = Cucina
+description  = Rivestimento parete cucina – backsplash 3 m² (fornitura e posa inclusa)
+unit         = m²
+quantity     = 3
+unitCost     = 140
+unitPrice    = 140
+marginPercent= 0
+totalCost    = 420.00  # calcolato automaticamente
+totalPrice   = 420.00  # calcolato automaticamente
+sourceNote   = Materiale CHF 60/m² (gres porcellanato / pannello paraschizzi) + posa CHF 80/m²
+
+[ITEM 51]
+section      = Cucina
+description  = Piano di lavoro laminato 186 cm
+unit         = pz
+quantity     = 2
+unitCost     = 59
+unitPrice    = 59
+marginPercent= 0
+totalCost    = 118.00  # calcolato automaticamente
+totalPrice   = 118.00  # calcolato automaticamente
+sourceNote   = IKEA EKBACKEN – CHF 59 cad. (×2 = CHF 118)
+sourceUrl    = https://www.ikea.com/ch/it/cat/piani-di-lavoro-24264/
+
+[ITEM 52]
+section      = Cucina
+description  = Montaggio cucina e posa elettrodomestici
+unit         = corpo
+quantity     = 1
+unitCost     = 1000
+unitPrice    = 1000
+marginPercent= 0
+totalCost    = 1'000.00  # calcolato automaticamente
+totalPrice   = 1'000.00  # calcolato automaticamente
+
+[ITEM 53]
+section      = Cucina
+description  = Lavastoviglie da incasso
+unit         = pz
+quantity     = 1
+unitCost     = 1200
+unitPrice    = 1200
+marginPercent= 0
+totalCost    = 1'200.00  # calcolato automaticamente
+totalPrice   = 1'200.00  # calcolato automaticamente
+sourceNote   = Stima lavastoviglie da incasso qualità media. Modello e marca da definire con cliente. Verifica spazio in configurazione cucina 310 cm.
+
+[ITEM 54]
+section      = Cucina
+description  = Controparete 11 m² con isolazione
+unit         = corpo
+quantity     = 1
+unitCost     = 1600
+unitPrice    = 1600
+marginPercent= 0
+totalCost    = 1'600.00  # calcolato automaticamente
+totalPrice   = 1'600.00  # calcolato automaticamente
+sourceNote   = 11 m² × CHF 145/m² ≈ CHF 1.600. Doppio pannello + isolazione lana di roccia + manodopera.
+
+[ITEM 55]
+section      = Cucina
+description  = Rasatura, aggrappante, stabilitura (esclusivamente sulle superfici di cartongesso costruite)
+unit         = corpo
+quantity     = 1
+unitCost     = 600
+unitPrice    = 600
+marginPercent= 0
+totalCost    = 600.00  # calcolato automaticamente
+totalPrice   = 600.00  # calcolato automaticamente
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Pittura e Finitura
+description = PITTURA E FINITURA
+--------------------------------------------------------------------------------
+
+[ITEM 56]
+section      = Pittura e Finitura
+description  = Verniciatura 6 persiane
+unit         = corpo
+quantity     = 1
+unitCost     = 720
+unitPrice    = 720
+marginPercent= 0
+totalCost    = 720.00  # calcolato automaticamente
+totalPrice   = 720.00  # calcolato automaticamente
+
+[ITEM 57]
+section      = Pittura e Finitura
+description  = Verniciatura 6 porte interne
+unit         = corpo
+quantity     = 1
+unitCost     = 720
+unitPrice    = 720
+marginPercent= 0
+totalCost    = 720.00  # calcolato automaticamente
+totalPrice   = 720.00  # calcolato automaticamente
+
+[ITEM 58]
+section      = Pittura e Finitura
+description  = Pittura appartamento – tinteggiatura pareti e soffitti. La stuccatura verrà eseguita esclusivamente nelle zone interessate dalle tracce elettriche; non è prevista la lisciatura completa delle pareti.
+unit         = corpo
+quantity     = 1
+unitCost     = 3950
+unitPrice    = 3950
+marginPercent= 0
+totalCost    = 3'950.00  # calcolato automaticamente
+totalPrice   = 3'950.00  # calcolato automaticamente
+
+[ITEM 59]
+section      = Pittura e Finitura
+description  = Fornitura e posa battiscopa (110 ml)
+unit         = corpo
+quantity     = 1
+unitCost     = 1045.6
+unitPrice    = 1045.6
+marginPercent= 0
+totalCost    = 1'045.60  # calcolato automaticamente
+totalPrice   = 1'045.60  # calcolato automaticamente
+sourceNote   = Logoclic Rovere Firenze 2600×58×18mm – CHF 4.96/ml × 110ml = CHF 545.60 (Bauhaus art. 31158811) + posa CHF 500
+sourceUrl    = https://www.bauhaus.ch/it/p/logoclic-battiscopa-rovere-firenze-31158811
+
+--------------------------------------------------------------------------------
+[SECTION]
+section     = Impianto Elettrico
+description = IMPIANTO ELETTRICO
+--------------------------------------------------------------------------------
+
+[ITEM 60]
+section      = Impianto Elettrico
+description  = Quadro di distribuzione — fornitura e posa
+unit         = corpo
+quantity     = 1
+unitCost     = 1200
+unitPrice    = 1200
+marginPercent= 0
+totalCost    = 1'200.00  # calcolato automaticamente
+totalPrice   = 1'200.00  # calcolato automaticamente
+sourceNote   = Hager VOLTA VA48A 48 moduli (CHF 172.95) + interruttore gen. 2P-40A + 4 differenziali 25A/30mA tipo A + 16 magnetotermici 1P-16A + pettine + morsettiera + posa 4h × CHF 115/h. N.B.: quadro interno di appartamento — verificare presenza e stato quadro generale condominiale.
+sourceUrl    = https://www.elettromercato.ch/it/prodotti/id/20334/quadro-hager-4-file-volta-ap-bianco
+
+[ITEM 61]
+section      = Impianto Elettrico
+description  = Cavi e tubazioni — fornitura
+unit         = corpo
+quantity     = 1
+unitCost     = 2411.5
+unitPrice    = 2411.5
+marginPercent= 0
+totalCost    = 2'411.50  # calcolato automaticamente
+totalPrice   = 2'411.50  # calcolato automaticamente
+sourceNote   = Cavi illuminazione 3×1,5mm² (TT Rigid, art. 42625, CHF 1.75/m × 270m = CHF 472.50) — 8 circuiti: cucina, soggiorno/corridoio, 3 stanze, 2 bagni, ingresso (~30m/circuito + 30m riserva). Cavi prese standard 3×2,5mm² (TT Rigid, art. 42564, CHF 3.40/m × 360m = CHF 1'224.00) — 10 circuiti: 2 soggiorno, 3 stanze, 1 corridoio, 2 cucina, 2 bagni (~30m/circuito + 60m riserva). Cavi circuiti dedicati CHF 520.00: piano cottura 5G6mm² trifase 3×16A (⚠️ verificare disponibilità trifase in loco — se solo monofase necessario upgrade al distributore, costo aggiuntivo non incluso); lavatrice, lavastoviglie, boiler, forno: 4× 3×2,5mm². Materiale vario: 65 cassette da incasso ~CHF 2.50/pz + 10 cassette derivazione IP40 ~CHF 3/pz = CHF 195.00.
+sourceUrl    = https://www.elettromercato.ch/en/browse/id/42625 e https://www.elettromercato.ch/en/browse/id/42564
+
+[ITEM 62]
+section      = Impianto Elettrico
+description  = Prese, interruttori e materiale elettrico — fornitura
+unit         = corpo
+quantity     = 1
+unitCost     = 1550
+unitPrice    = 1550
+marginPercent= 0
+totalCost    = 1'550.00  # calcolato automaticamente
+totalPrice   = 1'550.00  # calcolato automaticamente
+sourceNote   = Prese tipo 13 (ABB Basic55 T13, ~CHF 22/pz × 28 pz = CHF 616.00): stanze 12, soggiorno 8, cucina 4, corridoio/ingresso 4. Prese IP44 bagno (~CHF 85/pz × 4 pz = CHF 340.00): bagno esistente 2 pz, bagno nuovo 2 pz — prezzo da confermare con fornitore locale. Interruttori e deviatori Feller EDIZIOdue (~CHF 27/pz × 22 pz = CHF 594.00): ~15 interruttori schema 1 + 7 deviatori schema 6.
+
+[ITEM 63]
+section      = Impianto Elettrico
+description  = Posa impianto elettrico completo — manodopera
+unit         = corpo
+quantity     = 1
+unitCost     = 7500
+unitPrice    = 7500
+marginPercent= 0
+totalCost    = 7'500.00  # calcolato automaticamente
+totalPrice   = 7'500.00  # calcolato automaticamente
+sourceNote   = Stesa cavi, connessioni quadro, montaggio prese/interruttori, cablaggio circuiti dedicati, collaudo interno. Stima ~75h × CHF 100/h. Tariffa elettricista certificato NIN Ticino: CHF 100–130/h.
+
+[ITEM 64]
+section      = 
+description  = Rapporto di sicurezza RASI e collaudo finale
+unit         = corpo
+quantity     = 1
+unitCost     = 650
+unitPrice    = 650
+marginPercent= 0
+totalCost    = 650.00  # calcolato automaticamente
+totalPrice   = 650.00  # calcolato automaticamente
+sourceNote   = Certificazione obbligatoria NIN 2020, emessa da elettricista autorizzato. Stima CHF 500–800 per appartamento completo. ⚠️ Allineare denominazione esatta con elettricista incaricato prima dell'emissione del preventivo firmato.
+
+================================================================================
+[TOTALI]
+subtotaleCosti   = CHF 79'137.85
+subtotaleCliente = CHF 79'137.85
+margine          = 0%
+iva              = Non applicabile
+TOTALE           = CHF 79'137.85
+================================================================================

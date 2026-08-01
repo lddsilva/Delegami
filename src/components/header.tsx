@@ -4,25 +4,25 @@ import { WHATSAPP_GENERIC } from '@/lib/site'
 
 const NAV = [
   { href: '#come-funziona', label: 'Come funziona' },
+  { href: '#app', label: "L'app" },
   { href: '#cosa-ricevi', label: 'Cosa ricevi' },
   { href: '#prezzo', label: 'Prezzo' },
-  { href: '#domande', label: 'Domande' },
 ]
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-rule bg-paper/95 backdrop-blur">
-      <div className="mx-auto flex h-[4.5rem] max-w-[70rem] items-center justify-between px-6 lg:px-10">
+    <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
+      <div className="mx-auto flex h-[4.75rem] max-w-6xl items-center justify-between gap-6 px-6 lg:px-8">
         <a href="#top" aria-label="Delegami — inizio pagina">
           <Logo />
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {NAV.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="text-[0.9rem] text-ink-soft underline-offset-[6px] transition-colors hover:text-wine hover:underline"
+              className="text-[0.92rem] font-medium text-slate-ink transition-colors hover:text-navy"
             >
               {item.label}
             </a>
@@ -33,7 +33,7 @@ export function Header() {
           href={WHATSAPP_GENERIC}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 border border-wine px-4 py-2 text-[0.9rem] font-medium text-wine transition-colors hover:bg-wine hover:text-paper"
+          className="inline-flex shrink-0 items-center gap-2 rounded-full bg-navy px-5 py-2.5 text-[0.9rem] font-semibold text-white transition-colors hover:bg-navy-deep"
         >
           <WhatsappGlyph />
           Scrivici

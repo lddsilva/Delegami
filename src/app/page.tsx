@@ -2,6 +2,7 @@ import { Header } from '@/components/header'
 import { Hero } from '@/components/hero'
 import { Problem } from '@/components/problem'
 import { HowItWorks } from '@/components/how-it-works'
+import { AppScreens } from '@/components/app-screens'
 import { Deliverables } from '@/components/deliverables'
 import { NotIncluded } from '@/components/not-included'
 import { FreeOffer } from '@/components/free-offer'
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Hero />
         <Problem />
         <HowItWorks />
+        <AppScreens />
         <Deliverables />
         <NotIncluded />
         <FreeOffer />

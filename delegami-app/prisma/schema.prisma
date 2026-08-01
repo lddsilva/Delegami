@@ -1,0 +1,787 @@
+// Zanetti Office — Prisma Schema
+// Language: English (code) | Italian (client docs) | Portuguese (internal)
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ─── Company Settings ─────────────────────────────────────────────────────────
+
+model CompanySettings {
+  id                String   @id @default(cuid())
+  name              String
+  address           String?
+  city              String?
+  postalCode        String?
+  country           String   @default("CH")
+  phone             String?
+  email             String?
+  iban                String?
+  paymentQrUrl        String?  // static payment QR image (Vercel Blob) printed on invoice PDFs
+  vatNumber           String?
+  registrationNumber  String?  // e.g. CH-501.3.000.000-0 or Italian REA
+  logoPath            String?
+  defaultCurrency     String   @default("CHF")
+  defaultLanguage     String   @default("it")
+  accountantEmail     String?  // send expense reports to accountant
+  defaultMargin       Float    @default(0)  // default margin % for new quotes
+  defaultTaxRate      Float    @default(8.1) // 0 = non assoggettato IVA; 8.1 = standard CH
+  paymentTerms        String?
+  quoteFooterText     String?
+  invoiceFooterText   String?
+  worksDirector       String?  // name shown as Direttore dei lavori in the quote PDF signature block
+  defaultQuoteNotes   String?  // pre-fills clientNotes on new quotes; editable per-quote
+  defaultQuoteValidityDays Int @default(30)
+  defaultInvoiceDueDays    Int @default(5)
+  eurChfRate          Float    @default(0.9119)
+  eurChfRateUpdatedAt DateTime?
+  defaultWorkerHourlyRate Float @default(25) // pre-fills User.hourlyRate when creating a WORKER account
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("company_settings")
+}
+
+// ─── Users & Auth ─────────────────────────────────────────────────────────────
+
+enum UserRole {
+  ADMIN
+  MANAGER
+  VIEWER
+  WORKER
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         UserRole @default(MANAGER)
+  active       Boolean  @default(true)
+  phone        String?  // employee contact (mainly for WORKER accounts)
+  address      String?  // employee address
+  hourlyRate   Float?   // worker's agreed wage/h — snapshotted onto each WorkLog (what the worker earns)
+  employmentType String @default("DIRECT") // DIRECT | AGENCY — how the worker is engaged
+  agencySupplierId String? // when AGENCY: the staffing agency (Supplier.id) that invoices us — plain FK, resolved in queries
+  costRate     Float?   // when AGENCY: hourly rate the agency bills us (estimated until the real invoice) — snapshotted onto WorkLog
+  contractStart DateTime? // optional: start of the work relationship
+  contractType String?   // optional short label, e.g. "Interinale", "Indeterminato", "A ore"
+  identityNumber String? // ID/permit/agency matricola — printed on the agency hours report
+  notes        String?  // internal notes about the employee
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("users")
+}
+
+// ─── Quote Templates ──────────────────────────────────────────────────────────
+
+model QuoteTemplate {
+  id          String  @id @default(cuid())
+  name        String
+  description String?
+  category    String  // Bagno | Cucina | Pavimenti | Pittura | Impianti | Muratura | Completa
+  subcategory String?
+  emoji       String  @default("📋")
+  sortOrder   Int     @default(0)
+  templateType String  @default("QUOTE") // QUOTE | INVOICE
+  qualityLevel String @default("STANDARD") // Legacy: STANDARD | LOW | MEDIUM | HIGH
+  scopeLevel   String @default("STANDARD") // LIGHT | STANDARD | COMPLETE | SERVICE
+  templateGroupKey String?
+  version     Int     @default(1)
+  sourceQuoteId String?
+  itemsJson   String  // JSON array of QuoteItem[] or InvoiceItem[]
+  isActive    Boolean @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("quote_templates")
+}
+
+// ─── Document Sequences (auto-numbering PRE/INV per year) ────────────────────
+
+model DocumentSequence {
+  id         String @id @default(cuid())
+  type       String // QUOTE | INVOICE
+  year       Int
+  lastNumber Int    @default(0)
+
+  @@unique([type, year])
+  @@map("document_sequences")
+}
+
+// ─── Clients ──────────────────────────────────────────────────────────────────
+
+model Client {
+  id         String    @id @default(cuid())
+  name       String
+  address    String?
+  city       String?
+  postalCode String?
+  country    String    @default("CH")
+  email      String?
+  phone      String?
+  vatNumber  String?
+  notes      String?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  projects   Project[]
+
+  @@map("clients")
+}
+
+// ─── Projects (Obras) ─────────────────────────────────────────────────────────
+
+model Project {
+  id             String        @id @default(cuid())
+  clientId       String
+  client         Client        @relation(fields: [clientId], references: [id])
+  name           String
+  referenceCode  String?       @unique
+  address        String?
+  description    String?
+  status         ProjectStatus @default(LEAD)
+  estimatedValue Float?
+  billingNotes   String?
+  startDate      DateTime?
+  endDate        DateTime?
+  notes          String?
+  paymentTerms   String?
+  isPlaceholder  Boolean       @default(false) // true for the "Da classificare" bucket project
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  quotes        Quote[]
+  expenses      Expense[]
+  invoices      Invoice[]
+  documents     Document[]
+  transactions  FinancialTransaction[]
+  shoppingLists ShoppingList[]
+  schedule      ProjectSchedule?
+  customReports CustomReport[]
+  workLogs      WorkLog[]
+
+  @@map("projects")
+}
+
+enum ProjectStatus {
+  LEAD
+  QUOTING
+  APPROVED
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+// ─── Quotes (Preventivi) ──────────────────────────────────────────────────────
+
+model Quote {
+  id             String      @id @default(cuid())
+  quoteNumber    String      // PRE-2026-001 — same number can have multiple versions
+  version        Int         @default(1)
+  parentQuoteId  String?     // set when this is a new version of a previous quote
+  projectId      String
+  project        Project     @relation(fields: [projectId], references: [id])
+  type           QuoteType   @default(DETAILED)
+  status         QuoteStatus @default(DRAFT)
+  marginPercent  Float       @default(0) // internal — NEVER shown on client PDF
+  subtotalCost   Float       @default(0) // sum of internal unit costs
+  subtotalClient Float       @default(0) // sum of client-facing prices
+  taxRate        Float       @default(8.1) // Swiss VAT %
+  taxAmount      Float       @default(0)
+  total          Float       @default(0)
+  validUntil     DateTime?
+  internalNotes  String?
+  clientNotes    String?
+  showClientNotes Boolean    @default(true) // toggle the "Note e condizioni" card in the client PDF
+  paymentTerms   String?
+  signatories    String?  // newline-separated names shown on the "Firma per accettazione" block of client PDFs
+  sentAt         DateTime?
+  approvedAt     DateTime?
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  items         QuoteItem[]
+  invoices      Invoice[]
+  documents     Document[]
+  customReports CustomReport[]
+
+  @@unique([quoteNumber, version]) // same quote can have v1, v2, v3…
+  @@map("quotes")
+}
+
+enum QuoteType {
+  PRELIMINARY
+  DETAILED
+}
+
+enum QuoteStatus {
+  DRAFT
+  SENT
+  APPROVED
+  REJECTED
+  INVOICED
+}
+
+// ─── Quote Items ──────────────────────────────────────────────────────────────
+
+model QuoteItem {
+  id          String   @id @default(cuid())
+  quoteId     String
+  quote       Quote    @relation(fields: [quoteId], references: [id], onDelete: Cascade)
+  itemType    ItemType @default(ITEM)
+  section     String?  // e.g. "Demolição", "Elétrica", "Pintura"
+  sortOrder   Int      @default(0)
+  description  String
+  unit         String?
+  quantity     Float?
+  unitCost     Float?   // internal cost (never shown to client)
+  unitPrice    Float?   // client-facing price
+  totalCost    Float?   // internal total
+  totalPrice   Float?   // client-facing total
+  marginPercent Float?  // per-item margin override (null = use quote default)
+  directPrice       Boolean  @default(false) // true = unitPrice is entered directly, without internal cost
+  hiddenFromClient  Boolean  @default(false) // true = hidden from client PDF and excluded from client total
+  priceItemId   String?
+  priceItem     PriceItem? @relation(fields: [priceItemId], references: [id], onDelete: SetNull)
+  sourceUrl     String? // internal — product URL (never shown on client PDF)
+  sourceNote    String? // internal — reference note, e.g. "Bauhaus art. 31158811 – CHF 4.96/ml"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  invoiceItems InvoiceItem[]
+
+  @@map("quote_items")
+}
+
+enum ItemType {
+  ITEM
+  SECTION
+  NOTE
+  SUBTOTAL
+  HEADER  // full-width title/scope — visually distinct from SECTION
+}
+
+// ─── Invoices (Faturas) ───────────────────────────────────────────────────────
+
+model Invoice {
+  id            String        @id @default(cuid())
+  invoiceNumber String        // INV-2026-001 — same number can have multiple versions
+  version       Int           @default(1)
+  parentInvoiceId String?     // set when this is a new version of a previous invoice
+  projectId     String
+  project       Project       @relation(fields: [projectId], references: [id])
+  quoteId       String?
+  quote         Quote?        @relation(fields: [quoteId], references: [id])
+  status        InvoiceStatus @default(DRAFT)
+  issueDate     DateTime      @default(now())
+  dueDate       DateTime?
+  subtotal      Float         @default(0)
+  taxRate       Float         @default(8.1)
+  taxAmount     Float         @default(0)
+  total         Float         @default(0)
+  billingMode   String?       // ITEMS | PERCENTAGE | MANUAL
+  billingPercent Float?
+  quoteBaseTotal Float?
+  notes         String?
+  paidAt        DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  items        InvoiceItem[]
+  documents    Document[]
+  transactions FinancialTransaction[]
+  payments     InvoicePayment[]
+
+  @@unique([invoiceNumber, version])
+  @@map("invoices")
+}
+
+enum InvoiceStatus {
+  DRAFT
+  SENT
+  PAID
+  CANCELLED
+}
+
+// ─── Invoice Items ────────────────────────────────────────────────────────────
+
+model InvoiceItem {
+  id          String   @id @default(cuid())
+  invoiceId   String
+  invoice     Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  quoteItemId String?
+  quoteItem   QuoteItem? @relation(fields: [quoteItemId], references: [id], onDelete: SetNull)
+  description String
+  unit        String?
+  quantity    Float    @default(1)
+  unitPrice   Float
+  total       Float
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("invoice_items")
+}
+
+// ─── Invoice Payments (pagamenti parziali) ───────────────────────────────────
+
+model InvoicePayment {
+  id         String   @id @default(cuid())
+  invoiceId  String
+  invoice    Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  amount     Float
+  paidAt     DateTime @default(now())
+  notes      String?
+  receiptUrl String?  // Vercel Blob URL for payment receipt/comprovante
+  createdAt  DateTime @default(now())
+
+  @@map("invoice_payments")
+}
+
+// ─── Expenses (Despesas) ──────────────────────────────────────────────────────
+
+model Expense {
+  id                    String        @id @default(cuid())
+  projectId             String?
+  project               Project?      @relation(fields: [projectId], references: [id])
+  supplierId            String?
+  supplier              Supplier?     @relation(fields: [supplierId], references: [id])
+  expenseType           ExpenseType   @default(MATERIAL)
+  paymentStatus         PaymentStatus @default(PENDING)
+  category              String?
+  description           String
+  amount                Float
+  currency              String        @default("CHF")
+  amountChf             Float?        // CHF equivalent at time of entry
+  exchangeRate          Float?        // rate used for conversion (e.g. 1 EUR = 0.96 CHF)
+  exchangeRateUpdatedAt DateTime?      // date of the rate snapshot used for this expense
+  isItalianPurchase     Boolean       @default(false)
+  date                  DateTime
+  supplierInvoiceNumber String?
+  receiptPath           String?
+  notes                 String?
+  createdAt             DateTime      @default(now())
+  updatedAt             DateTime      @updatedAt
+
+  documents    Document[]
+  transactions FinancialTransaction[]
+  receiptInbox ReceiptInbox[]
+
+  @@map("expenses")
+}
+
+enum ExpenseType {
+  MATERIAL
+  LABOR
+  TRANSPORT
+  EQUIPMENT
+  ADMIN
+  OTHER
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  PARTIALLY_PAID
+}
+
+// ─── Price Catalog (Prezzario) ────────────────────────────────────────────────
+
+model PriceItem {
+  id           String   @id @default(cuid())
+  code         String?
+  category     String   @default("Generale")
+  description  String
+  unit         String   @default("pz")
+  unitCost     Float    @default(0)
+  qualityLevel String   @default("STANDARD") // Legacy: STANDARD | LOW | MEDIUM | HIGH
+  productTier  String?  // ESSENTIAL | STANDARD | PREMIUM; null for services/labor
+  notes        String?
+  links        String?  // newline-separated product URLs
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  priceSources PriceSource[]
+  quoteItems   QuoteItem[]
+
+  @@map("price_items")
+}
+
+model PriceSource {
+  id             String   @id @default(cuid())
+  priceItemId    String
+  priceItem      PriceItem @relation(fields: [priceItemId], references: [id], onDelete: Cascade)
+  supplierName   String?
+  sourceType     String   @default("PRODUCT_URL") // PRODUCT_URL | CATEGORY_URL | SUPPLIER_QUOTE | RECEIPT | ESTIMATE | INDEX | LEGACY_PRICE
+  url            String?
+  observedPrice  Float?
+  currency       String   @default("CHF")
+  vatIncluded    Boolean?
+  unit           String?
+  observedAt     DateTime?
+  validUntil     DateTime?
+  confidence     String   @default("MEDIUM") // LOW | MEDIUM | HIGH
+  notes          String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([priceItemId])
+  @@map("price_sources")
+}
+
+// ─── Suppliers (Fornecedores) ─────────────────────────────────────────────────
+
+model Supplier {
+  id                String              @id @default(cuid())
+  name              String
+  address           String?
+  email             String?
+  phone             String?
+  vatNumber         String?
+  category          String?
+  tags              String?   // comma-separated tags, e.g. "materiali,piastrelle,utensili"
+  website           String?
+  notes             String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  expenses          Expense[]
+  shoppingListItems ShoppingListItem[]
+
+  @@map("suppliers")
+}
+
+// ─── Documents ────────────────────────────────────────────────────────────────
+// Uses per-entity FK columns. Future: migrate to polymorphic (entity_type + entity_id).
+
+model Document {
+  id           String   @id @default(cuid())
+  name         String
+  filePath     String   // Vercel Blob URL or local path
+  fileType     String?  // MIME type: image/jpeg, application/pdf, etc.
+  fileSize     Int?
+  documentType String   @default("ATTACHMENT") // PHOTO | ATTACHMENT | RECEIPT
+  projectId    String?
+  project      Project? @relation(fields: [projectId], references: [id])
+  quoteId      String?
+  quote        Quote?   @relation(fields: [quoteId], references: [id])
+  invoiceId    String?
+  invoice      Invoice? @relation(fields: [invoiceId], references: [id])
+  expenseId    String?
+  expense      Expense? @relation(fields: [expenseId], references: [id])
+  uploadedAt   DateTime @default(now())
+
+  @@map("documents")
+}
+
+// ─── Financial Transactions (base for cash flow — Phase 6+) ──────────────────
+
+model FinancialTransaction {
+  id          String          @id @default(cuid())
+  type        TransactionType
+  projectId   String?
+  project     Project?        @relation(fields: [projectId], references: [id])
+  invoiceId   String?
+  invoice     Invoice?        @relation(fields: [invoiceId], references: [id])
+  expenseId   String?
+  expense     Expense?        @relation(fields: [expenseId], references: [id])
+  amount      Float
+  currency    String          @default("CHF")
+  date        DateTime
+  description String?
+  notes       String?
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@map("financial_transactions")
+}
+
+enum TransactionType {
+  INCOME
+  EXPENSE
+}
+
+// ─── Activity Log ─────────────────────────────────────────────────────────────
+
+model ActivityLog {
+  id           String   @id @default(cuid())
+  action       String   // CREATE | UPDATE | DELETE | LOGIN | LOGOUT | UPLOAD | PROCESS | MARK_PAID | MARK_SENT | etc.
+  entityType   String   // Cliente | Opera | Preventivo | Fattura | Spesa | Scontrino | Fornitore | Documento | Prezzario | Template | Impostazioni | Utente | Auth
+  entityId     String?
+  entityLabel  String?  // human-readable name/description of the affected record
+  userId       String
+  userName     String   // denormalised — snapshot of name at time of action
+  details      String?  // JSON string with optional extra context
+  ipAddress    String?  // client IP at time of action
+  userAgent    String?  // simplified UA (browser/OS)
+  path         String?  // URL path where the action was triggered
+  success      Boolean  @default(true) // false when the action failed
+  errorMessage String?  // populated when success = false
+  durationMs   Int?     // how long the action took
+  createdAt    DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@map("activity_logs")
+}
+
+// ─── Receipt Inbox ────────────────────────────────────────────────────────────
+
+model ReceiptInbox {
+  id                 String    @id @default(cuid())
+  photoUrl           String
+  note               String?
+  suggestedProjectId String?   // pre-fill the project on the processing form (bulk-assign)
+  capturedAt         DateTime  @default(now())
+  processedAt        DateTime?
+  expenseId          String?
+  expense            Expense?  @relation(fields: [expenseId], references: [id], onDelete: SetNull)
+  createdById        String
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  @@map("receipt_inbox")
+}
+
+model ReceiptImportBatch {
+  id                  String   @id @default(cuid())
+  fileName            String
+  defaultProjectId    String?
+  defaultProjectLabel String?
+  status              String   @default("DRAFT") // DRAFT | COMPLETED | PARTIAL | FAILED
+  totalItems          Int      @default(0)
+  createdCount        Int      @default(0)
+  skippedCount        Int      @default(0)
+  errorCount          Int      @default(0)
+  createdById         String
+  createdByName       String
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  items ReceiptImportItem[]
+
+  @@map("receipt_import_batches")
+}
+
+model ReceiptImportItem {
+  id                  String   @id @default(cuid())
+  batchId             String
+  batch               ReceiptImportBatch @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  imageFile           String
+  photoUrl            String?
+  rawJson             String
+  supplierNameRaw     String?
+  supplierId          String?
+  supplierName        String?
+  projectId           String?
+  projectLabel        String?
+  expenseId           String?
+  receiptInboxId      String?
+  status              String   @default("PENDING") // PENDING | CREATED | SKIPPED | ERROR
+  errorMessage        String?
+  duplicateExpenseId  String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@index([batchId])
+  @@map("receipt_import_items")
+}
+
+// ─── Shopping list per project ─────────────────────────────────────────────────
+
+model ShoppingList {
+  id            String              @id @default(cuid())
+  projectId     String
+  project       Project             @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  sourceQuoteId String?
+  notes         String?
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+  items         ShoppingListItem[]
+
+  @@index([projectId])
+  @@map("shopping_lists")
+}
+
+model ShoppingListItem {
+  id                 String       @id @default(cuid())
+  listId             String
+  list               ShoppingList @relation(fields: [listId], references: [id], onDelete: Cascade)
+  description        String
+  unit               String?
+  qtyPlanned         Float        @default(1)
+  qtyPurchased       Float?
+  unitPriceEstimated Float?
+  unitPricePaid      Float?
+  supplierId         String?
+  supplier           Supplier?    @relation(fields: [supplierId], references: [id])
+  status             String       @default("PENDING") // PENDING | ORDERED | PURCHASED | RECEIVED
+  sourceQuoteItemId  String?
+  sourceUrl          String?
+  expenseId          String?
+  notes              String?
+  sortOrder          Int          @default(0)
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+
+  @@index([listId])
+  @@index([supplierId])
+  @@map("shopping_list_items")
+}
+
+// ─── Project schedule (Cronograma Lite) ─────────────────────────────────────────
+
+model ProjectSchedule {
+  id        String          @id @default(cuid())
+  projectId String          @unique
+  project   Project         @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  notes     String?
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+  phases    SchedulePhase[]
+
+  @@map("project_schedules")
+}
+
+model SchedulePhase {
+  id         String          @id @default(cuid())
+  scheduleId String
+  schedule   ProjectSchedule @relation(fields: [scheduleId], references: [id], onDelete: Cascade)
+  name       String
+  startDate  DateTime
+  endDate    DateTime
+  color      String?         // hex tag for the timeline bar
+  notes      String?
+  sortOrder  Int             @default(0)
+  createdAt  DateTime        @default(now())
+  updatedAt  DateTime        @updatedAt
+  tasks      ScheduleTask[]
+
+  @@index([scheduleId])
+  @@map("schedule_phases")
+}
+
+model ScheduleTask {
+  id                String        @id @default(cuid())
+  phaseId           String
+  phase             SchedulePhase @relation(fields: [phaseId], references: [id], onDelete: Cascade)
+  name              String
+  startDate         DateTime?
+  endDate           DateTime?
+  notes             String?
+  status            String        @default("PENDING") // PENDING | IN_PROGRESS | DONE
+  sourceQuoteItemId String?
+  sortOrder         Int           @default(0)
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  @@index([phaseId])
+  @@map("schedule_tasks")
+}
+
+// ─── Custom Reports (AI-imported) ───────────────────────────────────────────
+
+model CustomReport {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  type        String?  // eletrico | hidraulico | strutturale | termico | altro
+  projectId   String?
+  project     Project? @relation(fields: [projectId], references: [id], onDelete: SetNull)
+  quoteId     String?
+  quote       Quote?   @relation(fields: [quoteId], references: [id], onDelete: SetNull)
+  contentJson String   // structured body — see block schema
+  createdBy   String?  // denormalized user name snapshot
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([projectId])
+  @@index([quoteId])
+  @@map("custom_reports")
+}
+
+// ─── Work Logs (Rapportino giornaliero operai) ──────────────────────────────
+
+model WorkLog {
+  id          String   @id @default(cuid())
+  userId      String   // the worker the hours belong to
+  userName    String   // denormalized snapshot of the worker's name
+  projectId   String?  // optional link to an opera
+  project     Project? @relation(fields: [projectId], references: [id], onDelete: SetNull)
+  workDate    DateTime // the day worked (date-only, midnight Europe/Zurich)
+  hours       Float    @default(0)
+  hourlyRate  Float?   // snapshot of the worker's agreed rate at creation (valid-from-forward)
+  costRate    Float?   // snapshot of the agency cost rate at creation (AGENCY workers) — company cost/h
+  amountOverride Float? // fixed-price day: overrides hours × hourlyRate when set
+  location    String?  // free-text workplace/location for that day (e.g. "Lugano", "Grancia")
+  description String?  // what was done that day
+  status      String   @default("DRAFT") // DRAFT | SUBMITTED | APPROVED — only APPROVED counts toward compenso maturato
+  submittedAt DateTime?
+  approvedAt  DateTime? // set by admin/manager when they verify + approve the log
+  revisionRequestedAt DateTime? // worker asked to edit a locked (SUBMITTED/APPROVED) log; admin reopens to grant
+  revisionReason String?        // optional note from the worker explaining the requested change
+  createdById String   // who actually entered it (the worker, or an admin on their behalf)
+  createdByName String  // denormalized snapshot of the author's name
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  photos      WorkLogPhoto[]
+
+  @@index([userId])
+  @@index([workDate])
+  @@index([projectId])
+  @@map("work_logs")
+}
+
+model WorkLogPhoto {
+  id        String   @id @default(cuid())
+  workLogId String
+  workLog   WorkLog  @relation(fields: [workLogId], references: [id], onDelete: Cascade)
+  url       String   // Vercel Blob
+  note      String?
+  createdAt DateTime @default(now())
+
+  @@index([workLogId])
+  @@map("work_log_photos")
+}
+
+// ─── Worker payments (compenso operai) ──────────────────────────────────────
+
+model WorkerPayment {
+  id          String   @id @default(cuid())
+  userId      String   // the worker being paid
+  userName    String   // denormalized snapshot
+  amount      Float
+  paidAt      DateTime @default(now())
+  method      String?  // Contanti | Bonifico | TWINT | Altro
+  note        String?
+  receiptUrl  String?  // Vercel Blob — comprovante del pagamento (image or PDF)
+  createdById String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+  @@map("worker_payments")
+}
+
+// ─── Worker documents (contratti, documenti d'identità, foto, PDF) ──────────
+
+model WorkerDocument {
+  id         String   @id @default(cuid())
+  userId     String   // the worker the document belongs to
+  name       String
+  url        String   // Vercel Blob
+  fileType   String?  // MIME type: image/jpeg, application/pdf, ...
+  category   String   @default("OTHER") // CONTRACT | ID | PERMIT | PHOTO | OTHER
+  note       String?
+  uploadedAt DateTime @default(now())
+
+  @@index([userId])
+  @@map("worker_documents")
+}

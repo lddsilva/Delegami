@@ -1,0 +1,46 @@
+{
+  "name": "zanetti-office",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node -e \"require('fs').rmSync('src/generated/prisma',{recursive:true,force:true})\" && prisma generate && tsx prisma/migrate-turso.ts && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "seed": "tsx prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.2",
+    "@prisma/adapter-libsql": "^7.7.0",
+    "@prisma/client": "^7.7.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@vercel/blob": "^2.3.3",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "docx": "^9.6.1",
+    "dotenv": "^17.4.2",
+    "fflate": "^0.8.2",
+    "heic2any": "^0.0.4",
+    "lucide-react": "^1.8.0",
+    "next": "16.2.3",
+    "prisma": "^7.7.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.3",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

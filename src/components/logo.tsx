@@ -1,61 +1,69 @@
-type Tone = 'ink' | 'paper'
+type Tone = 'navy' | 'light'
 
-/** Newsreader's cap height, measured: 0.66 × font-size. The mark is sized and
- *  baseline-aligned to it so it reads as the first letter, not as an icon. */
-const CAP = 0.66
-const RATIO = 27 / 40 // ink box of the mark
+const SHELL: Record<Tone, string> = { navy: '#143A56', light: '#F5F7F8' }
 
-const COLORS: Record<Tone, { bar: string; seal: string }> = {
-  ink: { bar: '#22201D', seal: '#6B2637' },
-  paper: { bar: '#FAF8F4', seal: '#D9A8B2' },
-}
-
-/** Margin rule + seal. Read together they form a D. */
+/** The D whose counter holds a check: the letter says who, the check says what
+ *  happened to your paperwork. Below 32px use `simple` — the check stops
+ *  resolving and turns into a smudge. */
 export function LogoMark({
-  size = '1.6rem',
-  tone = 'ink',
-  className = '',
+  size = '2rem',
+  tone = 'navy',
+  simple = false,
 }: {
   size?: string
   tone?: Tone
-  className?: string
+  simple?: boolean
 }) {
-  const { bar, seal } = COLORS[tone]
   return (
     <svg
-      viewBox="18 12 27 40"
-      className={className}
-      style={{ height: size, width: `calc(${size} * ${RATIO})`, display: 'block' }}
+      viewBox="0 0 64 64"
+      style={{ height: size, width: size, display: 'block' }}
       aria-hidden
       focusable="false"
     >
-      <rect x="18" y="12" width="8" height="40" rx="1" fill={bar} />
-      <path d="M29 12a16 20 0 0 1 0 40Z" fill={seal} />
+      <path d="M14 10H34a22 22 0 0 1 0 44H14Z" fill={SHELL[tone]} />
+      <path d="M24 20h10a12 12 0 0 1 0 24H24Z" fill="#2ACAAB" />
+      {!simple && (
+        <path
+          d="M28.5 32.5 32 36l7.5-8.5"
+          fill="none"
+          stroke="#143A56"
+          strokeWidth="4.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      )}
     </svg>
   )
 }
 
-export function Logo({
-  tone = 'ink',
-  size = '1.35rem',
-  className = '',
-}: {
-  tone?: Tone
-  size?: string
-  className?: string
-}) {
+/**
+ * Horizontal lockup. The mark runs 1.45× the wordmark's cap height on purpose:
+ * at matching height it read as a second D at the start of the word.
+ */
+export function Logo({ tone = 'navy' }: { tone?: Tone }) {
   return (
-    <span
-      className={`flex items-baseline gap-[0.2em] ${className}`}
-      style={{ fontSize: size }}
-    >
-      <LogoMark size={`${CAP}em`} tone={tone} />
-      <span
-        className={`font-display leading-none tracking-[-0.012em] ${
-          tone === 'paper' ? 'text-paper' : 'text-ink'
-        }`}
-      >
-        Delegami
+    <span className="flex items-center gap-2.5">
+      <LogoMark size="2.1rem" tone={tone} />
+      <span className="flex flex-col">
+        <span
+          className={`text-[1.15rem] font-extrabold leading-none tracking-[0.005em] ${
+            tone === 'light' ? 'text-off' : 'text-navy'
+          }`}
+        >
+          DELEGAMI
+        </span>
+        <span
+          aria-hidden
+          className={`mt-[3px] h-[1.5px] w-full ${tone === 'light' ? 'bg-mint' : 'bg-mint'}`}
+        />
+        <span
+          className={`mt-[3px] text-[0.44rem] font-semibold leading-none tracking-[0.19em] ${
+            tone === 'light' ? 'text-off/60' : 'text-slate'
+          }`}
+        >
+          COLLABORAZIONE AMMINISTRATIVA
+        </span>
       </span>
     </span>
   )

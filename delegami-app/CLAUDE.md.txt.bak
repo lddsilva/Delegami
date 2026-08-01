@@ -1,0 +1,51 @@
+# Projeto: Zanetti Office
+
+## Objetivo
+Aplicação web para administrar uma pequena empresa de reformas e construção na Suíça.
+
+## Idioma
+- Italiano: documentos para cliente, banco e fornecedores
+- Português: comunicação interna
+- Inglês: código
+
+## Funcionalidades principais
+- Preventivo preliminar
+- Preventivo detalhado
+- PDF para cliente
+- PDF para banco
+- Faturas
+- Controle de despesas
+- Controle de entradas e saídas
+- Gestão de obras
+- Gestão de fornecedores
+- Upload de notas e documentos
+
+## Regras importantes
+- Nunca mostrar margem interna no PDF do cliente
+- Deve existir versão resumida para banco
+- Deve existir versão detalhada interna
+- Toda despesa deve estar ligada a uma obra
+- Todo preventivo pode virar fatura
+
+## Tecnologias desejadas
+- TypeScript
+- Aplicação web
+- Estrutura simples e profissional
+- Banco de dados relacional
+- Rodar localmente primeiro
+
+## Estratégia
+Desenvolvimento em fases:
+1. Base do sistema
+2. Clientes e obras
+3. Preventivo
+4. PDF
+5. Faturas
+6. Financeiro
+7. Relatórios
+
+## Estilo de código
+- Código limpo
+- Modular
+- Fácil manutenção
+- Evitar complexidade desnecessária
