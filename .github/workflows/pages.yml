@@ -12,8 +12,10 @@ permissions:
   pages: write
   id-token: write
 
+# Grouped per ref: a push to one branch used to cancel a run already going on
+# another, which is how the first good build got killed before it could deploy.
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -59,8 +61,11 @@ jobs:
         with:
           path: out
 
+  # The github-pages environment only accepts deployments from the default
+  # branch, so other branches build (catching breakage early) but stop there.
   deploy:
     needs: build
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     environment:
       name: github-pages
