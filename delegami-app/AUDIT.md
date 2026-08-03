@@ -1,4 +1,4 @@
-# AUDIT — Zanetti Office
+# AUDIT — Delegami
 
 **Data:** 26.07.2026 · **Escopo:** 72 páginas, 226 arquivos TS/TSX, ~37k linhas
 **Método:** leitura do código-fonte + contagem automática de tokens de estilo + **app rodando e
@@ -9,7 +9,7 @@ screenshots e medição de DOM). Nenhum arquivo de produção alterado.
 
 ## Veredito em uma frase
 
-A app tem **arquitetura de dados sólida e componentes-base consistentes** (114 usos de `<Card>` com apenas 7 bypasses; 176 `<Button>` com 5 bypasses), mas **a camada de apresentação não decide nada por Marcos**: toda tela é uma pilha de cards de peso igual, os três números que definem a saúde do negócio são calculados de **três formas diferentes** em três telas diferentes, e **nenhuma das 72 páginas tem estado de carregamento ou de erro**.
+A app tem **arquitetura de dados sólida e componentes-base consistentes** (114 usos de `<Card>` com apenas 7 bypasses; 176 `<Button>` com 5 bypasses), mas **a camada de apresentação não decide nada por the client**: toda tela é uma pilha de cards de peso igual, os três números que definem a saúde do negócio são calculados de **três formas diferentes** em três telas diferentes, e **nenhuma das 72 páginas tem estado de carregamento ou de erro**.
 
 O problema central não é feiúra. É que **a interface não tem opinião**. Ela mostra tudo com a mesma força e deixa o usuário fazer a triagem.
 
@@ -59,7 +59,7 @@ defeito**:
 
 * **As rotas `/edit`.** `/quotes/new` abre sem nenhuma voce, por isso a grelha do
   editor de artigos nunca chegou a renderizar em medição nenhuma. O ecrã que o
-  Marcos usa para mexer num preventivo real nunca foi medido.
+  the client usa para mexer num preventivo real nunca foi medido.
 * **Transbordo contido.** Um contentor interno pode ser mais largo do que a caixa
   sem que a página role: o `main` corta-o e a medição de topo dá zero. Era
   exactamente o que acontecia — 495px de barra de ações dentro de um cartão de
@@ -74,7 +74,7 @@ transbordo**.
 
 ### Segunda correção ao método (27.07.2026) — o que o Chromium não mostra
 
-O Marcos enviou uma segunda foto: o campo **Valido fino al** a sair do cartão e
+O the client enviou uma segunda foto: o campo **Valido fino al** a sair do cartão e
 a página empurrada para o lado. O varrimento das 49 rotas dava zero.
 
 **O emulador de iPhone do Chromium não é um iPhone.** O Safari iOS dá ao
@@ -260,7 +260,7 @@ A barra de ações tem até 8 controles (status, Crea fattura, Clona, Invia, PDF
 ### `/rapportini` — ❌ hierarquia invertida
 
 - **Pergunta:** *"Quais rapportini preciso aprovar?"*
-- **Elemento mais forte:** o botão azul sólido **"Nuovo operaio"** — a ação mais rara do negócio (Marcos tem 1 operário).
+- **Elemento mais forte:** o botão azul sólido **"Nuovo operaio"** — a ação mais rara do negócio (the client tem 1 operário).
 - Os rapportini pendentes, que são o motivo de existir da tela, não têm destaque nenhum.
 
 ### `/quotes`, `/expenses`, `/suppliers`, `/clients` — ⚠️ listas sem resposta
@@ -307,7 +307,7 @@ Só `formatEstimatedValue()` (project detail) usa `maximumFractionDigits: 0`. É
 
 ### 3.4 Gráfico que deveria ser número, número que deveria ser gráfico
 
-- **`/infografico`** é um **PNG estático** (`public/zanetti-office-infografico.png`) ocupando um slot na navegação principal, ao lado de `/reports` — **com o mesmo ícone `BarChart3`**. Dois itens de menu, mesmo ícone, um deles é uma imagem.
+- **`/infografico`** é um **PNG estático** (`public/delegami-app-infografico.png`) ocupando um slot na navegação principal, ao lado de `/reports` — **com o mesmo ícone `BarChart3`**. Dois itens de menu, mesmo ícone, um deles é uma imagem.
 - **Faltando:** a evolução de caixa ao longo do tempo. Todos os valores financeiros são pontuais. Não existe nenhuma série temporal em toda a app — nem sparkline, nem barra. Para um negócio que vive de fluxo de caixa, é a ausência mais cara.
 - O Gantt do cronograma é o único elemento visual de dados que existe, e está correto ali.
 
@@ -334,7 +334,7 @@ Só `formatEstimatedValue()` (project detail) usa `maximumFractionDigits: 0`. É
 **Formulários longos.** Despesa: **21 campos**. Configurações: **22**. Usuário: **15**. Fatura: **14**. Nenhum é dividido em etapas ou seções colapsáveis. A despesa é a operação mais frequente da app e tem o segundo formulário mais longo.
 
 **Confirmações (M3).** 22 `window.confirm()` e 30 `window.alert()`. Consequências:
-- Bloqueiam a thread, não seguem o design do app, não são estilizáveis, aparecem como "zanetti-omega.vercel.app diz:".
+- Bloqueiam a thread, não seguem o design do app, não são estilizáveis, aparecem como "delegami-omega.vercel.app diz:".
 - No iOS Safari, `confirm()` dentro de um handler assíncrono às vezes é suprimido.
 - **Nenhuma operação da app tem undo.** Cada exclusão é definitiva, mediada por um diálogo do sistema operacional. Para dados de produção reais isto é frágil.
 
@@ -500,7 +500,7 @@ Logo, toda requisição a um arquivo estático passa pela verificação de sess�
 | `/_next/image?url=%2Flogo.png&w=48&q=75` | **400** — *"The requested resource isn't a valid image"* |
 | `/icon.png` | **307** |
 | `/apple-icon.png` | **307** |
-| `/zanetti-office-infografico.png` | **307** |
+| `/delegami-app-infografico.png` | **307** |
 | `/favicon.ico` | **404** (listado em `PUBLIC_PATHS`, mas o arquivo não existe) |
 
 **Por que quebra mesmo com o usuário logado:** o otimizador de imagens do Next busca a URL de
@@ -772,7 +772,7 @@ export function formatDateInput(date) {
   return new Date(date).toISOString().split('T')[0]   // UTC
 }
 ```
-Todo o resto do app formata com `timeZone: 'Europe/Zurich'` — deliberadamente, e está documentado no CLAUDE.md. Mas `formatDateInput` não. Entre 00:00 e 02:00 no horário suíço, `formatDateInput(new Date())` retorna **o dia anterior**. Afeta a data padrão de: nova despesa, novo pagamento de fatura, data de emissão de fatura, início de cronograma. Marcos lançando um scontrino à meia-noite grava a data de ontem.
+Todo o resto do app formata com `timeZone: 'Europe/Zurich'` — deliberadamente, e está documentado no CLAUDE.md. Mas `formatDateInput` não. Entre 00:00 e 02:00 no horário suíço, `formatDateInput(new Date())` retorna **o dia anterior**. Afeta a data padrão de: nova despesa, novo pagamento de fatura, data de emissão de fatura, início de cronograma. the client lançando um scontrino à meia-noite grava a data de ontem.
 
 **A1 — `totalInvoiced` sem filtro de status** (detalhado na §2). Uma fatura cancelada aumenta a margem da obra.
 

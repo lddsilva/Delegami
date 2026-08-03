@@ -19,7 +19,7 @@ type ConfirmOptions = {
  * always on a destructive action against real production data.
  *
  * The native dialog blocks the main thread, cannot be styled, announces itself
- * as "zanetti-omega.vercel.app says:", and on iOS Safari is sometimes suppressed
+ * as "delegami-omega.vercel.app says:", and on iOS Safari is sometimes suppressed
  * outright when called from an async handler — which silently turns "are you
  * sure?" into "deleted".
  *

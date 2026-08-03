@@ -1,4 +1,4 @@
-# Future Features — Zanetti Office
+# Future Features — Delegami
 
 Idee e proposte di funzionalità per le prossime evoluzioni dell'app. Non sono ancora impegni di sviluppo: servono come backlog di riferimento.
 

@@ -6,7 +6,7 @@ import { getProjects } from '@/modules/projects/queries'
 import { importInvoiceFromJson } from '@/modules/invoices/actions'
 import { JsonImportClient } from '@/components/imports/json-import-client'
 
-const INVOICE_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara fatture per Zanetti Soluzioni Edili (Magliaso, TI).
+const INVOICE_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara fatture per un'impresa edile in Ticino.
 Lavori in italiano. Valuta in CHF. IVA 8.1%.
 
 Quando l'utente descrive cosa fatturare, struttura la risposta come JSON valido conforme allo schema sotto.

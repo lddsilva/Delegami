@@ -1,4 +1,4 @@
-// Zanetti Office — Prisma Schema
+// Delegami — Prisma Schema
 // Language: English (code) | Italian (client docs) | Portuguese (internal)
 
 generator client {

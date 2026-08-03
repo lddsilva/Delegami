@@ -230,7 +230,7 @@ export default async function QuotePreviewPage({
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 'calc(6mm * var(--vspace, 1))', paddingBottom: '5mm', borderBottom: '2px solid var(--doc-brand)' }}>
           <div>
-            <div style={{ fontSize: '18pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Zanetti Office'}</div>
+            <div style={{ fontSize: '18pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Delegami'}</div>
             <div style={{ fontSize: '8pt', color: 'var(--doc-ink-muted)', marginTop: '4px', lineHeight: 1.5 }}>
               {company?.address && (
                 isInternal
@@ -261,7 +261,7 @@ export default async function QuotePreviewPage({
         {/* Parties */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5mm', marginBottom: 'calc(6mm * var(--vspace, 1))' }}>
           {[
-            { label: 'Da', name: company?.name ?? 'Zanetti Office', address: company?.address, city: `${company?.postalCode ?? ''} ${company?.city ?? ''}` },
+            { label: 'Da', name: company?.name ?? 'Delegami', address: company?.address, city: `${company?.postalCode ?? ''} ${company?.city ?? ''}` },
             { label: 'A', name: quote.project.client.name, address: quote.project.client.address, city: `${quote.project.client.postalCode ?? ''} ${quote.project.client.city ?? ''}` },
           ].map((p) => (
             <div key={p.label} style={{ border: '1px solid var(--doc-line)', borderRadius: '6px', padding: '5mm' }}>
@@ -506,7 +506,7 @@ export default async function QuotePreviewPage({
             {company?.iban && (
               <div style={{ marginTop: '3mm', paddingTop: '2mm', borderTop: '1px solid var(--doc-line)', fontSize: '8.5pt', color: 'var(--doc-ink-strong)' }}>
                 <strong>Coordinate bancarie:</strong> IBAN {company.iban}<br />
-                <span style={{ fontSize: '8.5pt', color: 'var(--doc-ink-muted)' }}>Intestatario: Marcos Zanetti Filho</span>
+                <span style={{ fontSize: '8.5pt', color: 'var(--doc-ink-muted)' }}>Intestatario: Marcos Delegami Filho</span>
               </div>
             )}
           </div>
@@ -547,7 +547,7 @@ export default async function QuotePreviewPage({
                   ))}
                   {names.length === 1 && (
                     <div>
-                      <div style={{ fontSize: '9pt', fontWeight: 600, color: 'var(--doc-ink)', marginBottom: '3mm' }}>{company?.name ?? 'Zanetti Soluzioni Edili'}</div>
+                      <div style={{ fontSize: '9pt', fontWeight: 600, color: 'var(--doc-ink)', marginBottom: '3mm' }}>{company?.name ?? 'Delegami'}</div>
                       <div className="quote-signature-line" style={{ borderBottom: '1px solid var(--doc-ink-strong)', marginBottom: '2mm', height: 'max(7mm, calc(14mm * var(--vspace, 1)))' }} />
                       <div style={{ fontSize: '7.5pt', color: 'var(--doc-ink-subtle)' }}>Firma e data</div>
                     </div>
@@ -564,7 +564,7 @@ export default async function QuotePreviewPage({
 
         {/* Footer */}
         <div style={{ marginTop: 'calc(8mm * var(--vspace, 1))', paddingTop: '4mm', borderTop: '1px solid var(--doc-line)', display: 'flex', justifyContent: 'space-between', fontSize: '7.5pt', color: 'var(--doc-ink-subtle)' }}>
-          <span>{company?.name ?? 'Zanetti Office'} · {quote.quoteNumber} v{quoteVersion}</span>
+          <span>{company?.name ?? 'Delegami'} · {quote.quoteNumber} v{quoteVersion}</span>
           <span>Generato il {formatDate(new Date())}</span>
         </div>
         </div>

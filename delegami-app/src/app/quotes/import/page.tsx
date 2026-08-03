@@ -6,7 +6,7 @@ import { getProjects } from '@/modules/projects/queries'
 import { importQuoteFromJson } from '@/modules/quotes/actions'
 import { JsonImportClient } from '@/components/imports/json-import-client'
 
-const QUOTE_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara preventivi per Zanetti Soluzioni Edili (Magliaso, TI).
+const QUOTE_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara preventivi per un'impresa edile in Ticino.
 Lavori in italiano. Valuta in CHF. IVA 8.1%. Margine di default 25% (sovrascrivibile).
 
 Quando l'utente descrive un cantiere, struttura la risposta come JSON valido conforme allo schema sotto.

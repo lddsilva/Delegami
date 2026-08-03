@@ -24,7 +24,7 @@ const TONE = {
  * a failed server action.
  *
  * A native alert blocks the thread, cannot be styled, is announced as
- * "zanetti-omega.vercel.app says:", and forces the user to dismiss it before
+ * "delegami-omega.vercel.app says:", and forces the user to dismiss it before
  * they can even read the form behind it. A failed save is not worth a modal —
  * it is worth a message that appears, can be read, and goes away.
  *

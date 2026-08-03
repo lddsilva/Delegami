@@ -80,7 +80,7 @@ export function ReceiptAiWorkpackButton({
 
       zipEntries['manifest.json'] = strToU8(JSON.stringify(manifest, null, 2))
       zipEntries['README.txt'] = strToU8([
-        'Carica questo ZIP nel progetto ChatGPT/Claude configurato con le istruzioni Zanetti Scontrini Import.',
+        'Carica questo ZIP nel progetto ChatGPT/Claude configurato con le istruzioni Delegami Scontrini Import.',
         'Il progetto deve restituire solo il manifest.json finale, preservando receiptInboxId e imageFile.',
         'Dopo l analisi, carica il manifest.json finale in Delegami > Scontrini > Importa IA.',
       ].join('\n'))
@@ -89,7 +89,7 @@ export function ReceiptAiWorkpackButton({
       const url = URL.createObjectURL(new Blob([asArrayBuffer(zipped)], { type: 'application/zip' }))
       const a = document.createElement('a')
       a.href = url
-      a.download = `zanetti-scontrini-ia-${todayStamp()}.zip`
+      a.download = `delegami-scontrini-ia-${todayStamp()}.zip`
       a.click()
       URL.revokeObjectURL(url)
     } catch (err) {

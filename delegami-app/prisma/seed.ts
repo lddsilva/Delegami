@@ -1,5 +1,5 @@
 /**
- * Zanetti Office — Database Seed
+ * Delegami — Database Seed
  * Dados de mercado: Ticino/Svizzera 2024-2025
  * Riferimenti prezzi: NPK (Norme di Posizione Catalogo CH), tariffe SSIC TI, AITI
  */
@@ -16,22 +16,22 @@ const adapter = new PrismaLibSql({
 const prisma = new PrismaClient({ adapter } as any)
 
 async function main() {
-  console.log('🌱 Seeding Zanetti Office...\n')
+  console.log('🌱 Seeding Delegami...\n')
 
   // ─── Users ───────────────────────────────────────────────────────────────────
   // Clear and recreate seed users cleanly
   await prisma.user.deleteMany({ where: { id: { in: ['usr-1', 'usr-2', 'usr-3'] } } })
   const users = [
-    { id: 'usr-1', name: 'Leandro', email: 'leandro@zanettiedili.ch', password: 'leandro123', role: 'ADMIN' as const },
-    { id: 'usr-2', name: 'Marcos', email: 'marcos@zanettiedili.ch', password: 'marcos123', role: 'MANAGER' as const },
+    { id: 'usr-1', name: 'Leandro', email: 'leandro@impresademo.ch', password: 'leandro123', role: 'ADMIN' as const },
+    { id: 'usr-2', name: 'Marcos', email: 'marcos@impresademo.ch', password: 'marcos123', role: 'MANAGER' as const },
   ]
   for (const u of users) {
     const passwordHash = await bcrypt.hash(u.password, 12)
     await prisma.user.create({ data: { id: u.id, name: u.name, email: u.email, passwordHash, role: u.role } })
   }
   console.log(`✓ ${users.length} utenti`)
-  console.log('  Admin:   leandro@zanettiedili.ch / leandro123')
-  console.log('  Manager: marcos@zanettiedili.ch  / marcos123')
+  console.log('  Admin:   leandro@impresademo.ch / leandro123')
+  console.log('  Manager: marcos@impresademo.ch  / marcos123')
 
   // ─── Company Settings ────────────────────────────────────────────────────────
   await prisma.companySettings.upsert({
@@ -39,13 +39,13 @@ async function main() {
     update: {},
     create: {
       id: 'company-1',
-      name: 'Zanetti Soluzioni Edili',
+      name: 'Impresa Demo Sagl',
       address: 'Via Lugano 14',
       city: 'Lugano',
       postalCode: '6900',
       country: 'CH',
       phone: '+41 91 123 45 67',
-      email: 'info@zanettiedili.ch',
+      email: 'info@impresademo.ch',
       vatNumber: 'CHE-123.456.789 MWST',
       iban: 'CH56 0483 5012 3456 7800 9',
       paymentTerms: 'Pagamento entro 30 giorni dalla data fattura. In caso di ritardo si applicano interessi di mora del 5% annuo.',

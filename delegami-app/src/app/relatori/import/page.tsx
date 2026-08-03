@@ -6,7 +6,7 @@ import { getProjects } from '@/modules/projects/queries'
 import { importReportFromJson } from '@/modules/custom-reports/actions'
 import { ReportImportClient } from '@/components/custom-reports/report-import-client'
 
-const REPORT_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara relatori tecnici/analitici per Zanetti Soluzioni Edili.
+const REPORT_IMPORT_INSTRUCTIONS = `Sei un assistente che prepara relatori tecnici/analitici per Delegami.
 
 Il contenuto dei blocchi (titoli, paragrafi, righe di tabella, ecc.) può essere in qualsiasi lingua — italiano per relatori cliente, portoghese per uso interno, ecc. Stessa cosa per la valuta: CHF, EUR, BRL o nessuna, a seconda del contesto. Le chiavi dello schema JSON restano in inglese come specificato.
 

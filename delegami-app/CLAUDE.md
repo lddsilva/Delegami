@@ -1,8 +1,8 @@
 # CLAUDE.md
 
-## App: Zanetti Office
+## App: Delegami
 
-Gestione cantieri e preventivi per **Zanetti Soluzioni Edili** (Marcos Zanetti Filho, Magliaso TI).
+Gestione cantieri e preventivi per **the client firm** (the client Delegami Filho, <città> TI).
 App usata per creare preventivi, fatture, gestire spese, fornitori e prezzario.
 
 ---
@@ -16,9 +16,9 @@ Smallest safe change. Working code over architecture. No alternatives — one so
 ## Stack
 
 * Next.js 16 App Router · TypeScript · Tailwind CSS 4
-* Prisma 7 — SQLite local / **Turso** (`libsql://zanetti-office-lddsilva.aws-eu-west-1.turso.io`)
+* Prisma 7 — SQLite local / **Turso** (`libsql://<your-database>.turso.io`)
 * Server Components (reads) · Server Actions (mutations) · No API routes for CRUD
-* Vercel project: **zanetti** at `zanetti-omega.vercel.app`
+* Vercel project: **delegami** at `delegami-omega.vercel.app`
 * Auth: HMAC-SHA256 signed cookie (`zs_session`), no middleware file — uses `src/proxy.ts` (Next 16)
 
 ---
@@ -89,7 +89,7 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 * **Reference scripts already in the repo**: `scripts/seed-denigris.mjs` / `scripts/import-preventivo.js` / `scripts/create-v8.js` (client + quote creation, incl. numbering), `scripts/read-quote.mjs` / `scripts/read-company-settings.mjs` (reads). More recent, fuller examples using the Prisma-client pattern above (project + quote + invoice creation in one transaction, with `activityLog.createMany`): `scripts/create-saigon-tofu.mjs`, `scripts/create-balestra-2piano.mjs`, `scripts/create-angelo.mjs` (worker account + work logs).
 * **After creating a migration in a chat session**: run `npx prisma generate && npx tsx prisma/migrate-turso.ts` immediately — this applies it to the live Turso DB right away (not just on next Vercel deploy), so a script in the same session can use the new columns/tables right after.
 * **Safety**: this hits real business data (see "Production Data — DO NOT DELETE" below). Before creating a record, check for an existing one first (e.g. search `clients` by name) to avoid duplicates, and confirm with the user before running any write script.
-* **Deploy**: Vercel CLI is installed and authenticated locally (`vercel --version` works); Vercel project `zanetti` auto-deploys `main` from GitHub (`lddsilva/zanetti-office`, private repo). A direct DB write via script needs no deploy — it hits the same Turso DB the live app reads from immediately.
+* **Deploy**: Vercel CLI is installed and authenticated locally (`vercel --version` works); Vercel project `delegami` auto-deploys `main` from GitHub (`lddsilva/delegami-app`, private repo). A direct DB write via script needs no deploy — it hits the same Turso DB the live app reads from immediately.
 
 ---
 
@@ -279,10 +279,10 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 * **Upload implementation**: each photo is uploaded in a **separate** `createReceiptInboxItems` call (one FormData per photo) to avoid iOS Safari / Vercel body-size limit issues. `revalidatePath` NOT called inside action — client handles refresh via `router.push()`/`router.refresh()` after all photos complete. If all photos uploaded but navigation throws (iOS quirk), error is silently swallowed.
 * **Upload image normalization**: `ReceiptUploadModal` and `PhotoGallery` use the shared helper `src/lib/image-normalize.ts` — converts HEIC/HEIF and other selected images client-side to JPEG (max side 2000px, quality 0.86) before upload, so iPhone photos are compatible with browser previews, AI analysis, and don't blow past Vercel's 4.5MB body limit.
 * **AI analysis**: `/receipts/[id]/process` has an "Analizza foto" button that calls `analyzeReceiptForExpense()` (Server Action, no API route). Requires `OPENAI_API_KEY`; optional `OPENAI_RECEIPT_MODEL` defaults to `gpt-4.1-mini`. It fills the expense form suggestions only; user must confirm by saving.
-* **AI workpack export**: `/receipts` has "Scarica ZIP per IA" for unprocessed scontrini. It downloads all pending receipt photos plus a `manifest.json` template containing `receiptInboxId`, `imageFile`, `capturedAt`, and empty expense fields. This ZIP is meant to be uploaded to a ChatGPT/Claude project configured with the Zanetti receipt import instructions.
+* **AI workpack export**: `/receipts` has "Scarica ZIP per IA" for unprocessed scontrini. It downloads all pending receipt photos plus a `manifest.json` template containing `receiptInboxId`, `imageFile`, `capturedAt`, and empty expense fields. This ZIP is meant to be uploaded to a ChatGPT/Claude project configured with the Delegami receipt import instructions.
 * **Batch ZIP/JSON import**: `/receipts/import` imports scontrini analyzed outside the app. It accepts either a ZIP with `manifest.json` + images, or a final `manifest.json` directly when rows include `receiptInboxId`. The page includes project-instruction text, default project selection, editable preview, required supplier confirmation/create, duplicate warnings, sequential import, and import history.
 * **Batch receipt linking rule**: when an import row has `receiptInboxId`, the app reuses the original `receipt_inbox.photoUrl`, creates `Expense` + `Document(documentType=RECEIPT)`, and updates that original receipt as processed. It does not create a duplicate archived receipt inbox row or upload a second blob. Rows without `receiptInboxId` still require an image file and create a new archived `ReceiptInbox` row.
-* **Batch supplier rule**: suppliers are never silently chosen by AI. The import preview always shows a supplier control with three options: existing supplier, "Crea nuovo fornitore", or "Senza fornitore (da aggiustare dopo)". When the AI returns `supplierName: null` (unreadable photo), the row defaults to "Senza fornitore" — the expense is created without a `supplierId` and Marcos fixes it later via the expense detail page. Duplicate detection still runs (matches `supplierId IS NULL`).
+* **Batch supplier rule**: suppliers are never silently chosen by AI. The import preview always shows a supplier control with three options: existing supplier, "Crea nuovo fornitore", or "Senza fornitore (da aggiustare dopo)". When the AI returns `supplierName: null` (unreadable photo), the row defaults to "Senza fornitore" — the expense is created without a `supplierId` and the client fixes it later via the expense detail page. Duplicate detection still runs (matches `supplierId IS NULL`).
 * **Batch items rule**: the manifest can include a per-receipt `items[]` array with description/quantity/amount. The Expense model has no line-items table — items are folded into the expense `notes` field as a `Dettaglio scontrino: ...` block by `buildExpenseNotes()` in `modules/receipt-imports/actions.ts`. Only the receipt total (`amount`) is stored as the expense amount.
 * **Batch project rule**: the user chooses a default project or "Spesa aziendale" before uploading the ZIP. The AI/manifest does not select projects; each row keeps an editable project dropdown.
 * **Dashboard**: "Scontrini" button uses `ReceiptUploadButton` — opens upload modal directly (does NOT navigate to `/receipts` first); after success navigates to `/receipts`. Orange card shows `pendingReceiptsCount` (hidden when 0). `getDashboardStats()` includes this count.
@@ -319,7 +319,7 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 * **PDF report** (`/rapportini/[userId]/print`): per-row Data, Luogo/Opera, Ore, **Tariffa** (that day's rate or "fisso"), Valore, Stato; totals for ore + maturato/pagato/saldo; the worker's `identityNumber` (N. identità / matricola) under the name; a **signature block** (Firma operaio / Firma responsabile) at the end so it doubles as the agency/client **bulletin d'heures**. Toolbar has a `?from=&to=` period filter (GET form) + a **"Solo ore (agenzia)"** toggle (`?soloOre=1`) that hides all money columns/totals/payments for a clean hours-only version to hand to the agency. Same visual language as invoice/quote PDFs (navy header, bordered info cards, `PrintButton`).
 * **Mobile-specific fixes worth knowing about** (in case similar bugs resurface elsewhere): iOS Safari auto-zooms the page when a focused input's font-size is below 16px and the zoom can persist across client-side navigation — fixed globally in `globals.css` (`input, select, textarea { font-size: 16px !important }` under `max-width: 640px`). Editing a DRAFT log used to hide its already-uploaded photos because the edit form never received them — `WorkLogForm`'s `ExistingLog.photos` now renders + allows deleting existing photos, separate from newly-picked ones.
 * **Reference scripts**: `scripts/create-angelo.mjs` (worker + historical work logs, all pre-approved) — good template for bulk-entering a new operaio's timesheet.
-* **Roadmap — deferred (NOT implemented yet; implement only when Marcos explicitly asks)**:
+* **Roadmap — deferred (NOT implemented yet; implement only when the client explicitly asks)**:
   * **Bulk approval** of SUBMITTED logs (select-all / per-worker / per-week). Deferred while there are only a few operai — approving one-by-one is fine for now.
   * **Document expiry alerts**: add `WorkerDocument.expiresAt` + a Dashboard alert ("permesso di X scade tra 30 giorni"). Very relevant once workers are direct-hired with permits.
   * **Automatic location capture / live camera** on the worker's rapportino (geolocation like the expense form, or force camera-capture instead of gallery) for stronger evidence. Kept free-text/free-upload for now by decision.
@@ -359,20 +359,16 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 
 ---
 
-## Production Data — DO NOT DELETE
+## Demo data
 
-| Record | Notes |
-|---|---|
-| Zanetti Soluzioni Edili | Via Cantonale 1, 6983 Magliaso · IBAN CH47 0900 0000 1647 7640 1 |
-| Davide De Nigris | Via P. Lepori 11, 6950 Tesserete |
-| INV-2026-001 | Sostituzione trave tetto CHF 700, PAID 05.04.2026 |
-| Comunione eredi fu Alda Martini | PRE-2026-013 v8 — Ristrutturazione Via Bernardino Stazio 2 |
-| INV-2026-002 | DRAFT — collegato a PRE-2026-013 v8 · Acconto 30% CHF 11'467.65 · script: scripts/restore-inv-2026-002.ts |
-| Mr. Phuoc Hoi Nguyen / Saigon Tofu Sagl | OBR-2026-012, PRE-2026-032 v1 (INVOICED, no IVA), INV-2026-010 (DRAFT) · script: scripts/create-saigon-tofu.mjs |
-| Comunione eredi fu Alda Martini (2° piano) | OBR-2026-013, PRE-2026-033 v1 (APPROVED, no IVA), INV-2026-011 (DRAFT) · script: scripts/create-balestra-2piano.mjs — distinct from the existing OBR-2026-003 (3° piano) for the same client |
-| Angelo Edilson Alessi | WORKER account, tariffa CHF 20/h, 9 rapportini APPROVED (71h · CHF 1'420 maturato) · script: scripts/create-angelo.mjs |
+`dev.db` is generated from `prisma/seed.ts` and is entirely fictional — Impresa
+Demo Sagl and five invented clients. It exists so the app can be run, screenshotted
+and demonstrated without touching anyone's real records.
 
-`prisma/seed-balestra.ts` — idempotent, only run when explicitly asked.
+**Never commit a database or a script containing a real client's data.** An earlier
+version of this copy shipped one client's quotes, invoices and workers, plus a
+hardcoded Turso token, into a public repository. Both are gone; the lesson is not.
+
 
 ---
 
@@ -417,7 +413,7 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 * **WORKER role gets a completely different, minimal sidebar** (early-return inside `Sidebar` component): just the logo, "Il mio rapportino" link, user info, and logout. No other nav items render at all.
 * Section labels use small uppercase tracking-wider `text-slate-500`.
 * Templates link lives in **Strumenti** (not the bottom system area).
-* **Infografico**: `/infografico` shows the static app overview image from `public/zanetti-office-infografico.png`; keep it responsive with horizontal scroll on mobile and "Apri grande"/"Scarica" links.
+* **Infografico**: `/infografico` shows the static app overview image from `public/delegami-app-infografico.png`; keep it responsive with horizontal scroll on mobile and "Apri grande"/"Scarica" links.
 * Active route highlighting via `usePathname()`; `/settings` link does NOT light up when `/settings/users` or `/settings/templates` is active.
 * **Mobile top bar** (`AppShell`): renders `/logo.png` (not a lucide icon) inside a white rounded-md box, same brand as desktop sidebar.
 
@@ -525,7 +521,7 @@ To read or write data directly from a chat session (bypassing the UI), the estab
 
 ## Quote — AI iteration loop (export + update)
 
-* **Esporta JSON**: button on `/quotes/[id]` that calls `exportQuoteAsJson(id)` action → returns the current quote (header + items) in the same schema the AI import uses → client downloads as `PRE-XXXX-vN.json`. Marcos pastes this into the chat alongside requested changes.
+* **Esporta JSON**: button on `/quotes/[id]` that calls `exportQuoteAsJson(id)` action → returns the current quote (header + items) in the same schema the AI import uses → client downloads as `PRE-XXXX-vN.json`. the client pastes this into the chat alongside requested changes.
 * **Aggiorna da JSON**: button on `/quotes/[id]` that opens `/quotes/[id]/import-update` — radio toggle between two modes:
   * `replace-in-place` — **only enabled when status === DRAFT**. Overwrites items + header fields on the SAME quote (same id, same version). Saves a snapshot of the prior `itemsJson` into `ActivityLog.details.previousSnapshot` for audit/restore. Confirmation dialog: *"Sostituirai N voci con le M del JSON. Procedere?"*
   * `new-version` — always available. Creates a new entry in the version chain (same `parentQuoteId` / `quoteNumber`, bumped `version`, status DRAFT). Same logic as `cloneQuote`.

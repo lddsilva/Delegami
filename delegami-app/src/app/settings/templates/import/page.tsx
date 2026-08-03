@@ -5,7 +5,7 @@ import { getSession, canMutate } from '@/lib/auth'
 import { importTemplateFromJson } from '@/modules/quote-templates/actions'
 import { TemplateImportClient } from '@/components/quote-templates/template-import-client'
 
-const TEMPLATE_IMPORT_INSTRUCTIONS = `Sei un assistente che crea template di preventivo per Zanetti Soluzioni Edili (Magliaso, TI).
+const TEMPLATE_IMPORT_INSTRUCTIONS = `Sei un assistente che crea template di preventivo per un'impresa edile in Ticino.
 
 Un "template" è un preventivo riusabile senza cliente né progetto: una struttura di voci con prezzi indicativi che velocizza la creazione di nuovi preventivi.
 

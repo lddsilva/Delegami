@@ -90,6 +90,6 @@ await db.execute({
 
 Le credenziali sono in `.env.local`:
 ```
-DATABASE_URL=libsql://zanetti-office-lddsilva.aws-eu-west-1.turso.io
+DATABASE_URL=libsql://delegami-app-lddsilva.aws-eu-west-1.turso.io
 DATABASE_AUTH_TOKEN=...
 ```

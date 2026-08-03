@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import { Download, ExternalLink } from 'lucide-react'
 import { getSession } from '@/lib/auth'
 
-const INFOGRAPHIC_SRC = '/zanetti-office-infografico.png'
+const INFOGRAPHIC_SRC = '/delegami-app-infografico.png'
 
 export default async function InfograficoPage() {
   const session = await getSession()

@@ -435,7 +435,7 @@ export function ReceiptImportClient({
     const url = URL.createObjectURL(new Blob([asArrayBuffer(zipped)], { type: 'application/zip' }))
     const a = document.createElement('a')
     a.href = url
-    a.download = 'zanetti-scontrini-example.zip'
+    a.download = 'delegami-scontrini-example.zip'
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -528,7 +528,7 @@ export function ReceiptImportClient({
         <CardContent className="grid gap-4 lg:grid-cols-[1fr_360px]">
           <div className="space-y-3">
             <ol className="space-y-1 text-body text-ink-muted">
-              <li>1. In ChatGPT o Claude crea un progetto Zanetti Scontrini Import e incolla le istruzioni qui sotto una sola volta.</li>
+              <li>1. In ChatGPT o Claude crea un progetto Delegami Scontrini Import e incolla le istruzioni qui sotto una sola volta.</li>
               <li>2. Da <span className="font-mono">/receipts</span>, scarica il ZIP per IA con tutti gli scontrini da processare.</li>
               <li>3. Carica quel ZIP nel progetto. Il progetto deve restituire solo il JSON finale.</li>
               <li>4. Qui puoi caricare direttamente il <span className="font-mono">manifest.json</span> finale, oppure un ZIP con <span className="font-mono">manifest.json</span> + <span className="font-mono">images/</span>.</li>

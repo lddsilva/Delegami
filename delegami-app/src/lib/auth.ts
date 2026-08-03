@@ -20,7 +20,7 @@ const COOKIE = 'zs_session'
 const MAX_AGE = 60 * 60 * 24 * 30 // 30 days
 
 function secret() {
-  return process.env.AUTH_SECRET ?? 'zanetti-dev-secret-change-in-production'
+  return process.env.AUTH_SECRET ?? 'delegami-dev-only-set-AUTH_SECRET-in-production'
 }
 
 function sign(payload: string): string {

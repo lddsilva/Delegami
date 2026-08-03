@@ -78,7 +78,7 @@ export default async function InvoicePreviewPage({
         {/* Header */}
         <div className="inv-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '5mm', paddingBottom: '4mm', borderBottom: '2px solid var(--doc-brand)' }}>
           <div>
-            <div style={{ fontSize: '15pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Zanetti Office'}</div>
+            <div style={{ fontSize: '15pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Delegami'}</div>
             <div style={{ fontSize: '8pt', color: 'var(--doc-ink-muted)', marginTop: '4px', lineHeight: 1.5 }}>
               {company?.address && (
                 <div>
@@ -108,7 +108,7 @@ export default async function InvoicePreviewPage({
         {/* Parties */}
         <div className="inv-parties" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4mm', marginBottom: '4mm' }}>
           {[
-            { label: 'Emessa da', name: company?.name ?? 'Zanetti Office', address: company?.address, city: `${company?.postalCode ?? ''} ${company?.city ?? ''}` },
+            { label: 'Emessa da', name: company?.name ?? 'Delegami', address: company?.address, city: `${company?.postalCode ?? ''} ${company?.city ?? ''}` },
             { label: 'Intestata a', name: invoice.project.client.name, address: invoice.project.client.address, city: `${invoice.project.client.postalCode ?? ''} ${invoice.project.client.city ?? ''}` },
           ].map((p) => (
             <div key={p.label} style={{ border: '1px solid var(--doc-line)', borderRadius: '6px', padding: '3mm 4mm' }}>
@@ -214,7 +214,7 @@ export default async function InvoicePreviewPage({
 
         {/* Footer */}
         <div className="inv-footer" style={{ marginTop: '5mm', paddingTop: '3mm', borderTop: '1px solid var(--doc-line)', display: 'flex', justifyContent: 'space-between', fontSize: '7.5pt', color: 'var(--doc-ink-subtle)' }}>
-          <span>{company?.name ?? 'Zanetti Office'} · {invoice.invoiceNumber}</span>
+          <span>{company?.name ?? 'Delegami'} · {invoice.invoiceNumber}</span>
           <span>Generato il {formatDate(new Date())}</span>
         </div>
       </div>

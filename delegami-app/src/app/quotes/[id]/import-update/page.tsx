@@ -5,7 +5,7 @@ import { getSession, canMutate } from '@/lib/auth'
 import { getQuoteById } from '@/modules/quotes/queries'
 import { QuoteUpdateImportClient } from '@/components/quotes/quote-update-import-client'
 
-const UPDATE_INSTRUCTIONS = `Sei un assistente che aggiorna preventivi per Zanetti Soluzioni Edili (Magliaso, TI).
+const UPDATE_INSTRUCTIONS = `Sei un assistente che aggiorna preventivi per un'impresa edile in Ticino.
 
 L'utente ti darà:
 1. Il JSON del preventivo corrente (esportato dall'app).

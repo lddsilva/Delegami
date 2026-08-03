@@ -11,8 +11,8 @@ import type { MetadataRoute } from 'next'
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Delegami',
-    short_name: 'Zanetti',
-    description: 'Gestione cantieri e preventivi — Zanetti Soluzioni Edili',
+    short_name: 'Delegami',
+    description: 'Gestione cantieri, preventivi e rapportini — Delegami',
     start_url: '/',
     display: 'standalone',
     orientation: 'portrait',

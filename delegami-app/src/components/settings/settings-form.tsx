@@ -243,7 +243,7 @@ export function SettingsForm({ settings, canEdit }: Props) {
           <Input
             label="Direttore dei lavori"
             name="worksDirector"
-            placeholder="Marcos Zanetti Filho"
+            placeholder="Marcos Delegami Filho"
             defaultValue={settings?.worksDirector ?? ''}
             hint="Appare nel blocco firma dei preventivi PDF"
           />
@@ -276,7 +276,7 @@ export function SettingsForm({ settings, canEdit }: Props) {
             label="Note predefinite preventivi"
             name="defaultQuoteNotes"
             rows={4}
-            placeholder={"Responsabile per la sicurezza cantiere: Marcos Zanetti Filho\n\nI lavori verranno eseguiti nel rispetto delle normative vigenti in materia di sicurezza (LCA/CFSL)."}
+            placeholder={"Responsabile per la sicurezza cantiere: Marcos Delegami Filho\n\nI lavori verranno eseguiti nel rispetto delle normative vigenti in materia di sicurezza (LCA/CFSL)."}
             defaultValue={(settings as { defaultQuoteNotes?: string | null })?.defaultQuoteNotes ?? ''}
             hint="Pre-compila il campo 'Note e condizioni' di ogni nuovo preventivo. Modificabile o eliminabile per ogni preventivo individualmente."
           />

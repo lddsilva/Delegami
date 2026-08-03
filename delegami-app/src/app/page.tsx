@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { AlertTriangle, Building2, Camera, CheckCircle, CreditCard, HardHat, Plus, Send } from 'lucide-react'
 import { ReceiptUploadButton } from '@/components/receipt-inbox/receipt-upload-modal'
 import { getDashboardStats, getProjects } from '@/modules/projects/queries'
+import { prisma } from '@/lib/db'
 import { getPendingWorkLogsCount } from '@/modules/work-logs/queries'
 import { getSession, canMutate } from '@/lib/auth'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -35,12 +36,12 @@ function overdueTone(days: number) {
   return 'bg-attention-surface text-attention'
 }
 
-function ReceivableRow({ row }: { row: Receivable }) {
+function ReceivableRow({ row, companyName }: { row: Receivable; companyName?: string | null }) {
   const { invoice, outstanding, paid, daysOverdue } = row
   const clientEmail = invoice.project.client.email
   const subject = encodeURIComponent(`Promemoria pagamento fattura ${invoice.invoiceNumber}`)
   const body = encodeURIComponent(
-    `Gentile ${invoice.project.client.name},\n\nLe ricordiamo che la fattura n° ${invoice.invoiceNumber} di CHF ${outstanding.toFixed(2)}${invoice.dueDate ? `, scaduta in data ${formatDate(invoice.dueDate)}` : ''}, risulta ancora non saldata.\n\nLa preghiamo di provvedere al pagamento nel più breve tempo possibile.\n\nCordiali saluti,\nZanetti Edili`,
+    `Gentile ${invoice.project.client.name},\n\nLe ricordiamo che la fattura n° ${invoice.invoiceNumber} di CHF ${outstanding.toFixed(2)}${invoice.dueDate ? `, scaduta in data ${formatDate(invoice.dueDate)}` : ''}, risulta ancora non saldata.\n\nLa preghiamo di provvedere al pagamento nel più breve tempo possibile.\n\nCordiali saluti,${companyName ? `\n${companyName}` : ''}`,
   )
 
   return (
@@ -113,10 +114,11 @@ function QueueCard({
 
 export default async function DashboardPage() {
   const session = await getSession()
-  const [stats, projects, pendingWorkLogsCount] = await Promise.all([
+  const [stats, projects, pendingWorkLogsCount, company] = await Promise.all([
     getDashboardStats(),
     getProjects(),
     session && canMutate(session.role) ? getPendingWorkLogsCount() : Promise.resolve(0),
+    prisma.companySettings.findFirst({ select: { name: true } }),
   ])
 
   const {
@@ -187,7 +189,7 @@ export default async function DashboardPage() {
           </CardHeader>
           <ul className="divide-y divide-line">
             {receivables.map((row) => (
-              <ReceivableRow key={row.invoice.id} row={row} />
+              <ReceivableRow key={row.invoice.id} row={row} companyName={company?.name} />
             ))}
           </ul>
         </Card>

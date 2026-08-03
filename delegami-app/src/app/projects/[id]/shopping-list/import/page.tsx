@@ -6,7 +6,7 @@ import { canMutate, getSession } from '@/lib/auth'
 import { importShoppingListFromJson } from '@/modules/shopping-lists/actions'
 import { AiJsonImportClient } from '@/components/projects/ai-json-import-client'
 
-const INSTRUCTIONS = `Sei un assistente per Zanetti Soluzioni Edili.
+const INSTRUCTIONS = `Sei un assistente per Delegami.
 
 Riceverai un file JSON esportato da Delegami con kind="shopping_list_ai_context".
 Devi aiutare a creare o aggiornare una lista acquisti per una singola opera.

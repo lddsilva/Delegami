@@ -13,6 +13,7 @@ interface SendDocumentButtonProps {
   clientName: string
   clientEmail?: string | null
   clientPhone?: string | null
+  companyName?: string | null
   total: number
   previewUrl?: string
   docId?: string   // quote or invoice id — used to construct PDF download link
@@ -29,6 +30,7 @@ export function SendDocumentButton({
   clientName,
   clientEmail,
   clientPhone,
+  companyName,
   total,
   previewUrl,
   docId,
@@ -56,7 +58,7 @@ export function SendDocumentButton({
     'Restiamo a disposizione per qualsiasi chiarimento.',
     '',
     'Cordiali saluti,',
-    'Zanetti Edili',
+    'Delegami Edili',
   ].filter((l) => l !== null).join('\n')
 
   const mailtoHref = `mailto:${clientEmail ?? ''}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
@@ -69,7 +71,7 @@ export function SendDocumentButton({
     previewUrl ? `\nPuò visualizzarlo qui: ${previewUrl}` : '',
     '',
     'Per qualsiasi dubbio siamo a disposizione.',
-    '_Zanetti Edili_',
+    companyName ? `_${companyName}_` : null,
   ].filter((l) => l !== null).join('\n')
 
   const waHref = clientPhone

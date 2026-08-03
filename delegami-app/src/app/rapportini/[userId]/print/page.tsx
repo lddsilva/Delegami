@@ -104,7 +104,7 @@ export default async function WorkerReportPrintPage({
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '5mm', paddingBottom: '4mm', borderBottom: '2px solid var(--doc-brand)' }}>
           <div>
-            <div style={{ fontSize: '15pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Zanetti Office'}</div>
+            <div style={{ fontSize: '15pt', fontWeight: 700, color: 'var(--doc-brand)' }}>{company?.name ?? 'Delegami'}</div>
             <div style={{ fontSize: '8pt', color: 'var(--doc-ink-muted)', marginTop: '4px', lineHeight: 1.5 }}>
               {company?.address && (
                 <div>
@@ -244,7 +244,7 @@ export default async function WorkerReportPrintPage({
           </div>
           <div style={{ flex: 1 }}>
             <div style={{ borderTop: '1px solid var(--doc-ink)', paddingTop: '2mm', fontSize: '8pt', color: 'var(--doc-ink-strong)' }}>
-              Firma responsabile<br />{company?.worksDirector || company?.name || 'Zanetti Soluzioni Edili'}
+              Firma responsabile<br />{company?.worksDirector || company?.name || 'Delegami'}
             </div>
           </div>
         </div>

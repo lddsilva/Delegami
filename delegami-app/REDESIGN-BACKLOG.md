@@ -57,6 +57,6 @@ tocáveis, safe-area, manifest PWA, sem overflow em nenhum ecrã.
   ainda aparecem sozinhos.
 * **Aprovação em lote de rapportini**, alertas de validade de documentos,
   captura automática de localização e tarifas de horas extra estruturadas — os
-  quatro estão registados no `CLAUDE.md` como adiados por decisão do Marcos.
+  quatro estão registados no `CLAUDE.md` como adiados por decisão do the client.
 * **Tema escuro.** Os tokens já estão por papel, por isso é um segundo bloco de
   valores e não uma reescrita.
